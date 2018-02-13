@@ -11,434 +11,12 @@
 <NumElts>21</NumElts>
 <Array>
 <Name>LoadedInst</Name>
-<Dimsize>7</Dimsize>
-<Object>
-<Name>Device.lvclass</Name>
-<NumLevels>2</NumLevels>
-<Class>Tools.lvclass</Class>
-<Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
-<Cluster>
-<Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
-<Refnum>
-<Name>Nom de ressource VISA</Name>
-<RefKind>VISA</RefKind>
-<Val></Val>
-</Refnum>
-<Array>
-<Name>DeviceCtrl</Name>
-<Dimsize>0</Dimsize>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val></Val>
-</Refnum>
-</Array>
-<Array>
-<Name>DataNames</Name>
-<Dimsize>1</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>Crb 1 Dat(Arb)</Val>
-</String>
-</Array>
-<DBL>
-<Name>ScanParamOut</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<String>
-<Name>HeaderString</Name>
-<Val></Val>
-</String>
-<Array>
-<Name>Functions</Name>
-<Dimsize>11</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 1 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 2 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 3 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 123 (Arb,Arb,Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Scan Pos (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Indice de Point (Points)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>AbsTime (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Minuteur (s)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Panneaux Infos (Na)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Délais (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>RandomNum (Arb)</Val>
-</String>
-</Array>
-<I32>
-<Name>ScanFunctionIndex</Name>
-<Val>0</Val>
-</I32>
-<String>
-<Name>Function</Name>
-<Val>Courbe 1 (Arb)</Val>
-</String>
-<Boolean>
-<Name>StartStatPanel</Name>
-<Val>0</Val>
-</Boolean>
-<Refnum>
-<Name>PanelVIRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Refnum>
-<Name>SubPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>LV Object</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Array>
-<Name>SubPanelCtrl</Name>
-<Dimsize>0</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val></Val>
-</String>
-</Array>
-<I32>
-<Name>LoadedPanelIndex</Name>
-<Val>-1</Val>
-</I32>
-<String>
-<Name>InstrumentName</Name>
-<Val>Tools</Val>
-</String>
-<Array>
-<Name>AvailFuncPan</Name>
-<Dimsize>0</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val></Val>
-</String>
-</Array>
-<Array>
-<Name>ScanTable</Name>
-<Dimsize>0</Dimsize>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val></Val>
-</DBL>
-</Array>
-<Refnum>
-<Name>ScanPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Path>
-<Name>ScanPanelPath</Name>
-<Val></Val>
-</Path>
-<DBL>
-<Name>LastScanPos</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<U32>
-<Name>Beforewait(ms)</Name>
-<Val>0</Val>
-</U32>
-<U32>
-<Name>Afterwait(ms)</Name>
-<Val>0</Val>
-</U32>
-<I32>
-<Name>SynchToClk(ms)</Name>
-<Val>-1</Val>
-</I32>
-<I32>
-<Name>FuncPanelIndex</Name>
-<Val>0</Val>
-</I32>
-</Cluster>
-<Cluster>
-<Name>Tools.lvclass</Name>
-<NumElts>3</NumElts>
-<EW>
-<Name>Functions</Name>
-<Choice>Courbe 1 (Arb)</Choice>
-<Choice>Courbe 2 (Arb)</Choice>
-<Choice>Courbe 3 (Arb)</Choice>
-<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
-<Choice>Scan Pos (Arb)</Choice>
-<Choice>Indice de Point (Points)</Choice>
-<Choice>AbsTime (ms)</Choice>
-<Choice>Minuteur (s)</Choice>
-<Choice>Panneaux Infos (Na)</Choice>
-<Choice>Délais (ms)</Choice>
-<Choice>RandomNum (Arb)</Choice>
-<Val>0</Val>
-</EW>
-<DBL>
-<Name>Multiplicateur</Name>
-<Val>0.95934582829829</Val>
-</DBL>
-<Array>
-<Name>Positions</Name>
-<Dimsize>0</Dimsize>
-<DBL>
-<Name></Name>
-<Val></Val>
-</DBL>
-</Array>
-</Cluster>
-</Object>
-<Object>
-<Name>Device.lvclass</Name>
-<NumLevels>2</NumLevels>
-<Class>Tools.lvclass</Class>
-<Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
-<Cluster>
-<Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
-<Refnum>
-<Name>Nom de ressource VISA</Name>
-<RefKind>VISA</RefKind>
-<Val></Val>
-</Refnum>
-<Array>
-<Name>DeviceCtrl</Name>
-<Dimsize>0</Dimsize>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val></Val>
-</Refnum>
-</Array>
-<Array>
-<Name>DataNames</Name>
-<Dimsize>1</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>ScanPar(Arb)</Val>
-</String>
-</Array>
-<DBL>
-<Name>ScanParamOut</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<String>
-<Name>HeaderString</Name>
-<Val></Val>
-</String>
-<Array>
-<Name>Functions</Name>
-<Dimsize>11</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 1 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 2 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 3 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 123 (Arb,Arb,Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Scan Pos (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Indice de Point (Points)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>AbsTime (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Minuteur (s)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Panneaux Infos (Na)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Délais (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>RandomNum (Arb)</Val>
-</String>
-</Array>
-<I32>
-<Name>ScanFunctionIndex</Name>
-<Val>0</Val>
-</I32>
-<String>
-<Name>Function</Name>
-<Val>Scan Pos (Arb)</Val>
-</String>
-<Boolean>
-<Name>StartStatPanel</Name>
-<Val>0</Val>
-</Boolean>
-<Refnum>
-<Name>PanelVIRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Refnum>
-<Name>SubPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>LV Object</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Array>
-<Name>SubPanelCtrl</Name>
-<Dimsize>0</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val></Val>
-</String>
-</Array>
-<I32>
-<Name>LoadedPanelIndex</Name>
-<Val>-1</Val>
-</I32>
-<String>
-<Name>InstrumentName</Name>
-<Val>Tools</Val>
-</String>
-<Array>
-<Name>AvailFuncPan</Name>
-<Dimsize>0</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val></Val>
-</String>
-</Array>
-<Array>
-<Name>ScanTable</Name>
 <Dimsize>3</Dimsize>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>1.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>2.00000000000000</Val>
-</DBL>
-</Array>
-<Refnum>
-<Name>ScanPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Path>
-<Name>ScanPanelPath</Name>
-<Val></Val>
-</Path>
-<DBL>
-<Name>LastScanPos</Name>
-<Val>2.00000000000000</Val>
-</DBL>
-<U32>
-<Name>Beforewait(ms)</Name>
-<Val>0</Val>
-</U32>
-<U32>
-<Name>Afterwait(ms)</Name>
-<Val>0</Val>
-</U32>
-<I32>
-<Name>SynchToClk(ms)</Name>
-<Val>-1</Val>
-</I32>
-<I32>
-<Name>FuncPanelIndex</Name>
-<Val>0</Val>
-</I32>
-</Cluster>
-<Cluster>
-<Name>Tools.lvclass</Name>
-<NumElts>3</NumElts>
-<EW>
-<Name>Functions</Name>
-<Choice>Courbe 1 (Arb)</Choice>
-<Choice>Courbe 2 (Arb)</Choice>
-<Choice>Courbe 3 (Arb)</Choice>
-<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
-<Choice>Scan Pos (Arb)</Choice>
-<Choice>Indice de Point (Points)</Choice>
-<Choice>AbsTime (ms)</Choice>
-<Choice>Minuteur (s)</Choice>
-<Choice>Panneaux Infos (Na)</Choice>
-<Choice>Délais (ms)</Choice>
-<Choice>RandomNum (Arb)</Choice>
-<Val>4</Val>
-</EW>
-<DBL>
-<Name>Multiplicateur</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<Array>
-<Name>Positions</Name>
-<Dimsize>0</Dimsize>
-<DBL>
-<Name></Name>
-<Val></Val>
-</DBL>
-</Array>
-</Cluster>
-</Object>
 <Object>
 <Name>Device.lvclass</Name>
 <NumLevels>2</NumLevels>
-<Class>Tools.lvclass</Class>
-<Version>1.0.0.10</Version>
+<Class>OR77200.lvclass</Class>
+<Version>1.0.0.5</Version>
 <Version>1.0.0.16</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
@@ -446,16 +24,64 @@
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>ASRL1::INSTR</Val>
 </Refnum>
 <Array>
 <Name>DeviceCtrl</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>9</Dimsize>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val></Val>
+<Val>0x004000E3</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x005000E4</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x006000E5</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x007000E6</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x008000E7</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x009000E8</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00A000E9</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00B000EA</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00C000EB</Val>
 </Refnum>
 </Array>
 <Array>
@@ -463,7 +89,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>Ind Point(Point)</Val>
+<Val>Long. Ondes(nm)</Val>
 </String>
 </Array>
 <DBL>
@@ -476,50 +102,10 @@
 </String>
 <Array>
 <Name>Functions</Name>
-<Dimsize>11</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>Courbe 1 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 2 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 3 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 123 (Arb,Arb,Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Scan Pos (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Indice de Point (Points)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>AbsTime (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Minuteur (s)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Panneaux Infos (Na)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Délais (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>RandomNum (Arb)</Val>
+<Val>Position (nm)</Val>
 </String>
 </Array>
 <I32>
@@ -528,7 +114,7 @@
 </I32>
 <String>
 <Name>Function</Name>
-<Val>Indice de Point (Points)</Val>
+<Val>Position (nm)</Val>
 </String>
 <Boolean>
 <Name>StartStatPanel</Name>
@@ -544,14 +130,46 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x00000000</Val>
+<Val>0xF12000A2</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>9</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val></Val>
+<Val>OR77200Pos</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>StopOR77200</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200Mov</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error in (no error)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Init Program</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Stop</Val>
 </String>
 </Array>
 <I32>
@@ -560,261 +178,14 @@
 </I32>
 <String>
 <Name>InstrumentName</Name>
-<Val>Tools</Val>
+<Val>OR77200</Val>
 </String>
 <Array>
 <Name>AvailFuncPan</Name>
-<Dimsize>0</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val></Val>
-</String>
-</Array>
-<Array>
-<Name>ScanTable</Name>
-<Dimsize>11</Dimsize>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>1.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>2.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>3.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>4.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>5.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>6.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>7.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>8.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>9.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val>10.00000000000000</Val>
-</DBL>
-</Array>
-<Refnum>
-<Name>ScanPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Path>
-<Name>ScanPanelPath</Name>
-<Val></Val>
-</Path>
-<DBL>
-<Name>LastScanPos</Name>
-<Val>10.00000000000000</Val>
-</DBL>
-<U32>
-<Name>Beforewait(ms)</Name>
-<Val>0</Val>
-</U32>
-<U32>
-<Name>Afterwait(ms)</Name>
-<Val>0</Val>
-</U32>
-<I32>
-<Name>SynchToClk(ms)</Name>
-<Val>-1</Val>
-</I32>
-<I32>
-<Name>FuncPanelIndex</Name>
-<Val>0</Val>
-</I32>
-</Cluster>
-<Cluster>
-<Name>Tools.lvclass</Name>
-<NumElts>3</NumElts>
-<EW>
-<Name>Functions</Name>
-<Choice>Courbe 1 (Arb)</Choice>
-<Choice>Courbe 2 (Arb)</Choice>
-<Choice>Courbe 3 (Arb)</Choice>
-<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
-<Choice>Scan Pos (Arb)</Choice>
-<Choice>Indice de Point (Points)</Choice>
-<Choice>AbsTime (ms)</Choice>
-<Choice>Minuteur (s)</Choice>
-<Choice>Panneaux Infos (Na)</Choice>
-<Choice>Délais (ms)</Choice>
-<Choice>RandomNum (Arb)</Choice>
-<Val>5</Val>
-</EW>
-<DBL>
-<Name>Multiplicateur</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<Array>
-<Name>Positions</Name>
-<Dimsize>0</Dimsize>
-<DBL>
-<Name></Name>
-<Val></Val>
-</DBL>
-</Array>
-</Cluster>
-</Object>
-<Object>
-<Name>Device.lvclass</Name>
-<NumLevels>2</NumLevels>
-<Class>Tools.lvclass</Class>
-<Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
-<Cluster>
-<Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
-<Refnum>
-<Name>Nom de ressource VISA</Name>
-<RefKind>VISA</RefKind>
-<Val></Val>
-</Refnum>
-<Array>
-<Name>DeviceCtrl</Name>
-<Dimsize>0</Dimsize>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val></Val>
-</Refnum>
-</Array>
-<Array>
-<Name>DataNames</Name>
 <Dimsize>1</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>Temps Abs(ms)</Val>
-</String>
-</Array>
-<DBL>
-<Name>ScanParamOut</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<String>
-<Name>HeaderString</Name>
-<Val></Val>
-</String>
-<Array>
-<Name>Functions</Name>
-<Dimsize>11</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 1 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 2 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 3 (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Courbe 123 (Arb,Arb,Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Scan Pos (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Indice de Point (Points)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>AbsTime (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Minuteur (s)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Panneaux Infos (Na)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Délais (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>RandomNum (Arb)</Val>
-</String>
-</Array>
-<I32>
-<Name>ScanFunctionIndex</Name>
-<Val>0</Val>
-</I32>
-<String>
-<Name>Function</Name>
-<Val>AbsTime (ms)</Val>
-</String>
-<Boolean>
-<Name>StartStatPanel</Name>
-<Val>0</Val>
-</Boolean>
-<Refnum>
-<Name>PanelVIRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Refnum>
-<Name>SubPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>LV Object</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Array>
-<Name>SubPanelCtrl</Name>
-<Dimsize>0</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val></Val>
-</String>
-</Array>
-<I32>
-<Name>LoadedPanelIndex</Name>
-<Val>-1</Val>
-</I32>
-<String>
-<Name>InstrumentName</Name>
-<Val>Tools</Val>
-</String>
-<Array>
-<Name>AvailFuncPan</Name>
-<Dimsize>0</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val></Val>
+<Val>ClassPanel</Val>
 </String>
 </Array>
 <Array>
@@ -857,42 +228,13 @@
 </I32>
 </Cluster>
 <Cluster>
-<Name>Tools.lvclass</Name>
-<NumElts>3</NumElts>
-<EW>
-<Name>Functions</Name>
-<Choice>Courbe 1 (Arb)</Choice>
-<Choice>Courbe 2 (Arb)</Choice>
-<Choice>Courbe 3 (Arb)</Choice>
-<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
-<Choice>Scan Pos (Arb)</Choice>
-<Choice>Indice de Point (Points)</Choice>
-<Choice>AbsTime (ms)</Choice>
-<Choice>Minuteur (s)</Choice>
-<Choice>Panneaux Infos (Na)</Choice>
-<Choice>Délais (ms)</Choice>
-<Choice>RandomNum (Arb)</Choice>
-<Val>6</Val>
-</EW>
-<DBL>
-<Name>Multiplicateur</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<Array>
-<Name>Positions</Name>
-<Dimsize>0</Dimsize>
-<DBL>
-<Name></Name>
-<Val></Val>
-</DBL>
-</Array>
 </Cluster>
 </Object>
 <Object>
 <Name>Device.lvclass</Name>
 <NumLevels>2</NumLevels>
-<Class>Tools.lvclass</Class>
-<Version>1.0.0.10</Version>
+<Class>EG_G5210.lvclass</Class>
+<Version>1.0.0.5</Version>
 <Version>1.0.0.16</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
@@ -900,82 +242,76 @@
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>GPIB0::12::INSTR</Val>
 </Refnum>
 <Array>
 <Name>DeviceCtrl</Name>
-<Dimsize>12</Dimsize>
+<Dimsize>11</Dimsize>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5B60010F</Val>
+<Val>0xF73000AE</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5B700110</Val>
+<Val>0xF740009E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5B800111</Val>
+<Val>0xF750002D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5B900112</Val>
+<Val>0xF76000DC</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BA00113</Val>
+<Val>0xF7700037</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BB00114</Val>
+<Val>0xF780001E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BC00115</Val>
+<Val>0xF790008B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BD00116</Val>
+<Val>0xF7A00054</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BE00117</Val>
+<Val>0xF7B00002</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BF00118</Val>
+<Val>0xF7C000C0</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5C000119</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x5C10011A</Val>
+<Val>0xF7D0003C</Val>
 </Refnum>
 </Array>
 <Array>
@@ -983,7 +319,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>Random Number(Arb)</Val>
+<Val>Analog In 1(V)</Val>
 </String>
 </Array>
 <DBL>
@@ -996,50 +332,26 @@
 </String>
 <Array>
 <Name>Functions</Name>
-<Dimsize>11</Dimsize>
+<Dimsize>5</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>Courbe 1 (Arb)</Val>
+<Val>Read X &amp; Y (V)</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>Courbe 2 (Arb)</Val>
+<Val>Read Mag &amp; Phase (V,°)</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>Courbe 3 (Arb)</Val>
+<Val>Read X, Y, Mag &amp; Phase (V,V,V,°)</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>Courbe 123 (Arb,Arb,Arb)</Val>
+<Val>Read ADC Ch1 (V)</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>Scan Pos (Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Indice de Point (Points)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>AbsTime (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Minuteur (s)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Panneaux Infos (Na)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Délais (ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>RandomNum (Arb)</Val>
+<Val>Read ADC Ch2 (V)</Val>
 </String>
 </Array>
 <I32>
@@ -1048,7 +360,7 @@
 </I32>
 <String>
 <Name>Function</Name>
-<Val>RandomNum (Arb)</Val>
+<Val>Read ADC Ch1 (V)</Val>
 </String>
 <Boolean>
 <Name>StartStatPanel</Name>
@@ -1064,42 +376,30 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x56F00055</Val>
+<Val>0xF1300077</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
-<Dimsize>12</Dimsize>
+<Dimsize>11</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>OffsetOut</Val>
+<Val>Ch 3</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>MultiplierOut</Val>
+<Val>Ch 4</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>Random Number</Val>
+<Val>Ch 1</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>Offset</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Multiplier</Val>
+<Val>Ch 2</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
 <Val>MiseAJour</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Tools.lvclass</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Tools.lvclass Out</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
@@ -1117,6 +417,14 @@
 <Name>Chaîne</Name>
 <Val>Stop</Val>
 </String>
+<String>
+<Name>Chaîne</Name>
+<Val>EG_G5210.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EG_G5210.lvclass Out</Val>
+</String>
 </Array>
 <I32>
 <Name>LoadedPanelIndex</Name>
@@ -1124,14 +432,14 @@
 </I32>
 <String>
 <Name>InstrumentName</Name>
-<Val>Tools</Val>
+<Val>EG_G5210</Val>
 </String>
 <Array>
 <Name>AvailFuncPan</Name>
 <Dimsize>1</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>RandomNum</Val>
+<Val>ReadAnIn</Val>
 </String>
 </Array>
 <Array>
@@ -1174,35 +482,17 @@
 </I32>
 </Cluster>
 <Cluster>
-<Name>Tools.lvclass</Name>
-<NumElts>3</NumElts>
+<Name>EG_G5210.lvclass</Name>
+<NumElts>1</NumElts>
 <EW>
-<Name>Functions</Name>
-<Choice>Courbe 1 (Arb)</Choice>
-<Choice>Courbe 2 (Arb)</Choice>
-<Choice>Courbe 3 (Arb)</Choice>
-<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
-<Choice>Scan Pos (Arb)</Choice>
-<Choice>Indice de Point (Points)</Choice>
-<Choice>AbsTime (ms)</Choice>
-<Choice>Minuteur (s)</Choice>
-<Choice>Panneaux Infos (Na)</Choice>
-<Choice>Délais (ms)</Choice>
-<Choice>RandomNum (Arb)</Choice>
-<Val>10</Val>
+<Name>Function</Name>
+<Choice>Read X &amp; Y (V)</Choice>
+<Choice>Read Mag &amp; Phase (V,°)</Choice>
+<Choice>Read X, Y, Mag &amp; Phase (V,V,V,°)</Choice>
+<Choice>Read ADC Ch1 (V)</Choice>
+<Choice>Read ADC Ch2 (V)</Choice>
+<Val>3</Val>
 </EW>
-<DBL>
-<Name>Multiplicateur</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<Array>
-<Name>Positions</Name>
-<Dimsize>0</Dimsize>
-<DBL>
-<Name></Name>
-<Val></Val>
-</DBL>
-</Array>
 </Cluster>
 </Object>
 <Object>
@@ -1337,308 +627,27 @@
 </I32>
 <I32>
 <Name>FuncPanelIndex</Name>
-<Val>0</Val>
-</I32>
-</Cluster>
-<Cluster>
-</Cluster>
-</Object>
-<Object>
-<Name>Device.lvclass</Name>
-<NumLevels>2</NumLevels>
-<Class>EG_G5210.lvclass</Class>
-<Version>1.0.0.5</Version>
-<Version>1.0.0.16</Version>
-<Cluster>
-<Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
-<Refnum>
-<Name>Nom de ressource VISA</Name>
-<RefKind>VISA</RefKind>
-<Val>ASRL1::INSTR</Val>
-</Refnum>
-<Array>
-<Name>DeviceCtrl</Name>
-<Dimsize>11</Dimsize>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x40A00047</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x40B00048</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x4080004E</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x4090005D</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x8F100205</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x8F200206</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x8F300207</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x8F400208</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x8F500209</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x8F60020A</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x8F70020B</Val>
-</Refnum>
-</Array>
-<Array>
-<Name>DataNames</Name>
-<Dimsize>1</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>Analog In 1(V)</Val>
-</String>
-</Array>
-<DBL>
-<Name>ScanParamOut</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<String>
-<Name>HeaderString</Name>
-<Val></Val>
-</String>
-<Array>
-<Name>Functions</Name>
-<Dimsize>5</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>Read X &amp; Y (V)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Read Mag &amp; Phase (V,°)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Read X, Y, Mag &amp; Phase (V,V,V,°)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Read ADC Ch1 (V)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Read ADC Ch2 (V)</Val>
-</String>
-</Array>
-<I32>
-<Name>ScanFunctionIndex</Name>
-<Val>0</Val>
-</I32>
-<String>
-<Name>Function</Name>
-<Val>Read ADC Ch1 (V)</Val>
-</String>
-<Boolean>
-<Name>StartStatPanel</Name>
-<Val>0</Val>
-</Boolean>
-<Refnum>
-<Name>PanelVIRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Refnum>
-<Name>SubPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>LV Object</RefType>
-<Val>0x56E00036</Val>
-</Refnum>
-<Array>
-<Name>SubPanelCtrl</Name>
-<Dimsize>11</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>Ch 3</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Ch 4</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Ch 1</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Ch 2</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>MiseAJour</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>error in (no error)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>error out</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Init Program</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Stop</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>EG_G5210.lvclass</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>EG_G5210.lvclass Out</Val>
-</String>
-</Array>
-<I32>
-<Name>LoadedPanelIndex</Name>
 <Val>-1</Val>
 </I32>
-<String>
-<Name>InstrumentName</Name>
-<Val>EG_G5210</Val>
-</String>
-<Array>
-<Name>AvailFuncPan</Name>
-<Dimsize>1</Dimsize>
-<String>
-<Name>Chaîne</Name>
-<Val>ReadAnIn</Val>
-</String>
-</Array>
-<Array>
-<Name>ScanTable</Name>
-<Dimsize>0</Dimsize>
-<DBL>
-<Name>ScanParamIn</Name>
-<Val></Val>
-</DBL>
-</Array>
-<Refnum>
-<Name>ScanPanelRef</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<Path>
-<Name>ScanPanelPath</Name>
-<Val></Val>
-</Path>
-<DBL>
-<Name>LastScanPos</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<U32>
-<Name>Beforewait(ms)</Name>
-<Val>0</Val>
-</U32>
-<U32>
-<Name>Afterwait(ms)</Name>
-<Val>0</Val>
-</U32>
-<I32>
-<Name>SynchToClk(ms)</Name>
-<Val>-1</Val>
-</I32>
-<I32>
-<Name>FuncPanelIndex</Name>
-<Val>0</Val>
-</I32>
 </Cluster>
 <Cluster>
-<Name>EG_G5210.lvclass</Name>
-<NumElts>1</NumElts>
-<EW>
-<Name>Function</Name>
-<Choice>Read X &amp; Y (V)</Choice>
-<Choice>Read Mag &amp; Phase (V,°)</Choice>
-<Choice>Read X, Y, Mag &amp; Phase (V,V,V,°)</Choice>
-<Choice>Read ADC Ch1 (V)</Choice>
-<Choice>Read ADC Ch2 (V)</Choice>
-<Val>3</Val>
-</EW>
 </Cluster>
 </Object>
 </Array>
 <Array>
 <Name>LoadedFuncArr</Name>
-<Dimsize>7</Dimsize>
+<Dimsize>3</Dimsize>
 <String>
 <Name></Name>
-<Val>Courbe 1 (Arb)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Scan Pos (Arb)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Indice de Point (Points)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>AbsTime (ms)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>RandomNum (Arb)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>DefaultFunc (Arb)@PhotoLum</Val>
+<Val>Position (nm)@OR77200</Val>
 </String>
 <String>
 <Name></Name>
 <Val>Read ADC Ch1 (V)@EG_G5210</Val>
+</String>
+<String>
+<Name></Name>
+<Val>DefaultFunc (Arb)@PhotoLum</Val>
 </String>
 </Array>
 <Array>
@@ -1646,44 +655,32 @@
 <Dimsize>3</Dimsize>
 <String>
 <Name></Name>
-<Val>Na</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Na</Val>
-</String>
-<String>
-<Name></Name>
 <Val>ASRL1::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::12::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Na</Val>
 </String>
 </Array>
 <Array>
 <Name>ExpMeasArr</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name></Name>
-<Val>Courbe 1 (Arb)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>AbsTime (ms)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>RandomNum (Arb)@Tools</Val>
+<Val>Read ADC Ch1 (V)@EG_G5210</Val>
 </String>
 </Array>
 <Array>
 <Name>ExpScanArr</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Dimsize>1</Dimsize>
 <String>
 <Name></Name>
-<Val>Indice de Point (Points)@Tools</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Scan Pos (Arb)@Tools</Val>
+<Val>Position (nm)@OR77200</Val>
 </String>
 </Array>
 <Array>
@@ -1696,31 +693,19 @@
 </Array>
 <Array>
 <Name>ScanIndex</Name>
-<Dimsize>2</Dimsize>
 <Dimsize>1</Dimsize>
-<I32>
-<Name>Numérique</Name>
-<Val>2</Val>
-</I32>
-<I32>
-<Name>Numérique</Name>
-<Val>1</Val>
-</I32>
-</Array>
-<Array>
-<Name>MeasIndex</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
 <Val>0</Val>
 </I32>
+</Array>
+<Array>
+<Name>MeasIndex</Name>
+<Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>3</Val>
-</I32>
-<I32>
-<Name>Numérique</Name>
-<Val>4</Val>
+<Val>1</Val>
 </I32>
 </Array>
 <Array>
@@ -1728,19 +713,15 @@
 <Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>5</Val>
+<Val>2</Val>
 </I32>
 </Array>
 <Array>
 <Name>PointCount</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>0</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>11</Val>
-</I32>
-<I32>
-<Name>Numérique</Name>
-<Val>3</Val>
+<Val></Val>
 </I32>
 </Array>
 <Array>
@@ -1748,11 +729,11 @@
 <Dimsize>2</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>4</Val>
+<Val>1</Val>
 </I32>
 <I32>
 <Name>Numérique</Name>
-<Val>6</Val>
+<Val>0</Val>
 </I32>
 </Array>
 <Array>
@@ -1776,22 +757,22 @@
 <Dimsize>2</Dimsize>
 <String>
 <Name></Name>
-<Val>RandomNum (Arb)@Tools</Val>
+<Val>Read ADC Ch1 (V)@EG_G5210</Val>
 </String>
 <String>
 <Name></Name>
-<Val>Read ADC Ch1 (V)@EG_G5210</Val>
+<Val>Position (nm)@OR77200</Val>
 </String>
 </Array>
 <Refnum>
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x56C00034</Val>
+<Val>0xF1000076</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
-<Dimsize>4</Dimsize>
+<Dimsize>5</Dimsize>
 <Dimsize>4</Dimsize>
 <String>
 <Name></Name>
@@ -1811,11 +792,11 @@
 </String>
 <String>
 <Name></Name>
-<Val>ASRL3::INSTR</Val>
+<Val>ASRL4::INSTR</Val>
 </String>
 <String>
 <Name></Name>
-<Val>COM3</Val>
+<Val>COM4</Val>
 </String>
 <String>
 <Name></Name>
@@ -1843,11 +824,27 @@
 </String>
 <String>
 <Name></Name>
-<Val>ASRL18::INSTR</Val>
+<Val>GPIB0::INTFC</Val>
 </String>
 <String>
 <Name></Name>
-<Val>COM18</Val>
+<Val>GPIB0::INTFC</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::12::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::12::INSTR</Val>
 </String>
 <String>
 <Name></Name>
@@ -1860,55 +857,23 @@
 </Array>
 <Array>
 <Name>DataNames</Name>
-<Dimsize>5</Dimsize>
+<Dimsize>0</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>Tools.Ind Point(Point)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Tools.ScanPar(Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Tools.Crb 1 Dat(Arb)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Tools.Temps Abs(ms)</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Tools.Random Number(Arb)</Val>
+<Val></Val>
 </String>
 </Array>
 <Array>
 <Name>DatNameInd</Name>
-<Dimsize>5</Dimsize>
+<Dimsize>0</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>2</Val>
-</I32>
-<I32>
-<Name>Numérique</Name>
-<Val>1</Val>
-</I32>
-<I32>
-<Name>Numérique</Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Numérique</Name>
-<Val>3</Val>
-</I32>
-<I32>
-<Name>Numérique</Name>
-<Val>4</Val>
+<Val></Val>
 </I32>
 </Array>
 <I32>
 <Name>FirstMeasNmInd</Name>
-<Val>2</Val>
+<Val>0</Val>
 </I32>
 <Array>
 <Name>DisIndex</Name>
@@ -1925,19 +890,19 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x56F00055</Val>
+<Val>0xF1300077</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x56E00036</Val>
+<Val>0xF12000A2</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x56D00035</Val>
+<Val>0xF11000D4</Val>
 </Refnum>
 </Array>
 </Cluster>

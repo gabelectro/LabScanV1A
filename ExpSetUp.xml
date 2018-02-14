@@ -251,13 +251,7 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF73000AE</Val>
-</Refnum>
-<Refnum>
-<Name>Refnum Cmde</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0xF740009E</Val>
+<Val>0xF7700037</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
@@ -275,7 +269,13 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF7700037</Val>
+<Val>0xF73000AE</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF740009E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
@@ -383,11 +383,7 @@
 <Dimsize>11</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>Ch 3</Val>
-</String>
-<String>
-<Name>Chaîne</Name>
-<Val>Ch 4</Val>
+<Val>MiseAJour</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
@@ -399,7 +395,11 @@
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>MiseAJour</Val>
+<Val>Ch 3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Ch 4</Val>
 </String>
 <String>
 <Name>Chaîne</Name>

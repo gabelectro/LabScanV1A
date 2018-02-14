@@ -28,60 +28,66 @@
 </Refnum>
 <Array>
 <Name>DeviceCtrl</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>10</Dimsize>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x004000E3</Val>
+<Val>0x11D0007C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x005000E4</Val>
+<Val>0x11E0007F</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x006000E5</Val>
+<Val>0x11F000DE</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x007000E6</Val>
+<Val>0x1200002B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x008000E7</Val>
+<Val>0x1210000C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x009000E8</Val>
+<Val>0x1220008B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00A000E9</Val>
+<Val>0x12300011</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00B000EA</Val>
+<Val>0x12400063</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00C000EB</Val>
+<Val>0x125000CE</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x37700185</Val>
 </Refnum>
 </Array>
 <Array>
@@ -130,11 +136,11 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xF12000A2</Val>
+<Val>0x0A2000A9</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>10</Dimsize>
 <String>
 <Name>Chaîne</Name>
 <Val>OR77200Pos</Val>
@@ -170,6 +176,10 @@
 <String>
 <Name>Chaîne</Name>
 <Val>Stop</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Acq</Val>
 </String>
 </Array>
 <I32>
@@ -233,8 +243,8 @@
 <Object>
 <Name>Device.lvclass</Name>
 <NumLevels>2</NumLevels>
-<Class>EG_G5210.lvclass</Class>
-<Version>1.0.0.5</Version>
+<Class>EGG5210.lvclass</Class>
+<Version>1.0.0.0</Version>
 <Version>1.0.0.16</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
@@ -242,76 +252,82 @@
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
-<Val>GPIB0::12::INSTR</Val>
+<Val>GPIB0::12</Val>
 </Refnum>
 <Array>
 <Name>DeviceCtrl</Name>
-<Dimsize>11</Dimsize>
+<Dimsize>12</Dimsize>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF7700037</Val>
+<Val>0x13000081</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF750002D</Val>
+<Val>0x13100020</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF76000DC</Val>
+<Val>0x1320002E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF73000AE</Val>
+<Val>0x13300023</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF740009E</Val>
+<Val>0x1340001A</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF780001E</Val>
+<Val>0x13500028</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF790008B</Val>
+<Val>0x1360006D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF7A00054</Val>
+<Val>0x137000CA</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF7B00002</Val>
+<Val>0x13800031</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF7C000C0</Val>
+<Val>0x1390005F</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xF7D0003C</Val>
+<Val>0x13A000D6</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x23A00117</Val>
 </Refnum>
 </Array>
 <Array>
@@ -376,11 +392,11 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xF1300077</Val>
+<Val>0x0A300054</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
-<Dimsize>11</Dimsize>
+<Dimsize>12</Dimsize>
 <String>
 <Name>Chaîne</Name>
 <Val>MiseAJour</Val>
@@ -419,11 +435,15 @@
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>EG_G5210.lvclass</Val>
+<Val>EGG5210.lvclass</Val>
 </String>
 <String>
 <Name>Chaîne</Name>
-<Val>EG_G5210.lvclass Out</Val>
+<Val>EGG5210.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Acq</Val>
 </String>
 </Array>
 <I32>
@@ -432,7 +452,7 @@
 </I32>
 <String>
 <Name>InstrumentName</Name>
-<Val>EG_G5210</Val>
+<Val>EGG5210</Val>
 </String>
 <Array>
 <Name>AvailFuncPan</Name>
@@ -482,7 +502,7 @@
 </I32>
 </Cluster>
 <Cluster>
-<Name>EG_G5210.lvclass</Name>
+<Name>EGG5210.lvclass</Name>
 <NumElts>1</NumElts>
 <EW>
 <Name>Function</Name>
@@ -499,7 +519,7 @@
 <Name>Device.lvclass</Name>
 <NumLevels>2</NumLevels>
 <Class>PhotoLum.lvclass</Class>
-<Version>1.0.0.0</Version>
+<Version>1.0.0.1</Version>
 <Version>1.0.0.16</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
@@ -540,7 +560,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val>DefaultFunc (Arb)</Val>
+<Val>ScanInfoPanel (Na)</Val>
 </String>
 </Array>
 <I32>
@@ -549,7 +569,7 @@
 </I32>
 <String>
 <Name>Function</Name>
-<Val>DefaultFunc (Arb)</Val>
+<Val>ScanInfoPanel (Na)</Val>
 </String>
 <Boolean>
 <Name>StartStatPanel</Name>
@@ -643,11 +663,11 @@
 </String>
 <String>
 <Name></Name>
-<Val>Read ADC Ch1 (V)@EG_G5210</Val>
+<Val>Read ADC Ch1 (V)@EGG5210</Val>
 </String>
 <String>
 <Name></Name>
-<Val>DefaultFunc (Arb)@PhotoLum</Val>
+<Val>ScanInfoPanel (Na)@PhotoLum</Val>
 </String>
 </Array>
 <Array>
@@ -659,7 +679,7 @@
 </String>
 <String>
 <Name></Name>
-<Val>GPIB0::12::INSTR</Val>
+<Val>GPIB0::12</Val>
 </String>
 <String>
 <Name></Name>
@@ -671,7 +691,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name></Name>
-<Val>Read ADC Ch1 (V)@EG_G5210</Val>
+<Val>Read ADC Ch1 (V)@EGG5210</Val>
 </String>
 </Array>
 <Array>
@@ -688,7 +708,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name></Name>
-<Val>DefaultFunc (Arb)@PhotoLum</Val>
+<Val>ScanInfoPanel (Na)@PhotoLum</Val>
 </String>
 </Array>
 <Array>
@@ -757,7 +777,7 @@
 <Dimsize>2</Dimsize>
 <String>
 <Name></Name>
-<Val>Read ADC Ch1 (V)@EG_G5210</Val>
+<Val>Read ADC Ch1 (V)@EGG5210</Val>
 </String>
 <String>
 <Name></Name>
@@ -768,11 +788,11 @@
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xF1000076</Val>
+<Val>0x0A00009C</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
-<Dimsize>5</Dimsize>
+<Dimsize>3</Dimsize>
 <Dimsize>4</Dimsize>
 <String>
 <Name></Name>
@@ -792,11 +812,11 @@
 </String>
 <String>
 <Name></Name>
-<Val>ASRL4::INSTR</Val>
+<Val>ASRL3::INSTR</Val>
 </String>
 <String>
 <Name></Name>
-<Val>COM4</Val>
+<Val>COM3</Val>
 </String>
 <String>
 <Name></Name>
@@ -813,38 +833,6 @@
 <String>
 <Name></Name>
 <Val>LPT1</Val>
-</String>
-<String>
-<Name></Name>
-<Val></Val>
-</String>
-<String>
-<Name></Name>
-<Val></Val>
-</String>
-<String>
-<Name></Name>
-<Val>GPIB0::INTFC</Val>
-</String>
-<String>
-<Name></Name>
-<Val>GPIB0::INTFC</Val>
-</String>
-<String>
-<Name></Name>
-<Val></Val>
-</String>
-<String>
-<Name></Name>
-<Val></Val>
-</String>
-<String>
-<Name></Name>
-<Val>GPIB0::12::INSTR</Val>
-</String>
-<String>
-<Name></Name>
-<Val>GPIB0::12::INSTR</Val>
 </String>
 <String>
 <Name></Name>
@@ -890,19 +878,19 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xF1300077</Val>
+<Val>0x0A300054</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xF12000A2</Val>
+<Val>0x0A2000A9</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xF11000D4</Val>
+<Val>0x0A10009E</Val>
 </Refnum>
 </Array>
 </Cluster>

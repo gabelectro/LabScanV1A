@@ -221,7 +221,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
-			<Item Name="visarc" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="Ma distribution du code source" Type="Source Distribution">

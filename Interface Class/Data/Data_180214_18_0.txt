@@ -1,0 +1,16 @@
+#2018-02-14
+#17:48
+#Balayage par: physique
+#ScanTask Size: 2
+
+#Échantillon: ; #Matériaux: AlGaAs; 
+#Fente d'entrée: 0,000mm; #Fente de sortie: 0,000mm; #Hauteur fente d'entrée: 2 cm; 
+#Température: 1000,00°K; #Filtre Entrée: Aucun; #Détecteur: PM Hamamatsu R9268; 
+#Source d'excitation: HeCd 325nm; #Puissance Laser: 1000,00mW; #Pre-amplificateur: Aucun; #Réseaux: 250nm; #Autres: ; 
+
+#Longueur d'ondes OR77200: 311,000000
+#Sensitivity: 3 V; Vernier Mode: Off; Vernier Value: 50.000; Main Filter: No Filter; Filter Freq (Hz): 1000.000; Filter Mode: Manual;  Line Notch: Off; Reference: Internal; Reference Mode: F; Ref Phase (°): 0.000; Ref Freq (Hz): 921.230; Output Filter: 6dB; Time Constant: 100 ms; Dynamic Res.: Hi Stab; X Offset: Off; X Offset Val %: 0.000; Y Offset: Off; Y Offset Val %: 0.000; Expand: Off; Int Osc (Vrms): 0.100; Int Osc (Hz): 1000.000; Trigger Mode: Asynchronous; Input Mode: Voltage; Ovld Source: Y Channel; 
+
+#OR77200.Long. Ondes(nm)       	EGG5210.Analog In 1(V)        
+309E+0	1,2929999999999999E+0
+310E+0	1,276E+0

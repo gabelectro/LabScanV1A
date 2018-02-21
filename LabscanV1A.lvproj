@@ -205,7 +205,6 @@
 			<Item Name="SaveInstrConfig_LS1.vi" Type="VI" URL="../SaveInstrConfig_LS1.vi"/>
 			<Item Name="SelRess.vi" Type="VI" URL="../SelRess.vi"/>
 			<Item Name="SelRessState.ctl" Type="VI" URL="../SelRessState.ctl"/>
-			<Item Name="SetCurveParams.vi" Type="VI" URL="../Interface Class/SetCurveParams.vi"/>
 			<Item Name="SetInitPar.ctl" Type="VI" URL="../SetInitPar.ctl"/>
 			<Item Name="SetScanFormats.vi" Type="VI" URL="../SetScanFormats.vi"/>
 			<Item Name="SetUpExperStates.ctl" Type="VI" URL="../SetUpExperStates.ctl"/>
@@ -221,6 +220,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="Ma distribution du code source" Type="Source Distribution">

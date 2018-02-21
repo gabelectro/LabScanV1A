@@ -11,91 +11,1069 @@
 <NumElts>21</NumElts>
 <Array>
 <Name>LoadedInst</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>4</Dimsize>
 <Object>
 <Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>OR77200.lvclass</Class>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.16</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>23</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val>ASRL1::INSTR</Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>10</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC6E000EE</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC6F000EF</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC70000F0</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC71000F1</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC72000F2</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC73000F3</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC74000F4</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC75000F5</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC76000F6</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC77000F7</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Long. Ondes(nm)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val>Longueur d'ondes OR77200: 399,900000</Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Position (nm)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFunctionIndex</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>Position (nm)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xB680002D</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>10</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200Pos</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>StopOR77200</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200Mov</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error in (no error)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Init Program</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Stop</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Acq</Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>OR77200</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>ClassPanel</Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>6</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>400.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>401.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>402.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>403.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>404.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>405.00000000000000</Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>405.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>EGG5210.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.16</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>23</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val>GPIB0::12::INSTR</Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>12</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC11000D0</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1200044</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1300001</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC140004E</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1500051</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1600052</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC17000D6</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1800042</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1900053</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1A000D4</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1B000D1</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC1C000CC</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Analog In 1(V)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val>Sensitivity: 3 V; Vernier Mode: Off; Vernier Value: 50.000; Main Filter: No Filter; Filter Freq (Hz): 1000.000; Filter Mode: Manual;  Line Notch: Off; Reference: Internal; Reference Mode: F; Ref Phase (°): 0.000; Ref Freq (Hz): 186.740; Output Filter: 6dB; Time Constant: 100 ms; Dynamic Res.: Hi Stab; X Offset: Off; X Offset Val %: 0.000; Y Offset: Off; Y Offset Val %: 0.000; Expand: Off; Osc Amp. (mV rms): 100.000; Int Osc (Hz): 200.000; Trigger Mode: Asynchronous; Input Mode: Voltage; Ovld Source: Y Channel; </Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>6</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Read X &amp; Y (V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read Mag &amp; Phase (V,°)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read X, Y, Mag &amp; Phase (V,V,V,°)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read ADC Ch1 (V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read ADC Ch2 (V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Oscillator Ctrl (Hz, mV rms)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFunctionIndex</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>Read ADC Ch1 (V)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xB6A0002E</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>12</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>MiseAJour</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Ch 1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Ch 2</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Ch 3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Ch 4</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error in (no error)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Init Program</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Stop</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Acq</Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>EGG5210</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>ReadAnIn</Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>EGG5210.lvclass</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Function</Name>
+<Choice>Read X &amp; Y (V)</Choice>
+<Choice>Read Mag &amp; Phase (V,°)</Choice>
+<Choice>Read X, Y, Mag &amp; Phase (V,V,V,°)</Choice>
+<Choice>Read ADC Ch1 (V)</Choice>
+<Choice>Read ADC Ch2 (V)</Choice>
+<Choice>Oscillator Ctrl (Hz, mV rms)</Choice>
+<Val>3</Val>
+</EW>
+</Cluster>
+</Object>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>EGG5210.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.16</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>23</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val>GPIB0::12::INSTR</Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>10</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC2A00036</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC2B0004B</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC2C00037</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC2D0004A</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC2E0004C</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC2F00032</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC30000D5</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC3100058</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC3200038</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xC3300039</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Frequency(Hz)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Amplitude(mV rms)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>6</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Read X &amp; Y (V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read Mag &amp; Phase (V,°)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read X, Y, Mag &amp; Phase (V,V,V,°)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read ADC Ch1 (V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read ADC Ch2 (V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Oscillator Ctrl (Hz, mV rms)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFunctionIndex</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>Oscillator Ctrl (Hz, mV rms)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xB690002C</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>10</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>MiseAJour</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Freq. (Hz)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Ampl.(mV rms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error in (no error)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Init Program</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Stop</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Acq</Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>EGG5210</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>OscillatorCtrl</Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>EGG5210.lvclass</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Function</Name>
+<Choice>Read X &amp; Y (V)</Choice>
+<Choice>Read Mag &amp; Phase (V,°)</Choice>
+<Choice>Read X, Y, Mag &amp; Phase (V,V,V,°)</Choice>
+<Choice>Read ADC Ch1 (V)</Choice>
+<Choice>Read ADC Ch2 (V)</Choice>
+<Choice>Oscillator Ctrl (Hz, mV rms)</Choice>
+<Val>5</Val>
+</EW>
+</Cluster>
+</Object>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>PhotoLum.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.16</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>23</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val>#Échantillon: test; #Matériaux: AlN; 
+#Fente d'entrée: 3,000mm; Fente de sortie: 3,000mm; #Température: 293,00°K; #Filtre Entrée: CGA 225; #Détecteur: Oriel 70680 with R928; 
+#Taux de répétition laser : 8PPS; #Énergie Laser: 120,0mJ; #Pre-amplificateur: Aucun; #Réseaux: Oriel 33010FL01-080R (400nm); #Autres: ; 
+</Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>ScanInfoPanel (Na)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>ExcimerInfoPan (NA)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFunctionIndex</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>ExcimerInfoPan (NA)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>PhotoLum</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>PhotoLum.lvclass</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>ScanInfoPanel (Na)</Choice>
+<Choice>ExcimerInfoPan (NA)</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
 </Object>
 </Array>
 <Array>
 <Name>LoadedFuncArr</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>4</Dimsize>
 <String>
 <Name></Name>
-<Val></Val>
+<Val>Position (nm)@OR77200</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Read ADC Ch1 (V)@EGG5210</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Oscillator Ctrl (Hz, mV rms)@EGG5210</Val>
+</String>
+<String>
+<Name></Name>
+<Val>ExcimerInfoPan (NA)@PhotoLum</Val>
 </String>
 </Array>
 <Array>
 <Name>ExpRessArr</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>3</Dimsize>
 <String>
 <Name></Name>
-<Val></Val>
+<Val>ASRL1::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::12::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Na</Val>
 </String>
 </Array>
 <Array>
 <Name>ExpMeasArr</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name></Name>
-<Val></Val>
+<Val>Read ADC Ch1 (V)@EGG5210</Val>
 </String>
 </Array>
 <Array>
 <Name>ExpScanArr</Name>
-<Dimsize>0</Dimsize>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name></Name>
-<Val></Val>
+<Val>Position (nm)@OR77200</Val>
 </String>
 </Array>
 <Array>
 <Name>ExpHeadArr</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name></Name>
-<Val></Val>
+<Val>ExcimerInfoPan (NA)@PhotoLum</Val>
 </String>
 </Array>
 <Array>
 <Name>ScanIndex</Name>
-<Dimsize>0</Dimsize>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
+<Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val></Val>
+<Val>0</Val>
 </I32>
 </Array>
 <Array>
 <Name>MeasIndex</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val></Val>
+<Val>1</Val>
 </I32>
 </Array>
 <Array>
 <Name>HeadIndex</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val></Val>
+<Val>3</Val>
 </I32>
 </Array>
 <Array>
 <Name>PointCount</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val></Val>
+<Val>6</Val>
 </I32>
 </Array>
 <Array>
 <Name>PanelIndex</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>3</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val></Val>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
 </I32>
 </Array>
 <Array>
@@ -116,22 +1094,106 @@
 </Array>
 <Array>
 <Name>ExpPanArr</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>3</Dimsize>
 <String>
 <Name></Name>
-<Val></Val>
+<Val>Read ADC Ch1 (V)@EGG5210</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Oscillator Ctrl (Hz, mV rms)@EGG5210</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Position (nm)@OR77200</Val>
 </String>
 </Array>
 <Refnum>
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x7BB00031</Val>
+<Val>0xB670002F</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
-<Dimsize>0</Dimsize>
-<Dimsize>0</Dimsize>
+<Dimsize>5</Dimsize>
+<Dimsize>4</Dimsize>
+<String>
+<Name></Name>
+<Val>ASRL1::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>COM1</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>ASRL4::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>COM4</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>ASRL10::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>LPT1</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::INTFC</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::INTFC</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::12::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::12::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
 <String>
 <Name></Name>
 <Val></Val>
@@ -139,23 +1201,31 @@
 </Array>
 <Array>
 <Name>DataNames</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>2</Dimsize>
 <String>
 <Name>Chaîne</Name>
-<Val></Val>
+<Val>OR77200.Long. Ondes(nm)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.Analog In 1(V)</Val>
 </String>
 </Array>
 <Array>
 <Name>DatNameInd</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>2</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val></Val>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
 </I32>
 </Array>
 <I32>
 <Name>FirstMeasNmInd</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <Array>
 <Name>DisIndex</Name>
@@ -172,19 +1242,19 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x7BE00126</Val>
+<Val>0xB6A0002E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x7BD00008</Val>
+<Val>0xB690002C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x7BC0018B</Val>
+<Val>0xB680002D</Val>
 </Refnum>
 </Array>
 </Cluster>

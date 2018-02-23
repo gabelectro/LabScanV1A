@@ -21,6 +21,7 @@
 		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="GraphWindow_LS1.vi" Type="VI" URL="../GraphWindow_LS1.vi"/>
+		<Item Name="TrigMode.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/EGG5210/TrigMode.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -39,6 +40,7 @@
 				<Item Name="EG_G5210 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 Read Param.vi"/>
 				<Item Name="EG_G5210 ReadCh.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 ReadCh.vi"/>
 				<Item Name="EG_G5210 SetOscPar.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 SetOscPar.vi"/>
+				<Item Name="EG_G5210 SetTrigMode.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 SetTrigMode.vi"/>
 				<Item Name="EG_G5210 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 VisaRW.vi"/>
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
@@ -125,6 +127,7 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
@@ -199,11 +202,11 @@
 			<Item Name="LoadInstr.ctl" Type="VI" URL="../LoadInstr.ctl"/>
 			<Item Name="LoadInstrConfig_LS1.vi" Type="VI" URL="../LoadInstrConfig_LS1.vi"/>
 			<Item Name="LoadNewGraph_LS1.vi" Type="VI" URL="../LoadNewGraph_LS1.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="MoveScanFunc.vi" Type="VI" URL="../MoveScanFunc.vi"/>
 			<Item Name="PlotChange.ctl" Type="VI" URL="../Interface Class/PlotChange.ctl"/>
 			<Item Name="ReadHdrDates_LS1.vi" Type="VI" URL="../ReadHdrDates_LS1.vi"/>
 			<Item Name="ReadIniFile_LS1.vi" Type="VI" URL="../ReadIniFile_LS1.vi"/>
-			<Item Name="SaveInstrConfig_LS1.vi" Type="VI" URL="../SaveInstrConfig_LS1.vi"/>
 			<Item Name="SelRess.vi" Type="VI" URL="../SelRess.vi"/>
 			<Item Name="SelRessState.ctl" Type="VI" URL="../SelRessState.ctl"/>
 			<Item Name="SetInitPar.ctl" Type="VI" URL="../SetInitPar.ctl"/>
@@ -221,6 +224,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="Ma distribution du code source" Type="Source Distribution">

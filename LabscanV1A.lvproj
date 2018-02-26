@@ -17,11 +17,11 @@
 		<Item Name="EGG5210.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/EGG5210/EGG5210.lvclass"/>
 		<Item Name="Tools.lvclass" Type="LVClass" URL="../DevicesClass/Tools/Tools.lvclass"/>
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface Class/Interface.lvclass"/>
-		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
 		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
+		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="GraphWindow_LS1.vi" Type="VI" URL="../GraphWindow_LS1.vi"/>
-		<Item Name="TrigMode.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/EGG5210/TrigMode.ctl"/>
+		<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -64,6 +64,7 @@
 				<Item Name="ReadbyRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyRefNum.vi"/>
 				<Item Name="ReadbyWeakRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefBool.vi"/>
 				<Item Name="ReadbyWeakRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefNum.vi"/>
+				<Item Name="ReadbyWeakRefNumV2.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefNumV2.vi"/>
 				<Item Name="ReadbyWeakRefRing.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefRing.vi"/>
 				<Item Name="ReadChStates.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadChStates.ctl"/>
 				<Item Name="ReadFunctions.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadFunctions.ctl"/>
@@ -202,7 +203,7 @@
 			<Item Name="LoadInstr.ctl" Type="VI" URL="../LoadInstr.ctl"/>
 			<Item Name="LoadInstrConfig_LS1.vi" Type="VI" URL="../LoadInstrConfig_LS1.vi"/>
 			<Item Name="LoadNewGraph_LS1.vi" Type="VI" URL="../LoadNewGraph_LS1.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="MoveScanFunc.vi" Type="VI" URL="../MoveScanFunc.vi"/>
 			<Item Name="PlotChange.ctl" Type="VI" URL="../Interface Class/PlotChange.ctl"/>
 			<Item Name="ReadHdrDates_LS1.vi" Type="VI" URL="../ReadHdrDates_LS1.vi"/>

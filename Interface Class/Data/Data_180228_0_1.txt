@@ -1,0 +1,17 @@
+#2018-02-28
+#11:18
+#Balayage par: glaliber
+#ScanTask Size: 6
+
+#Échantillon: testsamp1; #Matériaux: AlGaAs; 
+#Fente d'entrée: 0.000mm; Fente de sortie: 0.000mm; #Température: 293.00°K; #Filtre Entrée: Aucun; #Détecteur: Oriel 70680 with R928; 
+#Taux de répétition laser : 5PPS; #Énergie Laser: 1000.0mJ; #Pre-amplificateur: Aucun; #Réseaux: Oriel 33010FL01-080R (400nm); #Autres: other...2; 
+
+
+#Tools.Ind Point(Point)        	Tools.ScanPar(Arb)            	Tools.Temps Abs(ms)           	Tools.Random Number(Arb)      	Tools.Crb 1 Dat(Arb)          
+0E+0	0E+0	3.6026795089532375E+9	654.39120742963408E-3	0E+0
+1E+0	1E+0	3.6026795089832406E+9	557.37867916009653E-3	49.521384243899194E-3
+2E+0	2E+0	3.602679509009243E+9	602.48138764979542E-3	98.547967186026597E-3
+3E+0	3E+0	3.6026795090122433E+9	913.255049615328E-3	146.58989141565812E-3
+4E+0	4E+0	3.6026795090192442E+9	318.50068599839165E-3	193.16713790644013E-3
+5E+0	5E+0	3.6026795090342455E+9	868.89404460111663E-3	237.81432220782733E-3

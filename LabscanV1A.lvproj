@@ -22,6 +22,7 @@
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="GraphWindow_LS1.vi" Type="VI" URL="../GraphWindow_LS1.vi"/>
 		<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
+		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -104,6 +105,7 @@
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
@@ -159,6 +161,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -194,12 +197,10 @@
 			<Item Name="GetClassPath.vi" Type="VI" URL="../GetClassPath.vi"/>
 			<Item Name="GetDataFromTable.vi" Type="VI" URL="../GetDataFromTable.vi"/>
 			<Item Name="GetDevTree_LS1.vi" Type="VI" URL="../GetDevTree_LS1.vi"/>
-			<Item Name="GetInterfPar.vi" Type="VI" URL="../GetInterfPar.vi"/>
 			<Item Name="GetPlotColors.vi" Type="VI" URL="../GetPlotColors.vi"/>
 			<Item Name="GetScanFormats.vi" Type="VI" URL="../GetScanFormats.vi"/>
 			<Item Name="GetSubPanState.vi" Type="VI" URL="../GetSubPanState.vi"/>
 			<Item Name="IndexName.vi" Type="VI" URL="../IndexName.vi"/>
-			<Item Name="LabScan.rtm" Type="Document" URL="../LabScan.rtm"/>
 			<Item Name="LoadInstr.ctl" Type="VI" URL="../LoadInstr.ctl"/>
 			<Item Name="LoadInstrConfig_LS1.vi" Type="VI" URL="../LoadInstrConfig_LS1.vi"/>
 			<Item Name="LoadNewGraph_LS1.vi" Type="VI" URL="../LoadNewGraph_LS1.vi"/>

@@ -204,7 +204,7 @@
 			<Item Name="LoadInstr.ctl" Type="VI" URL="../LoadInstr.ctl"/>
 			<Item Name="LoadInstrConfig_LS1.vi" Type="VI" URL="../LoadInstrConfig_LS1.vi"/>
 			<Item Name="LoadNewGraph_LS1.vi" Type="VI" URL="../LoadNewGraph_LS1.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="MoveScanFunc.vi" Type="VI" URL="../MoveScanFunc.vi"/>
 			<Item Name="PlotChange.ctl" Type="VI" URL="../Interface Class/PlotChange.ctl"/>
 			<Item Name="ReadHdrDates_LS1.vi" Type="VI" URL="../ReadHdrDates_LS1.vi"/>

@@ -1,0 +1,577 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>10.0</Version>
+<Object>
+<Name>Objet LabVIEW</Name>
+<NumLevels>1</NumLevels>
+<Class>Interface.lvclass</Class>
+<Version>1.0.0.64</Version>
+<Cluster>
+<Name>Interface.lvclass</Name>
+<NumElts>25</NumElts>
+<Object>
+<Name>Experiment.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>Experiment.lvclass</Class>
+<Version>0.0.0.0</Version>
+</Object>
+<Path>
+<Name>DataFileName</Name>
+<Val>C:\Programmes Labview\LabScan\LabScanV1A\Interface Class\Data\Data_180301_1_1.txt</Val>
+</Path>
+<Path>
+<Name>HdrFileName</Name>
+<Val>C:\Programmes Labview\LabScan\LabScanV1A\Interface Class\Data\Header_180301_1_1.dat</Val>
+</Path>
+<Refnum>
+<Name>DataFileRef</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0xCBE00000</Val>
+</Refnum>
+<Cluster>
+<Name>ScanParams</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Entête</Name>
+<Val>#2018-03-01
+#16:47
+#Balayage par: physique
+#ScanTask Size: 221
+
+#Échantillon: ; #Matériaux: Autres; 
+#Fente d'entrée: 0,050mm; Fente de sortie: 1,000mm; #Température: 293,00°K; #Filtre Entrée: CGA 225; #Détecteur: Oriel 70680 with R928; 
+#Taux de répétition laser : 4PPS; #Énergie Laser: 100,0mJ; #Pre-amplificateur: Aucun; #Réseaux: Oriel 33010FL01-080R (400nm); #Autres: avg 3; 
+
+#Longueur d'ondes OR77200: 200,000000
+#Sensitivity: 3 V; Vernier Mode: Off; Vernier Value: 50.000; Main Filter: No Filter; Filter Freq (Hz): 1000.000; Filter Mode: Manual;  Line Notch: Off; Reference: Internal; Reference Mode: F; Ref Phase (°): 0.000; Ref Freq (Hz): 3.883; Output Filter: 6dB; Time Constant: 100 ms; Dynamic Res.: Hi Stab; X Offset: Off; X Offset Val %: 0.000; Y Offset: Off; Y Offset Val %: 0.000; Expand: Off; Osc Amp. (mV rms): 2000.000; Int Osc (Hz): 4.000; Trigger Mode: Asynchronous; Input Mode: Voltage; Ovld Source: Y Channel; 
+
+#OR77200.Long. Ondes(nm)       	EGG5210.Analog In 1(V)        
+</Val>
+</String>
+<Array>
+<Name>Scan list</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name></Name>
+<Val>EGG5210.Analog In 1(V)_1</Val>
+</String>
+</Array>
+<I32>
+<Name>NbCourbe</Name>
+<Val>1</Val>
+</I32>
+<I64>
+<Name>IndCourbe</Name>
+<Val>2</Val>
+</I64>
+<Array>
+<Name>NomDon</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>string</Name>
+<Val>OR77200.Long. Ondes(nm)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>EGG5210.Analog In 1(V)</Val>
+</String>
+</Array>
+<I32>
+<Name>Session </Name>
+<Val>1</Val>
+</I32>
+<String>
+<Name>Date</Name>
+<Val>2018-03-01</Val>
+</String>
+<String>
+<Name>Time</Name>
+<Val>16:47</Val>
+</String>
+<Array>
+<Name>VarParams</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>1</Dimsize>
+<String>
+<Name>VarPar</Name>
+<Val>OR77200.Long. Ondes(nm)_1</Val>
+</String>
+</Array>
+<String>
+<Name>UserName</Name>
+<Val>physique</Val>
+</String>
+<Array>
+<Name>ScanTableSize</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>221</Val>
+</I32>
+</Array>
+</Cluster>
+<Array>
+<Name>DataQRefs</Name>
+<Dimsize>2</Dimsize>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2BE00371</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2BF00372</Val>
+</Refnum>
+</Array>
+<I32>
+<Name>LogIncrement</Name>
+<Val>10000</Val>
+</I32>
+<Boolean>
+<Name>Scan(T)</Name>
+<Val>1</Val>
+</Boolean>
+<Array>
+<Name>XYGraphCurves</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>AllCurves</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.Analog In 1(V)_0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.Analog In 1(V)_1</Val>
+</String>
+</Array>
+<Array>
+<Name>CurvesParams</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>EGG5210.Analog In 1(V)_0</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>EGG5210.Analog In 1(V)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>OR77200.Long. Ondes(nm)_0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16777215</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16777215</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>EGG5210.Analog In 1(V)_0</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>OR77200.Long. Ondes(nm)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>EGG5210.Analog In 1(V)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xA20001E5</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>EGG5210.Analog In 1(V)_1</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>EGG5210.Analog In 1(V)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>OR77200.Long. Ondes(nm)_1</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>1</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16711680</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16711680</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>EGG5210.Analog In 1(V)_1</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>OR77200.Long. Ondes(nm)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>EGG5210.Analog In 1(V)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xA20001E5</Val>
+</Refnum>
+</Cluster>
+</Array>
+<Array>
+<Name>ScanCurvesInd</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Array>
+<Name>CurvesSetup</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val></Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val></Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val></Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val></Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val></Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val></Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val></Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val></Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val></Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val></Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val></Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val></Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val></Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val></Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val></Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val></Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val></Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Cluster>
+</Array>
+<Array>
+<Name>ScanDataQ</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>OR77200.Long. Ondes(nm)_1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>EGG5210.Analog In 1(V)_1</Val>
+</String>
+</Array>
+<Array>
+<Name>GraphRefArr</Name>
+<Dimsize>1</Dimsize>
+<Refnum>
+<Name>Graph</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xA20001E5</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>Graph_FA</Name>
+<Dimsize>6</Dimsize>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x78500036</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x78400035</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x78300034</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x782000B4</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x781000C0</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x780000CC</Val>
+</Refnum>
+</Array>
+<U8>
+<Name>FirstFreeFA</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>GraphConfig</Name>
+<Val>0</Val>
+</U32>
+<Refnum>
+<Name>PanRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x77E001D1</Val>
+</Refnum>
+<Array>
+<Name>FAGraphIndArr</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Graph</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Refnum>
+<Name>GrphClosedRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x74800015</Val>
+</Refnum>
+<Path>
+<Name>BaseDataPath</Name>
+<Val>H:\Mes documents\Programmes Labview\LabScan\data</Val>
+</Path>
+<Refnum>
+<Name>ListBoxRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7460004C</Val>
+</Refnum>
+<Refnum>
+<Name>PlotChange</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x74900070</Val>
+</Refnum>
+<I32>
+<Name>VarParCount</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+</Object>
+</LVData>

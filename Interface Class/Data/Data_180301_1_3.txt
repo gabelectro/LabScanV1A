@@ -1,0 +1,18 @@
+#2018-03-01
+#15:27
+#Balayage par: physique
+#ScanTask Size: 3
+
+#Échantillon: ; #Matériaux: AlN; 
+#Fente d'entrée: 3,000mm; Fente de sortie: 3,000mm; #Température: 293,00°K; #Filtre Entrée: Aucun; #Détecteur: Oriel 70680 with R928; 
+#Taux de répétition laser : 3PPS; #Énergie Laser: 100,0mJ; #Pre-amplificateur: Aucun; #Réseaux: Oriel 33010FL01-080R (400nm); #Autres: avg 3; 
+
+#Longueur d'ondes OR77200: 400,000000
+#Sensitivity: 3 V; Vernier Mode: Off; Vernier Value: 50.000; Main Filter: No Filter; Filter Freq (Hz): 1000.000; Filter Mode: Manual;  Line Notch: Off; Reference: Internal; Reference Mode: F; Ref Phase (°): 0.000; Ref Freq (Hz): 0.000; Output Filter: 6dB; Time Constant: 100 ms; Dynamic Res.: Hi Stab; X Offset: Off; X Offset Val %: 0.000; Y Offset: Off; Y Offset Val %: 0.000; Expand: Off; Osc Amp. (mV rms): 2000.000; Int Osc (Hz): 0.000; Trigger Mode: Asynchronous; Input Mode: Voltage; Ovld Source: Y Channel; 
+
+#OR77200.Long. Ondes(nm)       	EGG5210.Analog In 1(V)        
+200E+0	-973,66666666666668E-3
+201E+0	-974,66666666666668E-3
+202E+0	-977,66666666666668E-3
+4E+0	-1,0229999999999999E+0
+205E+0	-687,00000000000005E-3

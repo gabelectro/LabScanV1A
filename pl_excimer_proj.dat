@@ -65,7 +65,7 @@
 </Array>
 <I32>
 <Name>Session </Name>
-<Val>28</Val>
+<Val>56</Val>
 </I32>
 <String>
 <Name>Date</Name>
@@ -357,7 +357,7 @@
 <Name>Graph</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x359000D4</Val>
+<Val>0xC05000BE</Val>
 </Refnum>
 </Array>
 <Array>
@@ -367,37 +367,37 @@
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x28E000D1</Val>
+<Val>0xBF00002E</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x28D0007D</Val>
+<Val>0xBEF0002C</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x28C00013</Val>
+<Val>0xBEE0002D</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x28B00087</Val>
+<Val>0xBED0002F</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x28A000AC</Val>
+<Val>0xBEC00030</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x2890008D</Val>
+<Val>0xBEB00031</Val>
 </Refnum>
 </Array>
 <U8>
@@ -412,7 +412,7 @@
 <Name>PanRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x2870007B</Val>
+<Val>0xBE9000D7</Val>
 </Refnum>
 <Array>
 <Name>FAGraphIndArr</Name>
@@ -426,23 +426,23 @@
 <Name>GrphClosedRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x251000A6</Val>
+<Val>0xBB300014</Val>
 </Refnum>
 <Path>
 <Name>BaseDataPath</Name>
-<Val>H:\Mes documents\Programmes Labview\LabScan\data</Val>
+<Val></Val>
 </Path>
 <Refnum>
 <Name>ListBoxRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x24F00048</Val>
+<Val>0xBB100016</Val>
 </Refnum>
 <Refnum>
 <Name>PlotChange</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x252000BB</Val>
+<Val>0xBB400015</Val>
 </Refnum>
 <I32>
 <Name>VarParCount</Name>

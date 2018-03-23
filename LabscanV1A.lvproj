@@ -23,6 +23,7 @@
 		<Item Name="GraphWindow_LS1.vi" Type="VI" URL="../GraphWindow_LS1.vi"/>
 		<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
 		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
+		<Item Name="Or77200_SetActPos.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_SetActPos.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

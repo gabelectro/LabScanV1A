@@ -1,0 +1,938 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>10.0</Version>
+<Object>
+<Name>Objet LabVIEW</Name>
+<NumLevels>1</NumLevels>
+<Class>Interface.lvclass</Class>
+<Version>1.0.0.64</Version>
+<Cluster>
+<Name>Interface.lvclass</Name>
+<NumElts>25</NumElts>
+<Object>
+<Name>Experiment.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>Experiment.lvclass</Class>
+<Version>0.0.0.0</Version>
+</Object>
+<Path>
+<Name>DataFileName</Name>
+<Val>H:\Mes documents\Programmes Labview\LabScan\data\Data_180313_64_0.txt</Val>
+</Path>
+<Path>
+<Name>HdrFileName</Name>
+<Val>H:\Mes documents\Programmes Labview\LabScan\data\Header_180313_64_0.dat</Val>
+</Path>
+<Refnum>
+<Name>DataFileRef</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x5CE00000</Val>
+</Refnum>
+<Cluster>
+<Name>ScanParams</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Entête</Name>
+<Val>#2018-03-13
+#09:13
+#Balayage par: glaliber
+#ScanTask Size: 11
+
+#Échantillon: ; #Matériaux: AlGaAs; 
+#Fente d'entrée: 0.000mm; Fente de sortie: 0.000mm; #Température: 293.00°K; #Filtre Entrée: Aucun; #Détecteur: Oriel 70680 with R928; 
+#Taux de répétition laser : 5PPS; #Énergie Laser: 1000.0mJ; #Pre-amplificateur: Aucun; #Réseaux: Oriel 33010FL01-080R (400nm); #Autres: ; 
+
+
+#Tools.Ind Point(Point)        	Tools.ScanPar(Arb)            	Tools.Temps Abs(ms)           	Tools.Random Number(Arb)      	Tools.Crb 1 Dat(Arb)          
+</Val>
+</String>
+<Array>
+<Name>Scan list</Name>
+<Dimsize>3</Dimsize>
+<String>
+<Name></Name>
+<Val>Tools.Temps Abs(ms)_0</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_0</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Crb 1 Dat(Arb)_0</Val>
+</String>
+</Array>
+<I32>
+<Name>NbCourbe</Name>
+<Val>1</Val>
+</I32>
+<I64>
+<Name>IndCourbe</Name>
+<Val>1</Val>
+</I64>
+<Array>
+<Name>NomDon</Name>
+<Dimsize>5</Dimsize>
+<String>
+<Name>string</Name>
+<Val>Tools.Ind Point(Point)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>Tools.ScanPar(Arb)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>Tools.Crb 1 Dat(Arb)</Val>
+</String>
+</Array>
+<I32>
+<Name>Session </Name>
+<Val>64</Val>
+</I32>
+<String>
+<Name>Date</Name>
+<Val>2018-03-13</Val>
+</String>
+<String>
+<Name>Time</Name>
+<Val>09:13</Val>
+</String>
+<Array>
+<Name>VarParams</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>2</Dimsize>
+<String>
+<Name>VarPar</Name>
+<Val>Tools.Ind Point(Point)_0</Val>
+</String>
+<String>
+<Name>VarPar</Name>
+<Val>Tools.ScanPar(Arb)_0</Val>
+</String>
+</Array>
+<String>
+<Name>UserName</Name>
+<Val>glaliber</Val>
+</String>
+<Array>
+<Name>ScanTableSize</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>11</Val>
+</I32>
+</Array>
+</Cluster>
+<Array>
+<Name>DataQRefs</Name>
+<Dimsize>5</Dimsize>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB6D0007E</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB6E0007D</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB6F0007C</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB700007B</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB710007A</Val>
+</Refnum>
+</Array>
+<I32>
+<Name>LogIncrement</Name>
+<Val>10000</Val>
+</I32>
+<Boolean>
+<Name>Scan(T)</Name>
+<Val>1</Val>
+</Boolean>
+<Array>
+<Name>XYGraphCurves</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>AllCurves</Name>
+<Dimsize>3</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Temps Abs(ms)_0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Crb 1 Dat(Arb)_0</Val>
+</String>
+</Array>
+<Array>
+<Name>CurvesParams</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Temps Abs(ms)_0</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.ScanPar(Arb)_0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16777215</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16777215</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Temps Abs(ms)_0</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>1</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.ScanPar(Arb)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x0B30027E</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_0</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Ind Point(Point)_0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16777215</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16777215</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_0</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Ind Point(Point)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x06600219</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Crb 1 Dat(Arb)_0</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Crb 1 Dat(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Ind Point(Point)_0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16711680</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16711680</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>3</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Crb 1 Dat(Arb)_0</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Ind Point(Point)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Crb 1 Dat(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x06600219</Val>
+</Refnum>
+</Cluster>
+</Array>
+<Array>
+<Name>ScanCurvesInd</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Array>
+<Name>CurvesSetup</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.ScanPar(Arb)_0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val></Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>1</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.ScanPar(Arb)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Ind Point(Point)_0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val></Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Ind Point(Point)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>22</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Crb 1 Dat(Arb)</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Crb 1 Dat(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Ind Point(Point)_0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val></Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>3</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val></Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Ind Point(Point)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Crb 1 Dat(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+</Array>
+<Array>
+<Name>ScanDataQ</Name>
+<Dimsize>5</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Ind Point(Point)_0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Temps Abs(ms)_0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Crb 1 Dat(Arb)_0</Val>
+</String>
+</Array>
+<Array>
+<Name>GraphRefArr</Name>
+<Dimsize>2</Dimsize>
+<Refnum>
+<Name>Graph</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x06600219</Val>
+</Refnum>
+<Refnum>
+<Name>Graph</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x0B30027E</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>Graph_FA</Name>
+<Dimsize>6</Dimsize>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xBF00002E</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xBEF0002C</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xBEE0002D</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xBED0002F</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xBEC00030</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xBEB00031</Val>
+</Refnum>
+</Array>
+<U8>
+<Name>FirstFreeFA</Name>
+<Val>2</Val>
+</U8>
+<U32>
+<Name>GraphConfig</Name>
+<Val>1</Val>
+</U32>
+<Refnum>
+<Name>PanRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xBE9000D7</Val>
+</Refnum>
+<Array>
+<Name>FAGraphIndArr</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Graph</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Graph</Name>
+<Val>1</Val>
+</I32>
+</Array>
+<Refnum>
+<Name>GrphClosedRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xBB300014</Val>
+</Refnum>
+<Path>
+<Name>BaseDataPath</Name>
+<Val>H:\Mes documents\Programmes Labview\LabScan\data</Val>
+</Path>
+<Refnum>
+<Name>ListBoxRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xBB100016</Val>
+</Refnum>
+<Refnum>
+<Name>PlotChange</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xBB400015</Val>
+</Refnum>
+<I32>
+<Name>VarParCount</Name>
+<Val>2</Val>
+</I32>
+</Cluster>
+</Object>
+</LVData>

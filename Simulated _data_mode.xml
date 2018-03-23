@@ -240,73 +240,73 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5B8001E9</Val>
+<Val>0xFF70023A</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5B9001FB</Val>
+<Val>0xFF80023B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BA001EC</Val>
+<Val>0xFF90023C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BB001F9</Val>
+<Val>0xFFA0023D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BC001ED</Val>
+<Val>0xFFB0023E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BD001FA</Val>
+<Val>0xFFC0023F</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BE001EB</Val>
+<Val>0xFFD00240</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5BF001F8</Val>
+<Val>0xFFE00241</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5C0001E8</Val>
+<Val>0xFFF00242</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5C1001F6</Val>
+<Val>0x00100243</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5C2001E6</Val>
+<Val>0x00200244</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5C3001F5</Val>
+<Val>0x00300245</Val>
 </Refnum>
 </Array>
 <Array>
@@ -395,7 +395,7 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x4DB000DE</Val>
+<Val>0xBF4000C9</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
@@ -881,7 +881,7 @@
 </Array>
 <Array>
 <Name>ScanTable</Name>
-<Dimsize>6</Dimsize>
+<Dimsize>11</Dimsize>
 <DBL>
 <Name>ScanParamIn</Name>
 <Val>0.00000000000000</Val>
@@ -906,6 +906,26 @@
 <Name>ScanParamIn</Name>
 <Val>5.00000000000000</Val>
 </DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>6.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>7.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>9.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>10.00000000000000</Val>
+</DBL>
 </Array>
 <Refnum>
 <Name>ScanPanelRef</Name>
@@ -919,7 +939,7 @@
 </Path>
 <DBL>
 <Name>LastScanPos</Name>
-<Val>5.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <U32>
 <Name>Beforewait(ms)</Name>
@@ -1108,7 +1128,7 @@
 </Array>
 <Array>
 <Name>ScanTable</Name>
-<Dimsize>6</Dimsize>
+<Dimsize>11</Dimsize>
 <DBL>
 <Name>ScanParamIn</Name>
 <Val>0.00000000000000</Val>
@@ -1133,6 +1153,26 @@
 <Name>ScanParamIn</Name>
 <Val>5.00000000000000</Val>
 </DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>6.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>7.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>9.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>10.00000000000000</Val>
+</DBL>
 </Array>
 <Refnum>
 <Name>ScanPanelRef</Name>
@@ -1146,7 +1186,7 @@
 </Path>
 <DBL>
 <Name>LastScanPos</Name>
-<Val>5.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <U32>
 <Name>Beforewait(ms)</Name>
@@ -1235,9 +1275,9 @@
 </DBL>
 <String>
 <Name>HeaderString</Name>
-<Val>#Échantillon: testsamp1; #Matériaux: AlGaAs; 
+<Val>#Échantillon: ; #Matériaux: AlGaAs; 
 #Fente d'entrée: 0.000mm; Fente de sortie: 0.000mm; #Température: 293.00°K; #Filtre Entrée: Aucun; #Détecteur: Oriel 70680 with R928; 
-#Taux de répétition laser : 5PPS; #Énergie Laser: 1000.0mJ; #Pre-amplificateur: Aucun; #Réseaux: Oriel 33010FL01-080R (400nm); #Autres: other...2; 
+#Taux de répétition laser : 5PPS; #Énergie Laser: 1000.0mJ; #Pre-amplificateur: Aucun; #Réseaux: Oriel 33010FL01-080R (400nm); #Autres: ; 
 </Val>
 </String>
 <Array>
@@ -1478,7 +1518,7 @@
 <Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>6</Val>
+<Val>11</Val>
 </I32>
 </Array>
 <Array>
@@ -1517,7 +1557,7 @@
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x4D80018A</Val>
+<Val>0xBF100029</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
@@ -1639,19 +1679,19 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x4DB000DE</Val>
+<Val>0xBF4000C9</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x4DA00145</Val>
+<Val>0xBF300028</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x4D900020</Val>
+<Val>0xBF2000CE</Val>
 </Refnum>
 </Array>
 </Cluster>

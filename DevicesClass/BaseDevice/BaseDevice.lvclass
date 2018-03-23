@@ -367,6 +367,19 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1342710274</Property>
 			</Item>
 		</Item>
+		<Item Name="Beforewait(ms)" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Beforewait(ms)</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Beforewait(ms)</Property>
+			<Item Name="SetBeforewait.vi" Type="VI" URL="../Accessor/SetBeforewait.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!5%E*B=W6%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!&amp;%*B=W6%:8:J9W5A:7YA=W^S&gt;'FF!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"6!"Q!/1G6G&lt;X*F&gt;W&amp;J&gt;#BN=SE!!$2!=!!?!!!5%E*B=W6%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!&amp;%*B=W6%:8:J9W5A:7YA:7ZU=OFF!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="GetScanNames.vi" Type="VI" URL="../GetScanNames.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'!!!!!$!!U1(!!(A!!&amp;"*#98.F2'6W;7.F,GRW9WRB=X-!!"2#98.F2'6W;7.F)'6O)'6O&gt;(,J:1!!"!!!!$2!=!!?!!!5%E*B=W6%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!&amp;%*B=W6%:8:J9W5A:7YA=W^S&gt;'FF!!!)!$$`````!":!1!!"`````Q!$#52B&gt;'&amp;/97VF=Q!51$$`````#EFO=X2S)%ZB&lt;75!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!9!"Q!)%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!"A!(!!A*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!"!!1!!1!&amp;!!%!!1!*!!%!!1!"!!I#!!%)!!!1!!!!!!!!!!!!!!!!!!!!$1!!!!!!!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!,!!!!!!</Property>

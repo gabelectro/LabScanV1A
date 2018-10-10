@@ -33,6 +33,9 @@
 		<Item Name="calcul melo.vi" Type="VI" URL="../../../test/calcul melo.vi"/>
 		<Item Name="Commande emoji.ctl" Type="VI" URL="../../../test/Commande emoji.ctl"/>
 		<Item Name="ColorGraphWindow_LS1.vi" Type="VI" URL="../ColorGraphWindow_LS1.vi"/>
+		<Item Name="TIO Format Stream.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Format Stream.vi"/>
+		<Item Name="TIO Get Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Get Data.vi"/>
+		<Item Name="TIO Avg Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg Data.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -90,6 +93,15 @@
 				<Item Name="StatesConst.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/StatesConst.ctl"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
 				<Item Name="TimerGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerGen.vi"/>
+				<Item Name="TIO Data Stream Parse dstream Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse dstream Info.vi"/>
+				<Item Name="TIO Data Stream Parse pstream Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse pstream Info.vi"/>
+				<Item Name="TIO Data Stream Parse timebase Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse timebase Info.vi"/>
+				<Item Name="TIO Data Stream.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream.vi"/>
+				<Item Name="TIO Parse Packet.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Parse Packet.vi"/>
+				<Item Name="TIO Serial Checksum CRC32.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Serial Checksum CRC32.vi"/>
+				<Item Name="TIO SLIP Serial Read.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO SLIP Serial Read.vi"/>
+				<Item Name="TIO Stream Open_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Open_Ser.vi"/>
+				<Item Name="TIO Stream Read Non-blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read Non-blocking_Ser.vi"/>
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
 				<Item Name="WritebyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRef.vi"/>
 				<Item Name="WritebyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefBool.vi"/>

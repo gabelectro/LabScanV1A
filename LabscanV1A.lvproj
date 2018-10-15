@@ -30,8 +30,6 @@
 		<Item Name="GetFiltDataFilesNm.vi" Type="VI" URL="../GetFiltDataFilesNm.vi"/>
 		<Item Name="RangeDataFilesNm.vi" Type="VI" URL="../RangeDataFilesNm.vi"/>
 		<Item Name="ST5 Move Status.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Move Status.vi"/>
-		<Item Name="calcul melo.vi" Type="VI" URL="../../../test/calcul melo.vi"/>
-		<Item Name="Commande emoji.ctl" Type="VI" URL="../../../test/Commande emoji.ctl"/>
 		<Item Name="ColorGraphWindow_LS1.vi" Type="VI" URL="../ColorGraphWindow_LS1.vi"/>
 		<Item Name="TIO Format Stream.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Format Stream.vi"/>
 		<Item Name="TIO Get Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Get Data.vi"/>
@@ -42,6 +40,7 @@
 		<Item Name="TIO RPC Blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Blocking_Ser.vi"/>
 		<Item Name="TIO Stream Read_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read_Ser.vi"/>
 		<Item Name="TIO Device Init_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Device Init_Ser.vi"/>
+		<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -98,28 +97,20 @@
 				<Item Name="ST5 Write Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Write Param.vi"/>
 				<Item Name="StatesConst.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/StatesConst.ctl"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
-				<Item Name="test comm.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Examples/test comm.vi"/>
 				<Item Name="TimerGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerGen.vi"/>
 				<Item Name="TIO Data Stream Parse dstream Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse dstream Info.vi"/>
 				<Item Name="TIO Data Stream Parse pstream Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse pstream Info.vi"/>
 				<Item Name="TIO Data Stream Parse timebase Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse timebase Info.vi"/>
 				<Item Name="TIO Data Stream.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream.vi"/>
-				<Item Name="TIO Form Packet.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Form Packet.vi"/>
 				<Item Name="TIO Parse Packet.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Parse Packet.vi"/>
 				<Item Name="TIO RPC Form Request.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Form Request.vi"/>
 				<Item Name="TIO RPC Parse Reply.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Parse Reply.vi"/>
-				<Item Name="TIO RPC Send REQuest.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Send REQuest.vi"/>
 				<Item Name="TIO Serial Checksum CRC32.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Serial Checksum CRC32.vi"/>
-				<Item Name="TIO Serial Port Discovery.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Serial Port Discovery.vi"/>
-				<Item Name="TIO Serial Port Name Search.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Serial Port Name Search.vi"/>
 				<Item Name="TIO SLIP Encode.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO SLIP Encode.vi"/>
 				<Item Name="TIO SLIP Serial Read.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO SLIP Serial Read.vi"/>
 				<Item Name="TIO SLIP Serial Write.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO SLIP Serial Write.vi"/>
-				<Item Name="TIO Stream Open.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Open.vi"/>
 				<Item Name="TIO Stream Open_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Open_Ser.vi"/>
-				<Item Name="TIO Stream Read Non-blocking.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read Non-blocking.vi"/>
 				<Item Name="TIO Stream Read Non-blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read Non-blocking_Ser.vi"/>
-				<Item Name="TIO Stream Write.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Write.vi"/>
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
 				<Item Name="WritebyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRef.vi"/>
 				<Item Name="WritebyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefBool.vi"/>
@@ -133,7 +124,6 @@
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
@@ -216,10 +206,6 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
-				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
-				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
-				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
@@ -227,7 +213,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
-				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
@@ -258,7 +243,7 @@
 			<Item Name="LoadInstr.ctl" Type="VI" URL="../LoadInstr.ctl"/>
 			<Item Name="LoadInstrConfig_LS1.vi" Type="VI" URL="../LoadInstrConfig_LS1.vi"/>
 			<Item Name="LoadNewGraph_LS1.vi" Type="VI" URL="../LoadNewGraph_LS1.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="MoveScanFunc.vi" Type="VI" URL="../MoveScanFunc.vi"/>
 			<Item Name="PlotChange.ctl" Type="VI" URL="../Interface Class/PlotChange.ctl"/>
 			<Item Name="ReadFiltHdrFiles_LS1.vi" Type="VI" URL="../ReadFiltHdrFiles_LS1.vi"/>
@@ -268,7 +253,6 @@
 			<Item Name="SetInitPar.ctl" Type="VI" URL="../SetInitPar.ctl"/>
 			<Item Name="SetScanFormats.vi" Type="VI" URL="../SetScanFormats.vi"/>
 			<Item Name="SetUpExperStates.ctl" Type="VI" URL="../SetUpExperStates.ctl"/>
-			<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
 			<Item Name="SetUpInstrStates.ctl" Type="VI" URL="../SetUpInstrStates.ctl"/>
 			<Item Name="SetupInterfStates.ctl" Type="VI" URL="../Interface Class/SetupInterfStates.ctl"/>
 			<Item Name="SizeGraphPanel.vi" Type="VI" URL="../SizeGraphPanel.vi"/>
@@ -280,7 +264,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
-			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="Ma distribution du code source" Type="Source Distribution">

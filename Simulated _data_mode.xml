@@ -5,10 +5,10 @@
 <Name>Objet LabVIEW</Name>
 <NumLevels>1</NumLevels>
 <Class>Experiment.lvclass</Class>
-<Version>1.0.0.21</Version>
+<Version>1.0.0.23</Version>
 <Cluster>
 <Name>Experiment.lvclass</Name>
-<NumElts>21</NumElts>
+<NumElts>23</NumElts>
 <Array>
 <Name>LoadedInst</Name>
 <Dimsize>6</Dimsize>
@@ -17,10 +17,10 @@
 <NumLevels>2</NumLevels>
 <Class>Tools.lvclass</Class>
 <Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
+<Version>1.0.0.20</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
+<NumElts>26</NumElts>
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
@@ -186,6 +186,24 @@
 <Name>FuncPanelIndex</Name>
 <Val>-1</Val>
 </I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB765EAF9</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x8D100007</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
 </Cluster>
 <Cluster>
 <Name>Tools.lvclass</Name>
@@ -224,10 +242,10 @@
 <NumLevels>2</NumLevels>
 <Class>Tools.lvclass</Class>
 <Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
+<Version>1.0.0.20</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
+<NumElts>26</NumElts>
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
@@ -240,73 +258,73 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFF70023A</Val>
+<Val>0xAD40007B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFF80023B</Val>
+<Val>0xAD500097</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFF90023C</Val>
+<Val>0xAD60006A</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFFA0023D</Val>
+<Val>0xAD700078</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFFB0023E</Val>
+<Val>0xAD80009D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFFC0023F</Val>
+<Val>0xAD200029</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFFD00240</Val>
+<Val>0xAD90007F</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFFE00241</Val>
+<Val>0xADA0009B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFFF00242</Val>
+<Val>0xADB000E6</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00100243</Val>
+<Val>0xADC00011</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00200244</Val>
+<Val>0xAD1000BA</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00300245</Val>
+<Val>0xADD00002</Val>
 </Refnum>
 </Array>
 <Array>
@@ -395,7 +413,7 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xBF4000C9</Val>
+<Val>0xA8C0004B</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
@@ -503,6 +521,24 @@
 <Name>FuncPanelIndex</Name>
 <Val>0</Val>
 </I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB775EB03</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x8D200006</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
 </Cluster>
 <Cluster>
 <Name>Tools.lvclass</Name>
@@ -541,10 +577,10 @@
 <NumLevels>2</NumLevels>
 <Class>Tools.lvclass</Class>
 <Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
+<Version>1.0.0.20</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
+<NumElts>26</NumElts>
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
@@ -710,6 +746,24 @@
 <Name>FuncPanelIndex</Name>
 <Val>-1</Val>
 </I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB785EB04</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x8D300005</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
 </Cluster>
 <Cluster>
 <Name>Tools.lvclass</Name>
@@ -748,10 +802,10 @@
 <NumLevels>2</NumLevels>
 <Class>Tools.lvclass</Class>
 <Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
+<Version>1.0.0.20</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
+<NumElts>26</NumElts>
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
@@ -957,6 +1011,24 @@
 <Name>FuncPanelIndex</Name>
 <Val>-1</Val>
 </I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB795EB00</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x8D400004</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
 </Cluster>
 <Cluster>
 <Name>Tools.lvclass</Name>
@@ -995,10 +1067,10 @@
 <NumLevels>2</NumLevels>
 <Class>Tools.lvclass</Class>
 <Version>1.0.0.10</Version>
-<Version>1.0.0.16</Version>
+<Version>1.0.0.20</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
+<NumElts>26</NumElts>
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
@@ -1204,6 +1276,24 @@
 <Name>FuncPanelIndex</Name>
 <Val>-1</Val>
 </I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB7A5EB01</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x8D500003</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
 </Cluster>
 <Cluster>
 <Name>Tools.lvclass</Name>
@@ -1242,10 +1332,10 @@
 <NumLevels>2</NumLevels>
 <Class>PhotoLum.lvclass</Class>
 <Version>1.0.0.2</Version>
-<Version>1.0.0.16</Version>
+<Version>1.0.0.20</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
-<NumElts>23</NumElts>
+<NumElts>26</NumElts>
 <Refnum>
 <Name>Nom de ressource VISA</Name>
 <RefKind>VISA</RefKind>
@@ -1378,6 +1468,24 @@
 <Name>FuncPanelIndex</Name>
 <Val>-1</Val>
 </I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB7B5EAFE</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0x8D600000</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
 </Cluster>
 <Cluster>
 <Name>PhotoLum.lvclass</Name>
@@ -1457,8 +1565,8 @@
 </Array>
 <Array>
 <Name>ExpScanArr</Name>
-<Dimsize>1</Dimsize>
 <Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name></Name>
 <Val>Indice de Point (Points)@Tools</Val>
@@ -1470,16 +1578,16 @@
 </Array>
 <Array>
 <Name>ExpHeadArr</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>0</Dimsize>
 <String>
 <Name></Name>
-<Val>ExcimerInfoPan (NA)@PhotoLum</Val>
+<Val></Val>
 </String>
 </Array>
 <Array>
 <Name>ScanIndex</Name>
-<Dimsize>1</Dimsize>
 <Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
 <Val>3</Val>
@@ -1507,10 +1615,10 @@
 </Array>
 <Array>
 <Name>HeadIndex</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>0</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>5</Val>
+<Val></Val>
 </I32>
 </Array>
 <Array>
@@ -1557,7 +1665,7 @@
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xBF100029</Val>
+<Val>0xA8900049</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
@@ -1679,20 +1787,36 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xBF4000C9</Val>
+<Val>0xA8C0004B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xBF300028</Val>
+<Val>0xA8B0006C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xBF2000CE</Val>
+<Val>0xA8A000C0</Val>
 </Refnum>
+</Array>
+<Array>
+<Name>ParamIndex 2</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>InstrParamArr</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
 </Array>
 </Cluster>
 </Object>

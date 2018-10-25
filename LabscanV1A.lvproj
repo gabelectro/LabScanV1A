@@ -41,6 +41,10 @@
 		<Item Name="TIO Stream Read_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read_Ser.vi"/>
 		<Item Name="TIO Device Init_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Device Init_Ser.vi"/>
 		<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
+		<Item Name="GraphQData.ctl" Type="VI" URL="../../LabScanV1/GraphQData.ctl"/>
+		<Item Name="SetGraphParams.vi" Type="VI" URL="../../LabScanV1/SetGraphParams.vi"/>
+		<Item Name="GraphConfCount.vi" Type="VI" URL="../GraphConfCount.vi"/>
+		<Item Name="GetPltColTable.vi" Type="VI" URL="../GetPltColTable.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

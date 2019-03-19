@@ -13,38 +13,36 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BaseDevice.lvclass" Type="LVClass" URL="../DevicesClass/BaseDevice/BaseDevice.lvclass"/>
 		<Item Name="Experiment.lvclass" Type="LVClass" URL="../Experiment Class/Experiment.lvclass"/>
+		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface Class/Interface.lvclass"/>
 		<Item Name="DefaultDev.lvclass" Type="LVClass" URL="../DefaultDev/DefaultDev.lvclass"/>
 		<Item Name="EGG5210.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/EGG5210/EGG5210.lvclass"/>
 		<Item Name="AppliedMotionDrive.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AppliedMotionDrive/AppliedMotionDrive.lvclass"/>
-		<Item Name="LeafMagnetometer.lvclass" Type="LVClass" URL="../DevicesClass/LeafMagnetometer/LeafMagnetometer.lvclass"/>
 		<Item Name="Tools.lvclass" Type="LVClass" URL="../DevicesClass/Tools/Tools.lvclass"/>
-		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface Class/Interface.lvclass"/>
 		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
 		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
-		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
-		<Item Name="GraphWindow_LS1.vi" Type="VI" URL="../GraphWindow_LS1.vi"/>
-		<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
+		<Item Name="SR830.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR830/SR830.lvclass"/>
+		<Item Name="LeafMagnetometer.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/LeafMagnetometer/LeafMagnetometer.lvclass"/>
+		<Item Name="KlingerMotor.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/KlingerMotor/KlingerMotor.lvclass"/>
+		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
+		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
+		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
 		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
-		<Item Name="Or77200_SetActPos.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_SetActPos.vi"/>
+		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
+		<Item Name="ColorGraphWindow_LS1.vi" Type="VI" URL="../ColorGraphWindow_LS1.vi"/>
 		<Item Name="FilterScanPar_LS1.vi" Type="VI" URL="../FilterScanPar_LS1.vi"/>
 		<Item Name="GetFiltDataFilesNm.vi" Type="VI" URL="../GetFiltDataFilesNm.vi"/>
-		<Item Name="RangeDataFilesNm.vi" Type="VI" URL="../RangeDataFilesNm.vi"/>
-		<Item Name="ST5 Move Status.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Move Status.vi"/>
-		<Item Name="ColorGraphWindow_LS1.vi" Type="VI" URL="../ColorGraphWindow_LS1.vi"/>
-		<Item Name="TIO Format Stream.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Format Stream.vi"/>
-		<Item Name="TIO Get Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Get Data.vi"/>
-		<Item Name="TIO Avg Field Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg Field Data.vi"/>
-		<Item Name="TIO RPC Send REQuest_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Send REQuest_Ser.vi"/>
-		<Item Name="TIO Stream Write_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Write_Ser.vi"/>
-		<Item Name="TIO Form Packet_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Form Packet_Ser.vi"/>
-		<Item Name="TIO RPC Blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Blocking_Ser.vi"/>
-		<Item Name="TIO Stream Read_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read_Ser.vi"/>
-		<Item Name="TIO Device Init_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Device Init_Ser.vi"/>
-		<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
-		<Item Name="GraphQData.ctl" Type="VI" URL="../GraphQData.ctl"/>
-		<Item Name="SetGraphParams.vi" Type="VI" URL="../SetGraphParams.vi"/>
-		<Item Name="GraphConfCount.vi" Type="VI" URL="../GraphConfCount.vi"/>
 		<Item Name="GetPltColTable.vi" Type="VI" URL="../GetPltColTable.vi"/>
+		<Item Name="GraphConfCount.vi" Type="VI" URL="../GraphConfCount.vi"/>
+		<Item Name="GraphWindow_LS1.vi" Type="VI" URL="../GraphWindow_LS1.vi"/>
+		<Item Name="LoadNew2DGraph_LS1.vi" Type="VI" URL="../LoadNew2DGraph_LS1.vi"/>
+		<Item Name="RangeDataFilesNm.vi" Type="VI" URL="../RangeDataFilesNm.vi"/>
+		<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
+		<Item Name="SizeMainPanel_LS1.vi" Type="VI" URL="../SizeMainPanel_LS1.vi"/>
+		<Item Name="Unload2DGraphVI_LS1.vi" Type="VI" URL="../Unload2DGraphVI_LS1.vi"/>
+		<Item Name="intensity chart demo.vi" Type="VI" URL="../../../test/intensity chart demo.vi"/>
+		<Item Name="Get screen size and prop.vi" Type="VI" URL="../../../test/Get screen size and prop.vi"/>
+		<Item Name="test size panel.vi" Type="VI" URL="../../../test/test size panel.vi"/>
+		<Item Name="SetGraphParams.vi" Type="VI" URL="../SetGraphParams.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -75,6 +73,40 @@
 				<Item Name="GetTabCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTabCtrlRefGen.vi"/>
 				<Item Name="GetTreeColTxt.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTreeColTxt.vi"/>
 				<Item Name="GetViCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetViCtrlRefGen.vi"/>
+				<Item Name="Klinger CheckOptions.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger CheckOptions.vi"/>
+				<Item Name="Klinger ConvUnit.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger ConvUnit.vi"/>
+				<Item Name="Klinger ConvUnitArr.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger ConvUnitArr.vi"/>
+				<Item Name="Klinger ConvUnitSgl.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger ConvUnitSgl.vi"/>
+				<Item Name="Klinger DecodeStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger DecodeStatus.vi"/>
+				<Item Name="klinger ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/klinger ErrorHandler.vi"/>
+				<Item Name="Klinger GetAxisParams.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger GetAxisParams.vi"/>
+				<Item Name="Klinger GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger GetStatus.vi"/>
+				<Item Name="Klinger LimitError.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger LimitError.vi"/>
+				<Item Name="Klinger ReadPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger ReadPosition.vi"/>
+				<Item Name="Klinger SetStatusOptions.vi" Type="VI" URL="/&lt;userlib&gt;/Klinger/Klinger Lib.llb/Klinger SetStatusOptions.vi"/>
+				<Item Name="KlingerV2 AxisParams.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 AxisParams.vi"/>
+				<Item Name="KlingerV2 CheckOptions.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 CheckOptions.vi"/>
+				<Item Name="KlingerV2 Control.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 Control.vi"/>
+				<Item Name="KlingerV2 ControlLimit.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ControlLimit.vi"/>
+				<Item Name="KlingerV2 ConvUnit.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ConvUnit.vi"/>
+				<Item Name="KlingerV2 ConvUnitArr.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ConvUnitArr.vi"/>
+				<Item Name="KlingerV2 ConvUnitSgl.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ConvUnitSgl.vi"/>
+				<Item Name="KlingerV2 DecodeStatus.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 DecodeStatus.vi"/>
+				<Item Name="KlingerV2 Enable.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 Enable.vi"/>
+				<Item Name="KlingerV2 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ErrorHandler.vi"/>
+				<Item Name="KlingerV2 GetAxisParams.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 GetAxisParams.vi"/>
+				<Item Name="KlingerV2 GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 GetStatus.vi"/>
+				<Item Name="KlingerV2 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 Goto.vi"/>
+				<Item Name="KlingerV2 GotoStates.ctl" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 GotoStates.ctl"/>
+				<Item Name="KlingerV2 Init.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 Init.vi"/>
+				<Item Name="KlingerV2 LimitError.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 LimitError.vi"/>
+				<Item Name="KlingerV2 OriginSearch.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 OriginSearch.vi"/>
+				<Item Name="KlingerV2 Params.ctl" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 Params.ctl"/>
+				<Item Name="KlingerV2 ReadPosition.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ReadPosition.vi"/>
+				<Item Name="KlingerV2 SetAxisParams.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 SetAxisParams.vi"/>
+				<Item Name="KlingerV2 SetStatusOptions.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 SetStatusOptions.vi"/>
+				<Item Name="KlingerV2 SetZero.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 SetZero.vi"/>
+				<Item Name="KlingerV2 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 VisaRW.vi"/>
 				<Item Name="LockInPar.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/LockInPar.ctl"/>
 				<Item Name="Or77200_AskPos.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_AskPos.vi"/>
 				<Item Name="Or77200_DoXSteps.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_DoXSteps.vi"/>
@@ -83,6 +115,7 @@
 				<Item Name="OR77200_Init_State.ctl" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/OR77200_Init_State.ctl"/>
 				<Item Name="Or77200_InitDrive.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_InitDrive.vi"/>
 				<Item Name="Or77200_ReadPos.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_ReadPos.vi"/>
+				<Item Name="Or77200_SetActPos.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_SetActPos.vi"/>
 				<Item Name="Or77200_VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Oriel 77200/Or77200_VisaRW.vi"/>
 				<Item Name="ReadbyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyRef.vi"/>
 				<Item Name="ReadbyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyRefBool.vi"/>
@@ -95,26 +128,46 @@
 				<Item Name="ReadFunctions.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadFunctions.ctl"/>
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
+				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
+				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
+				<Item Name="Sr830 Autoscale.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Autoscale.vi"/>
+				<Item Name="Sr830 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 CheckStatus.vi"/>
+				<Item Name="Sr830 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 ErrorHandler.vi"/>
+				<Item Name="Sr830 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Read Param.vi"/>
+				<Item Name="Sr830 ReadCh.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 ReadCh.vi"/>
+				<Item Name="Sr830 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 VisaRW.vi"/>
 				<Item Name="ST5 Check Errors.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Check Errors.vi"/>
 				<Item Name="ST5 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Goto.vi"/>
+				<Item Name="ST5 Move Status.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Move Status.vi"/>
 				<Item Name="ST5 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Read Param.vi"/>
 				<Item Name="ST5 Write Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Write Param.vi"/>
 				<Item Name="StatesConst.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/StatesConst.ctl"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
 				<Item Name="TimerGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerGen.vi"/>
+				<Item Name="TIO Avg AVM Field Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg AVM Field Data.vi"/>
+				<Item Name="TIO Avg Field Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg Field Data.vi"/>
 				<Item Name="TIO Data Stream Parse dstream Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse dstream Info.vi"/>
 				<Item Name="TIO Data Stream Parse pstream Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse pstream Info.vi"/>
 				<Item Name="TIO Data Stream Parse timebase Info.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream Parse timebase Info.vi"/>
 				<Item Name="TIO Data Stream.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Data Stream.vi"/>
+				<Item Name="TIO Device Init_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Device Init_Ser.vi"/>
+				<Item Name="TIO Form Packet_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Form Packet_Ser.vi"/>
+				<Item Name="TIO Format Stream.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Format Stream.vi"/>
+				<Item Name="TIO Get Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Get Data.vi"/>
 				<Item Name="TIO Parse Packet.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Parse Packet.vi"/>
+				<Item Name="TIO RPC Blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Blocking_Ser.vi"/>
 				<Item Name="TIO RPC Form Request.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Form Request.vi"/>
 				<Item Name="TIO RPC Parse Reply.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Parse Reply.vi"/>
+				<Item Name="TIO RPC Send REQuest_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO RPC Send REQuest_Ser.vi"/>
 				<Item Name="TIO Serial Checksum CRC32.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Serial Checksum CRC32.vi"/>
 				<Item Name="TIO SLIP Encode.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO SLIP Encode.vi"/>
 				<Item Name="TIO SLIP Serial Read.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO SLIP Serial Read.vi"/>
 				<Item Name="TIO SLIP Serial Write.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO SLIP Serial Write.vi"/>
 				<Item Name="TIO Stream Open_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Open_Ser.vi"/>
 				<Item Name="TIO Stream Read Non-blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read Non-blocking_Ser.vi"/>
+				<Item Name="TIO Stream Read_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read_Ser.vi"/>
+				<Item Name="TIO Stream Write_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Write_Ser.vi"/>
+				<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
 				<Item Name="WritebyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRef.vi"/>
 				<Item Name="WritebyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefBool.vi"/>
@@ -259,7 +312,7 @@
 			<Item Name="SetUpExperStates.ctl" Type="VI" URL="../SetUpExperStates.ctl"/>
 			<Item Name="SetUpInstrStates.ctl" Type="VI" URL="../SetUpInstrStates.ctl"/>
 			<Item Name="SetupInterfStates.ctl" Type="VI" URL="../Interface Class/SetupInterfStates.ctl"/>
-			<Item Name="SizeGraphPanel.vi" Type="VI" URL="../SizeGraphPanel.vi"/>
+			<Item Name="SizeGraphPanelV2.vi" Type="VI" URL="../SizeGraphPanelV2.vi"/>
 			<Item Name="StdFileName_LS1.vi" Type="VI" URL="../StdFileName_LS1.vi"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -268,6 +321,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="Ma distribution du code source" Type="Source Distribution">

@@ -189,12 +189,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD0B00009</Val>
+<Val>0x92C00000</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAEA0000C</Val>
+<Val>0x88E0000D</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -315,73 +315,73 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB37004FC</Val>
+<Val>0xD240028A</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB380047C</Val>
+<Val>0xD2500298</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB390047D</Val>
+<Val>0xD2600286</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3A00516</Val>
+<Val>0xD2700293</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3B004FE</Val>
+<Val>0xD2800287</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3500524</Val>
+<Val>0xD220027C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3C00246</Val>
+<Val>0xD2900294</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3D00523</Val>
+<Val>0xD2A0027E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3E004FD</Val>
+<Val>0xD2B0028E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3F00479</Val>
+<Val>0xD2C00283</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB3400552</Val>
+<Val>0xD210026C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB4000462</Val>
+<Val>0xD2D0028F</Val>
 </Refnum>
 </Array>
 <Array>
@@ -470,7 +470,7 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA400060</Val>
+<Val>0x85D00113</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
@@ -581,12 +581,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD0C0000D</Val>
+<Val>0x92D00004</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAEB0000B</Val>
+<Val>0x88F0000C</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -863,12 +863,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD0D00000</Val>
+<Val>0x92E00002</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAEC00000</Val>
+<Val>0x8900000B</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -1153,12 +1153,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD0E00002</Val>
+<Val>0x92F0000B</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAED00003</Val>
+<Val>0x8910000A</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -1439,12 +1439,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD0F00011</Val>
+<Val>0x9300000A</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAEE00005</Val>
+<Val>0x89200009</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -1688,12 +1688,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD100000C</Val>
+<Val>0x93100009</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAEF00007</Val>
+<Val>0x89300008</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -1800,91 +1800,91 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB510051A</Val>
+<Val>0xD3E0028B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5200470</Val>
+<Val>0xD3F0029B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5300513</Val>
+<Val>0xD400028C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5400533</Val>
+<Val>0xD410029C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB550039D</Val>
+<Val>0xD420028D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5600418</Val>
+<Val>0xD430029D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB4F00551</Val>
+<Val>0xD3C0027F</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB57004F1</Val>
+<Val>0xD44002FD</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB58003AF</Val>
+<Val>0xD4500305</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5900408</Val>
+<Val>0xD4600313</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB4D0052E</Val>
+<Val>0xD3A0027D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5A002F1</Val>
+<Val>0xD4700301</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5B0014E</Val>
+<Val>0xD480030E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB4E00413</Val>
+<Val>0xD3B00297</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB5C0046A</Val>
+<Val>0xD4900302</Val>
 </Refnum>
 </Array>
 <Array>
@@ -1941,7 +1941,7 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA30014A</Val>
+<Val>0x85C00112</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
@@ -2064,12 +2064,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD110000A</Val>
+<Val>0x93200008</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAF000006</Val>
+<Val>0x89400007</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -2324,12 +2324,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD1200007</Val>
+<Val>0x93300007</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAF100008</Val>
+<Val>0x89500006</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -2445,90 +2445,102 @@
 </Refnum>
 <Array>
 <Name>DeviceCtrl</Name>
-<Dimsize>14</Dimsize>
+<Dimsize>16</Dimsize>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB6D00475</Val>
+<Val>0xD5A00311</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB720053F</Val>
+<Val>0xD5F00306</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB730053E</Val>
+<Val>0xD6000316</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB7400521</Val>
+<Val>0xD6100307</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB700053B</Val>
+<Val>0xD5D002FA</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB750040F</Val>
+<Val>0xD6200317</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB760046C</Val>
+<Val>0xD6300308</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB770027F</Val>
+<Val>0xD6400318</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB7800466</Val>
+<Val>0xD650031E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB6C00538</Val>
+<Val>0xD5900304</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB79003EB</Val>
+<Val>0xD6600326</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB6E00528</Val>
+<Val>0xD5B002F8</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB6F0053C</Val>
+<Val>0xD5C00312</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB7A0046E</Val>
+<Val>0xD6700334</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xD6800322</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xD690032F</Val>
 </Refnum>
 </Array>
 <Array>
@@ -2581,11 +2593,11 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA20007A</Val>
+<Val>0x85B00111</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
-<Dimsize>14</Dimsize>
+<Dimsize>16</Dimsize>
 <String>
 <Name>Chaîne</Name>
 <Val>Pos_mm</Val>
@@ -2641,6 +2653,14 @@
 <String>
 <Name>Chaîne</Name>
 <Val>Nom de l'axe</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MainProgQEvent</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MainProgQ</Val>
 </String>
 </Array>
 <I32>
@@ -2700,12 +2720,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD1300006</Val>
+<Val>0x93400006</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAF200009</Val>
+<Val>0x89600005</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -2791,90 +2811,102 @@
 </Refnum>
 <Array>
 <Name>DeviceCtrl</Name>
-<Dimsize>14</Dimsize>
+<Dimsize>16</Dimsize>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB8A0055A</Val>
+<Val>0xD7B00332</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB8F0055F</Val>
+<Val>0xD8000327</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9000560</Val>
+<Val>0xD8100337</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9100561</Val>
+<Val>0xD8200328</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB8D0055D</Val>
+<Val>0xD7E0031B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9200562</Val>
+<Val>0xD8300338</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9300563</Val>
+<Val>0xD8400329</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9400564</Val>
+<Val>0xD8500339</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9500565</Val>
+<Val>0xD8600396</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB8900559</Val>
+<Val>0xD7A00325</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9600566</Val>
+<Val>0xD870039E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB8B0055B</Val>
+<Val>0xD7C00319</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB8C0055C</Val>
+<Val>0xD7D00333</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xB9700567</Val>
+<Val>0xD88003AC</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xD890039A</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xD8A003A7</Val>
 </Refnum>
 </Array>
 <Array>
@@ -2927,11 +2959,11 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x36B00021</Val>
+<Val>0x85D0006D</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
-<Dimsize>14</Dimsize>
+<Dimsize>16</Dimsize>
 <String>
 <Name>Chaîne</Name>
 <Val>Pos_mm</Val>
@@ -2987,6 +3019,14 @@
 <String>
 <Name>Chaîne</Name>
 <Val>Nom de l'axe</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MainProgQEvent</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MainProgQ</Val>
 </String>
 </Array>
 <I32>
@@ -3046,12 +3086,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD1700010</Val>
+<Val>0x9380000C</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAF30000A</Val>
+<Val>0x89700003</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -3119,6 +3159,26 @@
 </Array>
 </Cluster>
 <Cluster>
+<Name>KlingerMotor.lvclass</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>Positions (mm)</Choice>
+<Choice>UnitConv (sel)</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<U8>
+<Name>Axe</Name>
+<Val>0</Val>
+</U8>
 </Cluster>
 </Object>
 </Array>
@@ -3332,7 +3392,7 @@
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA100167</Val>
+<Val>0x85A00110</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
@@ -3494,25 +3554,25 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA400060</Val>
+<Val>0x85D00113</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA30014A</Val>
+<Val>0x85C00112</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA20007A</Val>
+<Val>0x85B00111</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x36B00021</Val>
+<Val>0x85100107</Val>
 </Refnum>
 </Array>
 <Array>

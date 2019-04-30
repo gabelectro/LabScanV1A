@@ -43,6 +43,7 @@
 		<Item Name="Get screen size and prop.vi" Type="VI" URL="../../../test/Get screen size and prop.vi"/>
 		<Item Name="test size panel.vi" Type="VI" URL="../../../test/test size panel.vi"/>
 		<Item Name="SetGraphParams.vi" Type="VI" URL="../SetGraphParams.vi"/>
+		<Item Name="KlingerV2 ErrorMessage.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ErrorMessage.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -321,7 +322,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
-			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/visarc"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="Ma distribution du code source" Type="Source Distribution">

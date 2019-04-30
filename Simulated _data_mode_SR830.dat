@@ -65,7 +65,7 @@
 </Array>
 <I32>
 <Name>Session </Name>
-<Val>7</Val>
+<Val>5</Val>
 </I32>
 <String>
 <Name>Date</Name>
@@ -645,13 +645,13 @@
 <Name>Graph</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xAD30046B</Val>
+<Val>0xCC0001C3</Val>
 </Refnum>
 <Refnum>
 <Name>Graph</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xAF40051D</Val>
+<Val>0xCE1001E8</Val>
 </Refnum>
 </Array>
 <Array>
@@ -661,37 +661,37 @@
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xCA000018</Val>
+<Val>0x8590010F</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xC9F00145</Val>
+<Val>0x8580010E</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xC9E00010</Val>
+<Val>0x8570010D</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xC9D0007F</Val>
+<Val>0x8560010C</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xC9C00147</Val>
+<Val>0x8550010B</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0xC9B00146</Val>
+<Val>0x8540010A</Val>
 </Refnum>
 </Array>
 <U8>
@@ -706,7 +706,7 @@
 <Name>PanRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xC9900089</Val>
+<Val>0x85200108</Val>
 </Refnum>
 <Array>
 <Name>FAGraphNumArr</Name>
@@ -728,7 +728,7 @@
 <Name>ListBoxRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xC310001B</Val>
+<Val>0x7E3000AD</Val>
 </Refnum>
 <I32>
 <Name>VarParCount</Name>
@@ -740,12 +740,12 @@
 <Refnum>
 <Name>GraphQRef</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD160000E</Val>
+<Val>0x9370000E</Val>
 </Refnum>
 <Refnum>
 <Name>GraphQRef</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD1A0000F</Val>
+<Val>0x93B00010</Val>
 </Refnum>
 </Array>
 <Array>
@@ -825,12 +825,12 @@
 <Refnum>
 <Name>MainGraphQ</Name>
 <RefKind>Queue</RefKind>
-<Val>0xD0A00012</Val>
+<Val>0x92B00005</Val>
 </Refnum>
 <Refnum>
 <Name>GraphEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xAE900004</Val>
+<Val>0x88D00004</Val>
 </Refnum>
 <Array>
 <Name>2DGraphQRefArr</Name>

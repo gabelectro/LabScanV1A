@@ -1,7 +1,0 @@
-#2018-10-11
-#15:57
-#Balayage par: Administrateur
-#ScanTask Size: 221,2
-
-
-#Y Axis.Position(Units)        	X Axis.Position(Units)        	LeafMagnetometer.X(nT)        	LeafMagnetometer.Y(nT)        	LeafMagnetometer.Z(nT)        	LeafMagnetometer.Total(nT)    

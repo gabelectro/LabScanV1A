@@ -1,0 +1,8 @@
+#2019-05-09
+#14:21
+#Balayage par: lalg1702
+#ScanTask Size: 4
+
+#KlingerMotor Infos: Axe Z; Nom: Délais Pompe; Id 21; Type: UE72, Vitesse: 800 pas/s; Accel:  0.40s; FactConv: 0.000010m/pas; 
+
+#KlingerMotor.Position (mm)    

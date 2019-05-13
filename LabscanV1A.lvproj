@@ -46,6 +46,7 @@
 		<Item Name="KlingerV2 ErrorMessage.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ErrorMessage.vi"/>
 		<Item Name="ST5 Load Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Load Act .vi"/>
 		<Item Name="ST5 Save Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Save Act .vi"/>
+		<Item Name="ST5 Settings Mess.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Settings Mess.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

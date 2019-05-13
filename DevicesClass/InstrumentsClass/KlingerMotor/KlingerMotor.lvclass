@@ -142,4 +142,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1117782528</Property>
 	</Item>
+	<Item Name="ScanPanelTHz.vi" Type="VI" URL="../ScanPanelTHz.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!7&amp;%NM;7ZH:8*.&lt;X2P=CZM&gt;G.M98.T!!!93WRJ&lt;G&gt;F=EVP&gt;'^S,GRW9WRB=X-A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!7&amp;%NM;7ZH:8*.&lt;X2P=CZM&gt;G.M98.T!!!53WRJ&lt;G&gt;F=EVP&gt;'^S,GRW9WRB=X-!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!"1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">17039616</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 </LVClass>

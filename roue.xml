@@ -16,7 +16,7 @@
 <Name>Device.lvclass</Name>
 <NumLevels>2</NumLevels>
 <Class>AppliedMotionDrive.lvclass</Class>
-<Version>1.0.0.6</Version>
+<Version>1.0.0.7</Version>
 <Version>1.0.0.21</Version>
 <Cluster>
 <Name>BaseDevice.lvclass</Name>
@@ -33,67 +33,67 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA150004C</Val>
+<Val>0xF63001B1</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA170009A</Val>
+<Val>0xF6D002EF</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1800058</Val>
+<Val>0xF6E00339</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1900030</Val>
+<Val>0xF6F0031E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1A00011</Val>
+<Val>0xF7000319</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1B00081</Val>
+<Val>0xF71001F2</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1C0000F</Val>
+<Val>0xF72001F7</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1D00085</Val>
+<Val>0xF73001A4</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1400065</Val>
+<Val>0xF620003E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1E00077</Val>
+<Val>0xF74002FE</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xA1F00079</Val>
+<Val>0xF75002FD</Val>
 </Refnum>
 </Array>
 <Array>
@@ -142,7 +142,7 @@
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x9BF000D3</Val>
+<Val>0x8EE000DC</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
@@ -249,12 +249,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0x71600005</Val>
+<Val>0xF2500012</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0x6F90000C</Val>
+<Val>0xEA30000D</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -322,6 +322,69 @@
 </Array>
 </Cluster>
 <Cluster>
+<Name>AppliedMotionDrive.lvclass</Name>
+<NumElts>8</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>Position (Units)</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Facteur Pas/Units</Name>
+<Val>18000.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Facteur Dir</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>AvailUnits</Name>
+<Dimsize>4</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>mm</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>deg</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>pas</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>holes</Val>
+</String>
+</Array>
+<U8>
+<Name>SelectUnits</Name>
+<Val>3</Val>
+</U8>
+<Array>
+<Name>Actuator names</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>String</Name>
+<Val>Sample Wheel</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>Photolum Height</Val>
+</String>
+</Array>
+<U8>
+<Name>SelectActuator</Name>
+<Val>0</Val>
+</U8>
 </Cluster>
 </Object>
 </Array>
@@ -435,7 +498,7 @@
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x9C20002A</Val>
+<Val>0x8F100124</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
@@ -509,25 +572,25 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x9BF000D3</Val>
+<Val>0x8EE000DC</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x9C00003B</Val>
+<Val>0x8EF0021C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x9C100031</Val>
+<Val>0x8F000104</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x9CB0007E</Val>
+<Val>0x8FA00119</Val>
 </Refnum>
 </Array>
 <Array>

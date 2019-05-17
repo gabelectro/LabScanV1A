@@ -14,6 +14,7 @@
 		<Item Name="BaseDevice.lvclass" Type="LVClass" URL="../DevicesClass/BaseDevice/BaseDevice.lvclass"/>
 		<Item Name="Experiment.lvclass" Type="LVClass" URL="../Experiment Class/Experiment.lvclass"/>
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface Class/Interface.lvclass"/>
+		<Item Name="Calculations.lvclass" Type="LVClass" URL="../Calculations Class/Calculations.lvclass"/>
 		<Item Name="DefaultDev.lvclass" Type="LVClass" URL="../DefaultDev/DefaultDev.lvclass"/>
 		<Item Name="EGG5210.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/EGG5210/EGG5210.lvclass"/>
 		<Item Name="AppliedMotionDrive.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AppliedMotionDrive/AppliedMotionDrive.lvclass"/>
@@ -39,14 +40,12 @@
 		<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
 		<Item Name="SizeMainPanel_LS1.vi" Type="VI" URL="../SizeMainPanel_LS1.vi"/>
 		<Item Name="Unload2DGraphVI_LS1.vi" Type="VI" URL="../Unload2DGraphVI_LS1.vi"/>
-		<Item Name="intensity chart demo.vi" Type="VI" URL="../../../test/intensity chart demo.vi"/>
-		<Item Name="Get screen size and prop.vi" Type="VI" URL="../../../test/Get screen size and prop.vi"/>
-		<Item Name="test size panel.vi" Type="VI" URL="../../../test/test size panel.vi"/>
 		<Item Name="SetGraphParams.vi" Type="VI" URL="../SetGraphParams.vi"/>
 		<Item Name="KlingerV2 ErrorMessage.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ErrorMessage.vi"/>
 		<Item Name="ST5 Load Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Load Act .vi"/>
 		<Item Name="ST5 Save Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Save Act .vi"/>
 		<Item Name="ST5 Settings Mess.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Settings Mess.vi"/>
+		<Item Name="SetupCalcStates.ctl" Type="VI" URL="../Interface Class/SetupCalcStates.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

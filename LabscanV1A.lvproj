@@ -46,6 +46,7 @@
 		<Item Name="ST5 Save Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Save Act .vi"/>
 		<Item Name="ST5 Settings Mess.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Settings Mess.vi"/>
 		<Item Name="SetupCalcStates.ctl" Type="VI" URL="../Interface Class/SetupCalcStates.ctl"/>
+		<Item Name="ScanPos.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ScanPos.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -61,7 +62,6 @@
 				<Item Name="DelArrayEndNumI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DelArrayEndNumI32.vi"/>
 				<Item Name="DelArrayEndString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DelArrayEndString.vi"/>
 				<Item Name="DivideAreaGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DivideAreaGen.vi"/>
-				<Item Name="DélaisGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DélaisGen.vi"/>
 				<Item Name="EG_G5210 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 CheckStatus.vi"/>
 				<Item Name="EG_G5210 ParString.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 ParString.vi"/>
 				<Item Name="EG_G5210 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 Read Param.vi"/>

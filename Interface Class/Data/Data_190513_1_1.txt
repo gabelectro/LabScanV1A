@@ -1,8 +1,0 @@
-#2019-05-13
-#09:12
-#Balayage par: lalg1702
-#ScanTask Size: 6
-
-
-#Tools.Crb 1 Dat(Arb)          	Tools.Random Number(Arb)      	Tools.Temps Abs(ms)           
-0E+0	0E+0	41.02928808661388E-3	3.6405979664581442E+9

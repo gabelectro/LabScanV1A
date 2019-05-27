@@ -1,4 +1,4 @@
 GraphSetupImages/Thumbs.db
-InitVal.ini
 Simulated _data_mode.dat
 test apM.dat
+git rm --cached InitVal.ini

@@ -1,9 +1,0 @@
-#2019-05-30
-#11:53
-#Balayage par: lalg1702
-#ScanTask Size: 11,0
-
-#Sweep Count: 0
-
-#Tools.Indice de points(Points)	Tools.Time(ms)                	Tools.SweepNumber(Sweep)      	Tools.Random Number(Arb)      	Tools.Temps Abs(ms)           	Tools.Crb 1 Dat(Arb)          
-0E+0	3.642076444098E+9	0E+0	55.56137896842E-3	3.642076444105E+9	0E+0

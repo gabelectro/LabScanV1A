@@ -119,6 +119,7 @@
 				<Item Name="KlingerV2 SetZero.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 SetZero.vi"/>
 				<Item Name="KlingerV2 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 VisaRW.vi"/>
 				<Item Name="LockInPar.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/LockInPar.ctl"/>
+				<Item Name="MonoSpec50 Control.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Control.vi"/>
 				<Item Name="MonoSpec50 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 ErrorHandler.vi"/>
 				<Item Name="MonoSpec50 Find Ref Position.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position.vi"/>
 				<Item Name="MonoSpec50 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Goto.vi"/>

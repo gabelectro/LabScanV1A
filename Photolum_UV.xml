@@ -1,0 +1,1419 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>12.0.1f5</Version>
+<Object>
+<Name>Objet LabVIEW</Name>
+<NumLevels>1</NumLevels>
+<Class>Experiment.lvclass</Class>
+<Version>1.0.0.25</Version>
+<Cluster>
+<Name>Experiment.lvclass</Name>
+<NumElts>25</NumElts>
+<Array>
+<Name>LoadedInst</Name>
+<Dimsize>3</Dimsize>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>Tools.lvclass</Class>
+<Version>1.0.0.13</Version>
+<Version>1.0.0.21</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>33</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Temps Abs(ms)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>13</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 1 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 2 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 3 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 123 (Arb,Arb,Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Scan Pos (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Indice de Point (Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>AbsTime (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Minuteur (s)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Panneaux Infos (Na)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Délais (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>RandomNum (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Multisweep (Sw)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>ScanTime (s)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFunctionIndex</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>AbsTime (ms)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>Tools</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB7D00009</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0xB350000D</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DatDisplayNm</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+</Array>
+<Array>
+<Name>ShowInstrNm</Name>
+<Dimsize>1</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParValue</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ParSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Tools.lvclass</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>Courbe 1 (Arb)</Choice>
+<Choice>Courbe 2 (Arb)</Choice>
+<Choice>Courbe 3 (Arb)</Choice>
+<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
+<Choice>Scan Pos (Arb)</Choice>
+<Choice>Indice de Point (Points)</Choice>
+<Choice>AbsTime (ms)</Choice>
+<Choice>Minuteur (s)</Choice>
+<Choice>Panneaux Infos (Na)</Choice>
+<Choice>Délais (ms)</Choice>
+<Choice>RandomNum (Arb)</Choice>
+<Choice>Multisweep (Sw)</Choice>
+<Choice>ScanTime (s)</Choice>
+<Val>6</Val>
+</EW>
+<DBL>
+<Name>Multiplicateur</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Last Sample Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>Monospec50.lvclass</Class>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.21</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>33</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val>DAQ 6052-E</Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>11</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA10013F</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA30002C</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA000132</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA4000AF</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA500089</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA600060</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA70002F</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA8000BE</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFA90005F</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF9F00146</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFAA00034</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Position(nm)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Position (nm)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFunctionIndex</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>Position (nm)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xEA3000E3</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>11</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>PosDem</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Moving</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MiseAJour</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>PosAct</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Annuler</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error in (no error)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Monospec50.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Monospec50.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Init Program</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Stop</Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>Monospec50</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>ClassPanel</Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>16</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>390.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>391.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>392.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>393.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>394.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>395.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>396.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>397.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>398.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>399.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>400.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>401.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>402.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>403.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>404.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>405.00000000000000</Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>405.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>0</Val>
+</I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB7E0000F</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0xB360000C</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DatDisplayNm</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Monospec50.Position(nm)</Val>
+</String>
+</Array>
+<Array>
+<Name>ShowInstrNm</Name>
+<Dimsize>1</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParValue</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ParSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>SR830.lvclass</Class>
+<Version>1.0.0.5</Version>
+<Version>1.0.0.21</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>33</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val>GPIB0::13::INSTR</Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>15</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7500120</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF760012D</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7700112</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF780012E</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF790011C</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7A0011E</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF6A000F7</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7B0012A</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7C00128</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7D00116</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF68000EF</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7E00121</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF7F0011D</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF6900110</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xF6B00107</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Mag(V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Phase(°)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val>Phase Shift: 0°; Reference Source: External; Reference Frequency: 122.134Hz; Reference Trigger: Sine Zero Crossing; Detection Harmonic: 1; Sine Amplitude: 1V; Input Configuration: A; Input Shield: Float; Input Coupling: AC; 1xLineFilter: Off; 2xLineFilter: Off; Sensitivity: 10 mV/nA; Dynamic Reserve: Low; Time Constant: 300 ms; Low Pass Filter: 24 dB/oct; Sync Filter: Off; Expand X: Off, Offset: 0%; Expand Y: Off, Offset: 0%; Expand R: Off, Offset: 0%; </Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>4</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Read X &amp; Y (V,V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read Mag &amp; Phase (V,°)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read X,Y,Mag &amp; Phase (V,V,V,°)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Read THz Pump Off/On (V,V,V,°,V,V,V,°,V)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFunctionIndex</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>Read Mag &amp; Phase (V,°)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xEA200008</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>15</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>X</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Y</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MAG</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Phase</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>UNLCK</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>OVLD</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Update</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>SR830.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>SR830.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Stop</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Init Program</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error in (no error)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Acq</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Sensitivity</Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>SR830</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>ClassPanel</Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>0</Val>
+</I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0xB7F00008</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0xB3700008</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DatDisplayNm</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>SR830.Mag(V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>SR830.Phase(°)</Val>
+</String>
+</Array>
+<Array>
+<Name>ShowInstrNm</Name>
+<Dimsize>2</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParValue</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ParSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name>SR830.lvclass</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>Read X &amp; Y (V,V)</Choice>
+<Choice>Read Mag &amp; Phase (V,°)</Choice>
+<Choice>Read X,Y,Mag &amp; Phase (V,V,V,°)</Choice>
+<Choice>Read THz Pump Off/On (V,V,V,°,V,V,V,°,V)</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
+</Object>
+</Array>
+<Array>
+<Name>LoadedFuncArr</Name>
+<Dimsize>3</Dimsize>
+<String>
+<Name></Name>
+<Val>AbsTime (ms)@Tools</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Position (nm)@Monospec50</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Read Mag &amp; Phase (V,°)@SR830</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpRessArr</Name>
+<Dimsize>3</Dimsize>
+<String>
+<Name></Name>
+<Val>Na</Val>
+</String>
+<String>
+<Name></Name>
+<Val>DAQ 6052-E</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::13::INSTR</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpMeasArr</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name></Name>
+<Val>Read Mag &amp; Phase (V,°)@SR830</Val>
+</String>
+<String>
+<Name></Name>
+<Val>AbsTime (ms)@Tools</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpScanArr</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>1</Dimsize>
+<String>
+<Name></Name>
+<Val>Position (nm)@Monospec50</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpHeadArr</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanIndex</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+</Array>
+<Array>
+<Name>MeasIndex</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Array>
+<Name>HeadIndex</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>PointCount</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>16</Val>
+</I32>
+</Array>
+<Array>
+<Name>PanelIndex</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+</Array>
+<Array>
+<Name>ActiveFunc</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>Booléen</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>RessAvail</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>Booléen</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ExpPanArr</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name></Name>
+<Val>Read Mag &amp; Phase (V,°)@SR830</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Position (nm)@Monospec50</Val>
+</String>
+</Array>
+<Refnum>
+<Name>ScanSubPan</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xEA500043</Val>
+</Refnum>
+<Array>
+<Name>AvailResArray</Name>
+<Dimsize>5</Dimsize>
+<Dimsize>4</Dimsize>
+<String>
+<Name></Name>
+<Val>ASRL1::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>COM1</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>ASRL3::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>COM3</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>ASRL10::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>LPT1</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::INTFC</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::INTFC</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::13::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>GPIB0::13::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>4</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Monospec50.Position(nm)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>SR830.Mag(V)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>SR830.Phase(°)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Temps Abs(ms)</Val>
+</String>
+</Array>
+<Array>
+<Name>DatNameInd</Name>
+<Dimsize>4</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<I32>
+<Name>FirstMeasNmInd</Name>
+<Val>1</Val>
+</I32>
+<Array>
+<Name>DisIndex</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>SubPanelRef</Name>
+<Dimsize>4</Dimsize>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xEA200008</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xEA3000E3</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xEA40006E</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0xEAE00083</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>ParamIndex 2</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>InstrParamArr</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>LoadedTools</Name>
+<Dimsize>0</Dimsize>
+<Object>
+<Name>Device.lvclass</Name>
+</Object>
+</Array>
+<Array>
+<Name>CalcNameInd</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+</Object>
+</LVData>

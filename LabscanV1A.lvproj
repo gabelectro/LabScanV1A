@@ -54,9 +54,6 @@
 		<Item Name="BDClassCluster.ctl" Type="VI" URL="../DevicesClass/BaseDevice/BDClassCluster.ctl"/>
 		<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
 		<Item Name="CreateCurveNamesvb1.vi" Type="VI" URL="../Experiment Class/CreateCurveNamesvb1.vi"/>
-		<Item Name="MonoSpec50 Find Ref Position_trig.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position_trig.vi"/>
-		<Item Name="LargeMove States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/LargeMove States.ctl"/>
-		<Item Name="Goto States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/Goto States.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -124,8 +121,10 @@
 				<Item Name="LockInPar.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/LockInPar.ctl"/>
 				<Item Name="MonoSpec50 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 ErrorHandler.vi"/>
 				<Item Name="MonoSpec50 Find Ref Position.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position.vi"/>
+				<Item Name="MonoSpec50 Goto States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Goto States.ctl"/>
 				<Item Name="MonoSpec50 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Goto.vi"/>
 				<Item Name="MonoSpec50 LargeMoveGen.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 LargeMoveGen.vi"/>
+				<Item Name="MonoSpec50 LrgMve States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 LrgMve States.ctl"/>
 				<Item Name="MonoSpec50 MessageBox.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 MessageBox.vi"/>
 				<Item Name="MonoSpec50 PulseGen.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 PulseGen.vi"/>
 				<Item Name="MonoSpec50 WavelgtDialog.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 WavelgtDialog.vi"/>

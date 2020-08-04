@@ -1,0 +1,13 @@
+#2020-08-03
+#22:29
+#Balayage par: lalg1702
+#ScanTask Size: 4,1
+
+#Sweep Count: 1
+#Instrument: SR400@SR400.lvclass Function:Read_Count (Arb); Parameters:*BeforeWait(ms):0*AfterWait(ms):0Count#:2
+
+#Tools.Indice de points(Points)	Tools.Time(ms)                	Tools.SweepNumber(Sweep)      	Tools.Random Number(Arb)      	Tools.Temps Abs(ms)           	Tools.Crb 1 Dat(Arb)          	SR400.Count(ph)               	Calc.Avg(Tools.Crb 1 Dat(Arb))
+0E+0	3.67935295949E+9	0E+0	852.5239394753E-3	3.679352959992E+9	0E+0	6E+0	0E+0	3E+0	0E+0
+1E+0	3.679352963517E+9	0E+0	958.3155580834E-3	3.679352964018E+9	88.88712093625E-3	6E+0	0E+0	3E+0	88.88712093625E-3
+2E+0	3.679352967541E+9	0E+0	881.9860420616E-3	3.679352968042E+9	176.8861111423E-3	6E+0	0E+0	3E+0	176.8861111423E-3
+3E+0	3.679352971568E+9	0E+0	899.7876269946E-3	3.679352972072E+9	263.1177137966E-3	6E+0	0E+0	3E+0	263.1177137966E-3

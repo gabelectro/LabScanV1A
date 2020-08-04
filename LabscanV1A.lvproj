@@ -26,6 +26,7 @@
 		<Item Name="LeafMagnetometer.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/LeafMagnetometer/LeafMagnetometer.lvclass"/>
 		<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
 		<Item Name="KlingerMotor.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/KlingerMotor/KlingerMotor.lvclass"/>
+		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
 		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
 		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
 		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
@@ -139,6 +140,18 @@
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
+				<Item Name="SR400 Control.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 Control.vi"/>
+				<Item Name="SR400 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ErrorHandler.vi"/>
+				<Item Name="SR400 GetCountParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetCountParams.vi"/>
+				<Item Name="SR400 GetCountSource.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetCountSource.vi"/>
+				<Item Name="SR400 GetDiscParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetDiscParams.vi"/>
+				<Item Name="SR400 GetGateParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetGateParams.vi"/>
+				<Item Name="SR400 ReadCount.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ReadCount.vi"/>
+				<Item Name="SR400 ReadStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ReadStatus.vi"/>
+				<Item Name="SR400 SetCountParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetCountParams.vi"/>
+				<Item Name="SR400 SetCountSource.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetCountSource.vi"/>
+				<Item Name="SR400 SetDiscParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetDiscParams.vi"/>
+				<Item Name="SR400 SetGateParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetGateParams.vi"/>
 				<Item Name="Sr830 Autoscale.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Autoscale.vi"/>
 				<Item Name="Sr830 AuxOut.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 AuxOut.vi"/>
 				<Item Name="Sr830 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 CheckStatus.vi"/>

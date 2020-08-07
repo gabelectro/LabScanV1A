@@ -41,67 +41,67 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0E30020E</Val>
+<Val>0x8B3000D5</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0E800213</Val>
+<Val>0x8B8000DA</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0E20020D</Val>
+<Val>0x8B2000D4</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0E9001FB</Val>
+<Val>0x8B9000DB</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0EA00214</Val>
+<Val>0x8BA000DC</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0EB00215</Val>
+<Val>0x8BB000DD</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0EC00218</Val>
+<Val>0x8BC000DE</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0ED00216</Val>
+<Val>0x8BD000DF</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0EE00219</Val>
+<Val>0x8BE000E0</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0E1001FA</Val>
+<Val>0x8B1000D3</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0EF00217</Val>
+<Val>0x8BF000E1</Val>
 </Refnum>
 </Array>
 <Array>
@@ -144,13 +144,13 @@
 <Name>PanelVIRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>VI</RefType>
-<Val>0xA1600048</Val>
+<Val>0x8260002A</Val>
 </Refnum>
 <Refnum>
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x6420007B</Val>
+<Val>0x86A0008C</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
@@ -218,57 +218,417 @@
 </Array>
 <Array>
 <Name>ScanTable</Name>
-<Dimsize>11</Dimsize>
+<Dimsize>101</Dimsize>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>280.00000000000000</Val>
+<Val>650.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>282.00000000000000</Val>
+<Val>651.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>284.00000000000000</Val>
+<Val>652.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>286.00000000000000</Val>
+<Val>653.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>288.00000000000000</Val>
+<Val>654.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>290.00000000000000</Val>
+<Val>655.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>292.00000000000000</Val>
+<Val>656.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>294.00000000000000</Val>
+<Val>657.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>296.00000000000000</Val>
+<Val>658.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>298.00000000000000</Val>
+<Val>659.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ScanParamIn</Name>
-<Val>300.00000000000000</Val>
+<Val>660.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>661.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>662.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>663.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>664.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>665.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>666.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>667.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>668.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>669.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>670.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>671.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>672.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>673.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>674.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>675.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>676.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>677.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>678.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>679.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>680.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>681.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>682.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>683.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>684.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>685.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>686.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>687.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>688.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>689.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>690.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>691.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>692.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>693.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>694.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>695.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>696.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>697.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>698.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>699.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>700.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>701.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>702.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>703.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>704.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>705.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>706.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>707.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>708.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>709.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>710.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>711.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>712.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>713.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>714.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>715.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>716.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>717.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>718.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>719.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>720.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>721.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>722.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>723.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>724.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>725.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>726.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>727.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>728.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>729.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>730.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>731.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>732.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>733.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>734.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>735.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>736.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>737.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>738.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>739.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>740.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>741.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>742.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>743.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>744.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>745.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>746.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>747.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>748.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>749.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>750.00000000000000</Val>
 </DBL>
 </Array>
 <Refnum>
 <Name>ScanPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>VI</RefType>
-<Val>0xA0F00025</Val>
+<Val>0x81E00023</Val>
 </Refnum>
 <Path>
 <Name>ScanPanelPath</Name>
@@ -276,7 +636,7 @@
 </Path>
 <DBL>
 <Name>LastScanPos</Name>
-<Val>304.00000000000000</Val>
+<Val>300.00000000000000</Val>
 </DBL>
 <U32>
 <Name>Beforewait(ms)</Name>
@@ -297,12 +657,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBEC0000B</Val>
+<Val>0x1B600003</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xB3200004</Val>
+<Val>0x1B600004</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -370,7 +730,7 @@
 </Array>
 <U32>
 <Name>Delta Time(ms)</Name>
-<Val>800</Val>
+<Val>1258</Val>
 </U32>
 </Cluster>
 <Cluster>
@@ -397,91 +757,91 @@
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x11000133</Val>
+<Val>0x8E300105</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x11100241</Val>
+<Val>0x8E400106</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x1120024B</Val>
+<Val>0x8E500107</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x1130024C</Val>
+<Val>0x8E600108</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x11400240</Val>
+<Val>0x8E700109</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x10C0020B</Val>
+<Val>0x8DD000FF</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x10E00005</Val>
+<Val>0x8DF00101</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x10D00004</Val>
+<Val>0x8DE00100</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x1150024D</Val>
+<Val>0x8E80010A</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x11600250</Val>
+<Val>0x8E90010B</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x1170024E</Val>
+<Val>0x8EA0010C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x11800251</Val>
+<Val>0x8EB0010D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x1190024F</Val>
+<Val>0x8EC0010E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x10B001F9</Val>
+<Val>0x8DC000FE</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum Cmde</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x11A00252</Val>
+<Val>0x8ED0010F</Val>
 </Refnum>
 </Array>
 <Array>
@@ -498,7 +858,7 @@
 </DBL>
 <String>
 <Name>HeaderString</Name>
-<Val>Instrument: SR400@SR400.lvclass Function:Read_Count (Arb); Parameters:*BeforeWait(ms):100*AfterWait(ms):0; NbPeriod:3; Dwell(s)4.000000E-2; T Preset(s)1.000000E+0; Mode:A,B for T Preset</Val>
+<Val>Instrument: SR400@SR400.lvclass Function:Read_Count (Arb); Parameters:*BeforeWait(ms):100*AfterWait(ms):0; NbPeriod:3; Dwell(s)2.000000E-2; T Preset(s)1.000000E+0; Mode:A,B for T Preset</Val>
 </String>
 <Array>
 <Name>Functions</Name>
@@ -524,13 +884,13 @@
 <Name>PanelVIRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>VI</RefType>
-<Val>0xA1A000A1</Val>
+<Val>0x82A0002D</Val>
 </Refnum>
 <Refnum>
 <Name>SubPanelRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x6430007C</Val>
+<Val>0x86B0008D</Val>
 </Refnum>
 <Array>
 <Name>SubPanelCtrl</Name>
@@ -653,12 +1013,12 @@
 <Refnum>
 <Name>ClassQueue</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBED00002</Val>
+<Val>0x1B700004</Val>
 </Refnum>
 <Refnum>
 <Name>ClassEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xB3300005</Val>
+<Val>0x1B700005</Val>
 </Refnum>
 <Array>
 <Name>InstrParam</Name>
@@ -726,7 +1086,7 @@
 </Array>
 <U32>
 <Name>Delta Time(ms)</Name>
-<Val>3793</Val>
+<Val>3794</Val>
 </U32>
 </Cluster>
 <Cluster>
@@ -812,7 +1172,7 @@
 <Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>11</Val>
+<Val>101</Val>
 </I32>
 </Array>
 <Array>
@@ -859,7 +1219,7 @@
 <Name>ScanSubPan</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x6450007E</Val>
+<Val>0x86D0008F</Val>
 </Refnum>
 <Array>
 <Name>AvailResArray</Name>
@@ -989,25 +1349,25 @@
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x6420007B</Val>
+<Val>0x86A0008C</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x6430007C</Val>
+<Val>0x86B0008D</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x6440007D</Val>
+<Val>0x86C0008E</Val>
 </Refnum>
 <Refnum>
 <Name>Refnum FAsec</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x64E00087</Val>
+<Val>0x87600098</Val>
 </Refnum>
 </Array>
 <Array>
@@ -1045,29 +1405,29 @@
 </Object>
 <Path>
 <Name>DataFileName</Name>
-<Val>C:\Users\dphy-morrislab\Data\Bouraoui\Data_200804_32_0.txt</Val>
+<Val>C:\Users\dphy-morrislab\Data\Bouraoui\Data_200805_18_0.txt</Val>
 </Path>
 <Path>
 <Name>HdrFileName</Name>
-<Val>C:\Users\dphy-morrislab\Data\Bouraoui\Header_200804_32_0.dat</Val>
+<Val>C:\Users\dphy-morrislab\Data\Bouraoui\Header_200805_18_0.dat</Val>
 </Path>
 <Refnum>
 <Name>DataFileRef</Name>
 <RefKind>Byte Stream File</RefKind>
-<Val>0xEB500000</Val>
+<Val>0x52300000</Val>
 </Refnum>
 <Cluster>
 <Name>ScanParams</Name>
 <NumElts>12</NumElts>
 <String>
 <Name>Entête</Name>
-<Val>#2020-08-04
-#15:37
+<Val>#2020-08-05
+#16:37
 #Balayage par: dphy-morrislab
-#ScanTask Size: 11
+#ScanTask Size: 101
 
 #Instrument: Monospec50@Monospec50.lvclass Function:Position (nm); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
-#Instrument: SR400@SR400.lvclass Function:Read_Count (Arb); Parameters:*BeforeWait(ms):100*AfterWait(ms):0; NbPeriod:3; Dwell(s)4.000000E-2; T Preset(s)1.000000E+0; Mode:A,B for T Preset
+#Instrument: SR400@SR400.lvclass Function:Read_Count (Arb); Parameters:*BeforeWait(ms):100*AfterWait(ms):0; NbPeriod:3; Dwell(s)2.000000E-2; T Preset(s)1.000000E+0; Mode:A,B for T Preset
 
 #Monospec50.Position(nm)       	SR400.Compte moy(ph)          
 </Val>
@@ -1102,15 +1462,15 @@
 </Array>
 <I32>
 <Name>Session </Name>
-<Val>32</Val>
+<Val>18</Val>
 </I32>
 <String>
 <Name>Date</Name>
-<Val>2020-08-04</Val>
+<Val>2020-08-05</Val>
 </String>
 <String>
 <Name>Time</Name>
-<Val>15:37</Val>
+<Val>16:37</Val>
 </String>
 <Array>
 <Name>VarParams</Name>
@@ -1130,7 +1490,7 @@
 <Dimsize>1</Dimsize>
 <I32>
 <Name>Numérique</Name>
-<Val>11</Val>
+<Val>101</Val>
 </I32>
 </Array>
 <Array>
@@ -1148,7 +1508,7 @@
 <Refnum>
 <Name>queue out</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBF300007</Val>
+<Val>0x1BD00007</Val>
 </Refnum>
 </Array>
 <Array>
@@ -1269,7 +1629,7 @@
 <Name>XYGraph_Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0C6003AD</Val>
+<Val>0x89B000BD</Val>
 </Refnum>
 <Boolean>
 <Name>Data Only</Name>
@@ -1278,12 +1638,12 @@
 <Refnum>
 <Name>DataQ Ref</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBF300007</Val>
+<Val>0x1BD00007</Val>
 </Refnum>
 <Refnum>
 <Name>XParQ Ref</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBF200009</Val>
+<Val>0x1BC00006</Val>
 </Refnum>
 <I32>
 <Name>XParamInd</Name>
@@ -1438,7 +1798,7 @@
 <Name>Graph</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x0C6003AD</Val>
+<Val>0x89B000BD</Val>
 </Refnum>
 </Array>
 <Array>
@@ -1448,37 +1808,37 @@
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x6460007F</Val>
+<Val>0x86E00090</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x64700080</Val>
+<Val>0x86F00091</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x64800081</Val>
+<Val>0x87000092</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x64900082</Val>
+<Val>0x87100093</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x64A00083</Val>
+<Val>0x87200094</Val>
 </Refnum>
 <Refnum>
 <Name>FA_G6</Name>
 <RefKind>LV Object</RefKind>
 <RefType>LV Object</RefType>
-<Val>0x64B00084</Val>
+<Val>0x87300095</Val>
 </Refnum>
 </Array>
 <U8>
@@ -1493,7 +1853,7 @@
 <Name>PanRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x64D00086</Val>
+<Val>0x87500097</Val>
 </Refnum>
 <Array>
 <Name>FAGraphNumArr</Name>
@@ -1511,7 +1871,7 @@
 <Name>ListBoxRef</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x5DB00014</Val>
+<Val>0x7E300005</Val>
 </Refnum>
 <I32>
 <Name>VarParCount</Name>
@@ -1523,7 +1883,7 @@
 <Refnum>
 <Name>GraphQRef</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBEE00003</Val>
+<Val>0x1B800005</Val>
 </Refnum>
 </Array>
 <Array>
@@ -1571,12 +1931,12 @@
 <Refnum>
 <Name>MainGraphQ</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBEB00000</Val>
+<Val>0x1B500002</Val>
 </Refnum>
 <Refnum>
 <Name>GraphEvent</Name>
 <RefKind>User Event Refnum</RefKind>
-<Val>0xB3100003</Val>
+<Val>0x1B500003</Val>
 </Refnum>
 <Array>
 <Name>2DGraphQRefArr</Name>
@@ -1655,7 +2015,7 @@
 <Refnum>
 <Name>queue out</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBF300007</Val>
+<Val>0x1BD00007</Val>
 </Refnum>
 </Array>
 <Array>
@@ -1664,7 +2024,7 @@
 <Refnum>
 <Name>queue out</Name>
 <RefKind>Queue</RefKind>
-<Val>0xBF200009</Val>
+<Val>0x1BC00006</Val>
 </Refnum>
 </Array>
 <Array>

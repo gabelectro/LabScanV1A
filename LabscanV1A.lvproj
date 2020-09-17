@@ -27,6 +27,8 @@
 		<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
 		<Item Name="KlingerMotor.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/KlingerMotor/KlingerMotor.lvclass"/>
 		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
+		<Item Name="LSCI332.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/LSCI332/LSCI332.lvclass"/>
+		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
 		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
 		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
 		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
@@ -55,6 +57,13 @@
 		<Item Name="BDClassCluster.ctl" Type="VI" URL="../DevicesClass/BaseDevice/BDClassCluster.ctl"/>
 		<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
 		<Item Name="CreateCurveNamesvb1.vi" Type="VI" URL="../Experiment Class/CreateCurveNamesvb1.vi"/>
+		<Item Name="LSCI332CurveHandler.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332CurveHandler.vi"/>
+		<Item Name="LSCI332ScanCalibName.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ScanCalibName.vi"/>
+		<Item Name="LSCI332ReadCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadCalFile.vi"/>
+		<Item Name="LSCI332WriteCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalFile.vi"/>
+		<Item Name="LSCI332ReadCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadCalib.vi"/>
+		<Item Name="LSCI332WriteCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalib.vi"/>
+		<Item Name="LSCI332 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 ErrorHandler.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -109,6 +118,27 @@
 				<Item Name="KlingerV2 SetZero.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 SetZero.vi"/>
 				<Item Name="KlingerV2 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 VisaRW.vi"/>
 				<Item Name="LockInPar.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/LockInPar.ctl"/>
+				<Item Name="LSCI332 ControlSetup.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 ControlSetup.vi"/>
+				<Item Name="LSCI332 GetCtrlMode.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetCtrlMode.vi"/>
+				<Item Name="LSCI332 GetLoopPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetLoopPar.vi"/>
+				<Item Name="LSCI332 GetManOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetManOutput.vi"/>
+				<Item Name="LSCI332 GetPID.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetPID.vi"/>
+				<Item Name="LSCI332 GetRamp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetRamp.vi"/>
+				<Item Name="LSCI332 GetSetPoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetSetPoint.vi"/>
+				<Item Name="LSCI332 GetZoneInfo.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetZoneInfo.vi"/>
+				<Item Name="LSCI332 SetCtrlMode.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetCtrlMode.vi"/>
+				<Item Name="LSCI332 SetLoopPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetLoopPar.vi"/>
+				<Item Name="LSCI332 SetManOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetManOutput.vi"/>
+				<Item Name="LSCI332 SetPID.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetPID.vi"/>
+				<Item Name="LSCI332 SetRamp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetRamp.vi"/>
+				<Item Name="LSCI332 SetSetpoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetSetpoint.vi"/>
+				<Item Name="LSCI332 SetZoneInfo.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetZoneInfo.vi"/>
+				<Item Name="LSCI332 Zone Setup.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 Zone Setup.vi"/>
+				<Item Name="LSCI332ReadHeater.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadHeater.vi"/>
+				<Item Name="LSCI332ReadSensor.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadSensor.vi"/>
+				<Item Name="LSCI332ReadTemp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadTemp.vi"/>
+				<Item Name="LSCI332SetHeatRange.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332SetHeatRange.vi"/>
+				<Item Name="LSCI332VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332VisaRW.vi"/>
 				<Item Name="MonoSpec50 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 ErrorHandler.vi"/>
 				<Item Name="MonoSpec50 Find Ref Position.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position.vi"/>
 				<Item Name="MonoSpec50 Goto States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Goto States.ctl"/>
@@ -213,6 +243,7 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
@@ -405,6 +436,11 @@
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>

@@ -1,0 +1,8 @@
+#2020-10-26
+#14:24
+#Balayage par: lalg1702
+#ScanTask Size: 11
+
+#Instrument: YokoGS200@YokoGS200.lvclass Function:SetVoltage (V); Parameters:*BeforeWait(ms):1000*AfterWait(ms):0 Source Range: 1V; AutoRange: Off;
+
+#YokoGS200.Volt(V)             	Tools.Temps Abs(ms)           	Tools.Temps(s)                

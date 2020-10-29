@@ -1,0 +1,20 @@
+#2020-10-26
+#16:35
+#Balayage par: lalg1702
+#ScanTask Size: 11
+
+#Instrument: YokoGS200@YokoGS200.lvclass Function:SetVoltage (V); Parameters:*BeforeWait(ms):0*AfterWait(ms):0 Source Range: 10V; AutoRange: Off;
+#Instrument: SR830@SR830.lvclass Function:Read Mag & Phase (V,°); Parameters:*BeforeWait(ms):0*AfterWait(ms):0Phase Shift: 0°; Reference Source: Internal; Reference Frequency: 149.03Hz; Reference Trigger: Sine Zero Crossing; Detection Harmonic: 1; Sine Amplitude: 0.004V; Input Configuration: A; Input Shield: Float; Input Coupling: DC; 1xLineFilter: Off; 2xLineFilter: Off; Sensitivity: 50 µV/pA; Dynamic Reserve: Low; Time Constant: 100 ms; Low Pass Filter: 24 dB/oct; Sync Filter: Off; Expand X: Off, Offset: 0%; Expand Y: Off, Offset: 0%; Expand R: Off, Offset: 0%; 
+
+#YokoGS200.Volt(V)             	Tools.Temps Abs(ms)           	Tools.Temps(s)                	SR830.Mag(V)                  	SR830.Phase(°)                
+0E+0	3.686589318488E+9	7.073467025E+6	1.17161E-6	52.986E+0
+1E+0	3.686589318634E+9	147E-3	882.897E-9	53.52E+0
+2E+0	3.686589318754E+9	120E-3	514.094E-9	60.786E+0
+3E+0	3.686589318871E+9	116E-3	180.677E-9	16.446E+0
+4E+0	3.686589318987E+9	116E-3	521.544E-9	-50.43E+0
+5E+0	3.686589319103E+9	116E-3	657.517E-9	-63.24E+0
+6E+0	3.68658931922E+9	117E-3	262.635E-9	-63.756E+0
+7E+0	3.68658931934E+9	120E-3	204.892E-9	103.134E+0
+8E+0	3.686589319455E+9	116E-3	320.377E-9	78.342E+0
+9E+0	3.68658931957E+9	114E-3	489.879E-9	27.96E+0
+10E+0	3.686589319688E+9	118E-3	745.062E-9	17.544E+0

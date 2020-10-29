@@ -1,0 +1,19 @@
+#2020-10-07
+#14:38
+#Balayage par: lalg1702
+#ScanTask Size: 11
+
+#Instrument: YokoGS200@YokoGS200.lvclass Function:SetVoltage (V); Parameters:*BeforeWait(ms):0*AfterWait(ms):0 Source Range: 1V; AutoRange: Off;
+
+#YokoGS200.Volt(V)             	Time.Temps Abs(ms)            
+0E+0	3.684940730479E+9
+100E-3	3.68494073054E+9
+200E-3	3.684940730601E+9
+300E-3	3.684940730663E+9
+400E-3	3.684940730725E+9
+500E-3	3.684940730784E+9
+600E-3	3.684940730845E+9
+700E-3	3.684940730907E+9
+800E-3	3.684940730968E+9
+900E-3	3.684940731032E+9
+1E+0	3.684940731092E+9

@@ -1,0 +1,9 @@
+#2020-10-30
+#09:27
+#Balayage par: dphy-morrislab
+#ScanTask Size: 11
+
+#Instrument: LSCI332@LSCI332.lvclass Function:Read_InputB (K,S); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+#Instrument: LSCI332@LSCI332.lvclass Function:Read_Heater (%,W); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+
+#Tools.Time(s)                 	LSCI332.Temp(K)               	LSCI332.Sensor(U)             	LSCI332.Heater(%)             	LSCI332.Heater(W)             

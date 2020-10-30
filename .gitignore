@@ -5,3 +5,8 @@ test apM.dat
 
 InitVal.ini
 InitVal.ini
+*.aliases
+*.dat
+*.xml
+*.dat
+*.xml

@@ -1,0 +1,16 @@
+#2020-10-30
+#09:14
+#Balayage par: dphy-morrislab
+#ScanTask Size: 11
+
+#Instrument: LSCI332@LSCI332.lvclass Function:Read_InputA (K,S); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+
+#Tools.Time(s)                 	LSCI332.Temp(K)               	LSCI332.Sensor(U)             
+3.686908493262E+9	0E+0	0E+0
+3.686908553301E+9	0E+0	0E+0
+3.686908613322E+9	0E+0	0E+0
+3.686908673342E+9	0E+0	0E+0
+3.686908733372E+9	0E+0	0E+0
+3.686908816074E+9	0E+0	0E+0
+3.686908886944E+9	0E+0	0E+0
+3.686908946993E+9	0E+0	0E+0

@@ -75,6 +75,8 @@
 		<Item Name="YokoGS200 Set Output.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Output.vi"/>
 		<Item Name="YokoGS200 Get Level.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Level.vi"/>
 		<Item Name="YokoGS200 Get Output.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Output.vi"/>
+		<Item Name="LSCI332 SetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetResistance.vi"/>
+		<Item Name="LSCI332 GetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetResistance.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -456,7 +458,6 @@
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>

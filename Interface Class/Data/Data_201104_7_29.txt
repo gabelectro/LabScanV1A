@@ -1,0 +1,11 @@
+#2020-11-04
+#10:08
+#Balayage par: dphy-morrislab
+#ScanTask Size: 201
+
+#Instrument: Monospec50@Monospec50.lvclass Function:Position (nm); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+#Instrument: SR400@SR400.lvclass Function:Read_Count (Arb); Parameters:*BeforeWait(ms):0*AfterWait(ms):0; NbPeriod:5; Dwell(s)1.000000E-2; T Preset(s)1.000000E+0; Mode:A,B for T Preset
+
+#Monospec50.Position(nm)       	SR400.Compte moy(ph)          
+560E+0	1.0184E+3
+560.5E+0	1.2908E+3

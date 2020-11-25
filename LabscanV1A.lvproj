@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="12008004">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="Poste de travail" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -17,17 +17,18 @@
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface Class/Interface.lvclass"/>
 		<Item Name="Calculations.lvclass" Type="LVClass" URL="../Calculations Class/Calculations.lvclass"/>
 		<Item Name="DefaultDev.lvclass" Type="LVClass" URL="../DefaultDev/DefaultDev.lvclass"/>
-		<Item Name="EGG5210.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/EGG5210/EGG5210.lvclass"/>
-		<Item Name="AppliedMotionDrive.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AppliedMotionDrive/AppliedMotionDrive.lvclass"/>
 		<Item Name="Tools.lvclass" Type="LVClass" URL="../DevicesClass/Tools/Tools.lvclass"/>
-		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
-		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
-		<Item Name="SR830.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR830/SR830.lvclass"/>
-		<Item Name="LeafMagnetometer.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/LeafMagnetometer/LeafMagnetometer.lvclass"/>
-		<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
+		<Item Name="AppliedMotionDrive.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AppliedMotionDrive/AppliedMotionDrive.lvclass"/>
+		<Item Name="EGG5210.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/EGG5210/EGG5210.lvclass"/>
 		<Item Name="KlingerMotor.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/KlingerMotor/KlingerMotor.lvclass"/>
-		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
+		<Item Name="LeafMagnetometer.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/LeafMagnetometer/LeafMagnetometer.lvclass"/>
 		<Item Name="LSCI332.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/LSCI332/LSCI332.lvclass"/>
+		<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
+		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
+		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
+		<Item Name="SR830.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR830/SR830.lvclass"/>
+		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
+		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
 		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
 		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
@@ -234,6 +235,9 @@
 				<Item Name="TIO Stream Read Non-blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read Non-blocking_Ser.vi"/>
 				<Item Name="TIO Stream Read_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read_Ser.vi"/>
 				<Item Name="TIO Stream Write_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Write_Ser.vi"/>
+				<Item Name="Triax320 GetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetPosition.vi"/>
+				<Item Name="Triax320 SetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetPosition.vi"/>
+				<Item Name="Triax320 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 VisaRW.vi"/>
 				<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
 				<Item Name="WritebyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRef.vi"/>
@@ -266,6 +270,7 @@
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D DBL NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I16 NChan NSamp).vi"/>
@@ -274,6 +279,7 @@
 				<Item Name="DAQmx Read (Analog 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U32 NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Counter 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Counter 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL NChan 1Samp).vi"/>
@@ -298,6 +304,7 @@
 				<Item Name="DAQmx Read (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi"/>
 				<Item Name="DAQmx Read (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U8 NChan NSamp).vi"/>
@@ -308,6 +315,7 @@
 				<Item Name="DAQmx Read (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U16 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U32 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
@@ -397,7 +405,7 @@
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -427,6 +435,7 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
@@ -459,6 +468,7 @@
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
@@ -529,6 +539,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Master copy</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{603416FD-2E91-452B-BFFB-CF1B29540D2B}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Répertoire de destination</Property>
 				<Property Name="Destination[0].path" Type="Path">../Master copy</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>

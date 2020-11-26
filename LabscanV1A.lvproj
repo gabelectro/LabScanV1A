@@ -79,6 +79,9 @@
 		<Item Name="LSCI332 SetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetResistance.vi"/>
 		<Item Name="LSCI332 GetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetResistance.vi"/>
 		<Item Name="YokoGS200 Set Level2.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Level2.vi"/>
+		<Item Name="Triax320 SetParams.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetParams.vi"/>
+		<Item Name="TriaxParams.ctl" Type="VI" URL="/&lt;userlib&gt;/Triax320/TriaxParams.ctl"/>
+		<Item Name="Triax320 GetParams.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetParams.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

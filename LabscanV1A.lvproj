@@ -26,6 +26,7 @@
 		<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
 		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
 		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
+		<Item Name="SR530.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR530/SR530.lvclass"/>
 		<Item Name="SR830.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR830/SR830.lvclass"/>
 		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
 		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
@@ -58,30 +59,8 @@
 		<Item Name="BDClassCluster.ctl" Type="VI" URL="../DevicesClass/BaseDevice/BDClassCluster.ctl"/>
 		<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
 		<Item Name="CreateCurveNamesvb1.vi" Type="VI" URL="../Experiment Class/CreateCurveNamesvb1.vi"/>
-		<Item Name="LSCI332CurveHandler.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332CurveHandler.vi"/>
-		<Item Name="LSCI332ScanCalibName.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ScanCalibName.vi"/>
-		<Item Name="LSCI332ReadCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadCalFile.vi"/>
-		<Item Name="LSCI332WriteCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalFile.vi"/>
-		<Item Name="LSCI332ReadCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadCalib.vi"/>
-		<Item Name="LSCI332WriteCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalib.vi"/>
-		<Item Name="LSCI332 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 ErrorHandler.vi"/>
-		<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
-		<Item Name="YokoGS200 Get FuncAndRg.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get FuncAndRg.vi"/>
-		<Item Name="YokoGS200 Set FuncAndRg.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set FuncAndRg.vi"/>
-		<Item Name="YokoGS200 Set Level.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Level.vi"/>
-		<Item Name="YokoGS200 lvl_states ctl.ctl" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 lvl_states ctl.ctl"/>
-		<Item Name="YokoGS200 Set Limits.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Limits.vi"/>
-		<Item Name="YokoGS200 Get Limits.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Limits.vi"/>
-		<Item Name="YokoGS200 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 CheckStatus.vi"/>
-		<Item Name="YokoGS200 Set Output.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Output.vi"/>
-		<Item Name="YokoGS200 Get Level.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Level.vi"/>
-		<Item Name="YokoGS200 Get Output.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Output.vi"/>
-		<Item Name="LSCI332 SetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetResistance.vi"/>
-		<Item Name="LSCI332 GetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetResistance.vi"/>
-		<Item Name="YokoGS200 Set Level2.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Level2.vi"/>
-		<Item Name="Triax320 SetParams.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetParams.vi"/>
-		<Item Name="TriaxParams.ctl" Type="VI" URL="/&lt;userlib&gt;/Triax320/TriaxParams.ctl"/>
-		<Item Name="Triax320 GetParams.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetParams.vi"/>
+		<Item Name="Triax320 SetTurretPos.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetTurretPos.vi"/>
+		<Item Name="Triax320 GetStepPos.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetStepPos.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -137,11 +116,13 @@
 				<Item Name="KlingerV2 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 VisaRW.vi"/>
 				<Item Name="LockInPar.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/LockInPar.ctl"/>
 				<Item Name="LSCI332 ControlSetup.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 ControlSetup.vi"/>
+				<Item Name="LSCI332 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 ErrorHandler.vi"/>
 				<Item Name="LSCI332 GetCtrlMode.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetCtrlMode.vi"/>
 				<Item Name="LSCI332 GetLoopPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetLoopPar.vi"/>
 				<Item Name="LSCI332 GetManOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetManOutput.vi"/>
 				<Item Name="LSCI332 GetPID.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetPID.vi"/>
 				<Item Name="LSCI332 GetRamp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetRamp.vi"/>
+				<Item Name="LSCI332 GetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetResistance.vi"/>
 				<Item Name="LSCI332 GetSetPoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetSetPoint.vi"/>
 				<Item Name="LSCI332 GetZoneInfo.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetZoneInfo.vi"/>
 				<Item Name="LSCI332 SetCtrlMode.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetCtrlMode.vi"/>
@@ -149,14 +130,21 @@
 				<Item Name="LSCI332 SetManOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetManOutput.vi"/>
 				<Item Name="LSCI332 SetPID.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetPID.vi"/>
 				<Item Name="LSCI332 SetRamp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetRamp.vi"/>
+				<Item Name="LSCI332 SetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetResistance.vi"/>
 				<Item Name="LSCI332 SetSetpoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetSetpoint.vi"/>
 				<Item Name="LSCI332 SetZoneInfo.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetZoneInfo.vi"/>
 				<Item Name="LSCI332 Zone Setup.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 Zone Setup.vi"/>
+				<Item Name="LSCI332CurveHandler.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332CurveHandler.vi"/>
+				<Item Name="LSCI332ReadCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadCalFile.vi"/>
+				<Item Name="LSCI332ReadCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadCalib.vi"/>
 				<Item Name="LSCI332ReadHeater.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadHeater.vi"/>
 				<Item Name="LSCI332ReadSensor.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadSensor.vi"/>
 				<Item Name="LSCI332ReadTemp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadTemp.vi"/>
+				<Item Name="LSCI332ScanCalibName.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ScanCalibName.vi"/>
 				<Item Name="LSCI332SetHeatRange.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332SetHeatRange.vi"/>
 				<Item Name="LSCI332VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332VisaRW.vi"/>
+				<Item Name="LSCI332WriteCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalFile.vi"/>
+				<Item Name="LSCI332WriteCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalib.vi"/>
 				<Item Name="MonoSpec50 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 ErrorHandler.vi"/>
 				<Item Name="MonoSpec50 Find Ref Position.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position.vi"/>
 				<Item Name="MonoSpec50 Goto States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Goto States.ctl"/>
@@ -200,6 +188,12 @@
 				<Item Name="SR400 SetCountSource.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetCountSource.vi"/>
 				<Item Name="SR400 SetDiscParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetDiscParams.vi"/>
 				<Item Name="SR400 SetGateParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetGateParams.vi"/>
+				<Item Name="Sr530 Autoscale.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 Autoscale.vi"/>
+				<Item Name="Sr530 ChaînePar.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 ChaînePar.vi"/>
+				<Item Name="Sr530 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 CheckStatus.vi"/>
+				<Item Name="Sr530 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 Read Param.vi"/>
+				<Item Name="Sr530 ReadCh.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 ReadCh.vi"/>
+				<Item Name="Sr530 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 VisaRW.vi"/>
 				<Item Name="Sr830 Autoscale.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Autoscale.vi"/>
 				<Item Name="Sr830 AuxOut.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 AuxOut.vi"/>
 				<Item Name="Sr830 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 CheckStatus.vi"/>
@@ -238,9 +232,16 @@
 				<Item Name="TIO Stream Read Non-blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read Non-blocking_Ser.vi"/>
 				<Item Name="TIO Stream Read_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read_Ser.vi"/>
 				<Item Name="TIO Stream Write_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Write_Ser.vi"/>
+				<Item Name="Triax Init States.ctl" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax Init States.ctl"/>
+				<Item Name="Triax320 GetParams.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetParams.vi"/>
 				<Item Name="Triax320 GetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetPosition.vi"/>
+				<Item Name="Triax320 GetTurretPos.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetTurretPos.vi"/>
+				<Item Name="Triax320 Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 Initialize.vi"/>
+				<Item Name="Triax320 SetParams.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetParams.vi"/>
 				<Item Name="Triax320 SetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetPosition.vi"/>
+				<Item Name="Triax320 SetSlits.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetSlits.vi"/>
 				<Item Name="Triax320 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 VisaRW.vi"/>
+				<Item Name="TriaxParams.ctl" Type="VI" URL="/&lt;userlib&gt;/Triax320/TriaxParams.ctl"/>
 				<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
 				<Item Name="WritebyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRef.vi"/>
@@ -251,6 +252,17 @@
 				<Item Name="WritebyWeakRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefNum.vi"/>
 				<Item Name="WriteI32ClusterArray.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteI32ClusterArray.vi"/>
 				<Item Name="WriteScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteScanPatternGen.vi"/>
+				<Item Name="YokoGS200 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 CheckStatus.vi"/>
+				<Item Name="YokoGS200 Get FuncAndRg.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get FuncAndRg.vi"/>
+				<Item Name="YokoGS200 Get Level.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Level.vi"/>
+				<Item Name="YokoGS200 Get Limits.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Limits.vi"/>
+				<Item Name="YokoGS200 Get Output.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Output.vi"/>
+				<Item Name="YokoGS200 lvl_states ctl.ctl" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 lvl_states ctl.ctl"/>
+				<Item Name="YokoGS200 Set FuncAndRg.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set FuncAndRg.vi"/>
+				<Item Name="YokoGS200 Set Level.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Level.vi"/>
+				<Item Name="YokoGS200 Set Limits.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Limits.vi"/>
+				<Item Name="YokoGS200 Set Output.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Set Output.vi"/>
+				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

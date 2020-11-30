@@ -1,0 +1,31 @@
+#2020-11-27
+#15:36
+#Balayage par: Administrateur
+#ScanTask Size: 301
+
+#Instrument: Triax320@Triax320.lvclass Function:Position (nm); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+#Instrument: SR530@SR530.lvclass Function:Read Mag & Phase (V,°); Parameters:*BeforeWait(ms):0*AfterWait(ms):0BandFilter: On; LineFilter1x: On; LineFilter2x: On; Expand Ch1: Off; Expand Ch2: Off; Sensitivity: 20 µV; Pre Time: 300 ms; Post Time: 1 s; Dynamic Res.: Low; Reference Trigger: Negative; Channels Settings: R, Teta; Frequency: 320.000000; 
+
+#Triax320.Position(nm)         	SR530.Mag(V)                  	SR530.Phase(°)                
+699.9754E+0	14.49E-6	104.55E+0
+701.009E+0	14.19E-6	102.95E+0
+701.978E+0	14.065E-6	102.7E+0
+703.011E+0	14.415E-6	102.9E+0
+703.9791E+0	14.02E-6	103.15E+0
+705.0117E+0	14.665E-6	103.45E+0
+705.9793E+0	14.715E-6	102.05E+0
+707.011E+0	14.56E-6	103.25E+0
+707.9778E+0	14.55E-6	102.4E+0
+709.009E+0	15.33E-6	102.55E+0
+709.9754E+0	15.655E-6	102.95E+0
+711.0058E+0	15.265E-6	102.45E+0
+711.9714E+0	15.36E-6	103.95E+0
+713.0012E+0	15.09E-6	103.5E+0
+714.0306E+0	15.13E-6	103.15E+0
+714.9952E+0	14.9E-6	102.9E+0
+716.024E+0	15.035E-6	102.9E+0
+716.9882E+0	15.2E-6	103.35E+0
+718.0162E+0	15.395E-6	103.65E+0
+718.9798E+0	15.63E-6	103.85E+0
+720.007E+0	15.59E-6	103.55E+0
+720.9698E+0	15.545E-6	104.7E+0

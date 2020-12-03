@@ -1,0 +1,21 @@
+#2020-12-02
+#18:09
+#Balayage par: Administrateur
+#ScanTask Size: 53
+
+#Instrument: Triax320@Triax320.lvclass Function:Position (nm); Parameters:*BeforeWait(ms):0*AfterWait(ms):0; Grating#: 0; Line Density(Grv/mm): 1800; Blaze: 400nm; Input Slit(mm): 0.100; Output Slit(mm): 1.000;
+#Instrument: SR530@SR530.lvclass Function:Read Mag & Phase (V,°); Parameters:*BeforeWait(ms):1000*AfterWait(ms):0BandFilter: On; LineFilter1x: On; LineFilter2x: On; Expand Ch1: Off; Expand Ch2: Off; Sensitivity: ; Pre Time: 300 ms; Post Time: 0.1 s; Dynamic Res.: Low; Reference Trigger: Symmetric; Channels Settings: R, Teta; Frequency: 0.000000; 
+
+#Triax320.Position(nm)         	SR530.Mag(V)                  	SR530.Phase(°)                
+502.0081333333E+0	300E-6	0E+0
+500.9922666667E+0	800E-6	0E+0
+500.0182E+0	0E+0	0E+0
+499.0012E+0	1.2E-3	0E+0
+497.9838E+0	600E-6	0E+0
+497.0081333333E+0	0E+0	0E+0
+495.9896E+0	0E+0	0E+0
+495.0129333333E+0	0E+0	0E+0
+493.9932666667E+0	1.1E-3	0E+0
+493.0156E+0	0E+0	0E+0
+491.995E+0	1.2E-3	0E+0
+491.0163333333E+0	0E+0	0E+0

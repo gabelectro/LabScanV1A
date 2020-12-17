@@ -31,6 +31,7 @@
 		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
 		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
+		<Item Name="Agilent34410A.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Agilent34410A/Agilent34410A.lvclass"/>
 		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
 		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
 		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
@@ -61,6 +62,19 @@
 		<Item Name="CreateCurveNamesvb1.vi" Type="VI" URL="../Experiment Class/CreateCurveNamesvb1.vi"/>
 		<Item Name="Triax320 SetTurretPos.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetTurretPos.vi"/>
 		<Item Name="Triax320 GetStepPos.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetStepPos.vi"/>
+		<Item Name="Agilent34410A VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A VisaRW.vi"/>
+		<Item Name="Agilent34410A Set Function.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Function.vi"/>
+		<Item Name="Agilent34410A Get FuncAndRg.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Get FuncAndRg.vi"/>
+		<Item Name="Agilent34410A Set Range.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Range.vi"/>
+		<Item Name="Agilent34410A Get Errors.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Get Errors.vi"/>
+		<Item Name="Agilent34410A DMM_Func.ctl" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A DMM_Func.ctl"/>
+		<Item Name="Range test.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Range test.vi"/>
+		<Item Name="Agilent34410A Set AutoRange.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set AutoRange.vi"/>
+		<Item Name="Agilent34410A Set TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set TrigSource.vi"/>
+		<Item Name="Agilent34410A Get TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Get TrigSource.vi"/>
+		<Item Name="Agilent34410A Read.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Read.vi"/>
+		<Item Name="Agilent34410A Set Apperture.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Apperture.vi"/>
+		<Item Name="Agilent34410A Get Apperture.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Get Apperture.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

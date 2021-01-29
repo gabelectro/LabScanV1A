@@ -18,6 +18,7 @@
 		<Item Name="Calculations.lvclass" Type="LVClass" URL="../Calculations Class/Calculations.lvclass"/>
 		<Item Name="DefaultDev.lvclass" Type="LVClass" URL="../DefaultDev/DefaultDev.lvclass"/>
 		<Item Name="Tools.lvclass" Type="LVClass" URL="../DevicesClass/Tools/Tools.lvclass"/>
+		<Item Name="Agilent34410A.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Agilent34410A/Agilent34410A.lvclass"/>
 		<Item Name="AppliedMotionDrive.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AppliedMotionDrive/AppliedMotionDrive.lvclass"/>
 		<Item Name="EGG5210.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/EGG5210/EGG5210.lvclass"/>
 		<Item Name="KlingerMotor.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/KlingerMotor/KlingerMotor.lvclass"/>
@@ -31,7 +32,7 @@
 		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
 		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
-		<Item Name="Agilent34410A.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Agilent34410A/Agilent34410A.lvclass"/>
+		<Item Name="Spex.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Spex/Spex.lvclass"/>
 		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
 		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
 		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
@@ -190,6 +191,9 @@
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
+				<Item Name="Spex ScanMove.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex ScanMove.vi"/>
+				<Item Name="Spex ScanPar.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex ScanPar.vi"/>
+				<Item Name="Spex StartScan.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex StartScan.vi"/>
 				<Item Name="SR400 Control.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 Control.vi"/>
 				<Item Name="SR400 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ErrorHandler.vi"/>
 				<Item Name="SR400 GetCountParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetCountParams.vi"/>

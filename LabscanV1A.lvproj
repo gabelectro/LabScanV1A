@@ -11,7 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="doc" Type="Folder"/>
+		<Item Name="doc" Type="Folder">
+			<Item Name="Dev notes.docx" Type="Document" URL="../Dev notes.docx"/>
+			<Item Name="Labscan Graph Func.docx" Type="Document" URL="/H/Mes documents/Programmes Labview/LabScan/Labscan Graph Func.docx"/>
+			<Item Name="LabScan User Guide v2.docx" Type="Document" URL="/H/Mes documents/Programmes Labview/LabScan/LabScan User Guide v2.docx"/>
+		</Item>
 		<Item Name="BaseDevice.lvclass" Type="LVClass" URL="../DevicesClass/BaseDevice/BaseDevice.lvclass"/>
 		<Item Name="Experiment.lvclass" Type="LVClass" URL="../Experiment Class/Experiment.lvclass"/>
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface Class/Interface.lvclass"/>
@@ -27,17 +31,19 @@
 		<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
 		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
 		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
+		<Item Name="Spex.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Spex/Spex.lvclass"/>
 		<Item Name="SR530.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR530/SR530.lvclass"/>
 		<Item Name="SR830.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR830/SR830.lvclass"/>
 		<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
+		<Item Name="SymphonyCCD.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SymphonyCCD/SymphonyCCD.lvclass"/>
 		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
-		<Item Name="Spex.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Spex/Spex.lvclass"/>
 		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
 		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
 		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
 		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
+		<Item Name="InitDataQArrDevGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/InitDataQArrDevGen.vi"/>
 		<Item Name="ColorGraphWindow_LS1.vi" Type="VI" URL="../ColorGraphWindow_LS1.vi"/>
 		<Item Name="FilterScanPar_LS1.vi" Type="VI" URL="../FilterScanPar_LS1.vi"/>
 		<Item Name="GetFiltDataFilesNm.vi" Type="VI" URL="../GetFiltDataFilesNm.vi"/>
@@ -76,9 +82,15 @@
 		<Item Name="Agilent34410A Read.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Read.vi"/>
 		<Item Name="Agilent34410A Set Apperture.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Apperture.vi"/>
 		<Item Name="Agilent34410A Get Apperture.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Get Apperture.vi"/>
+		<Item Name="Symphony Operate.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Operate.vi"/>
+		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
+		<Item Name="testqueue buff alooc.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/testqueue buff alooc.vi"/>
+		<Item Name="ArrDevData.ctl" Type="VI" URL="../Experiment Class/ArrDevData.ctl"/>
+		<Item Name="AddCurveStatesArrDev.ctl" Type="VI" URL="../Interface Class/AddCurveStatesArrDev.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="AcqParState.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/AcqParState.ctl"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
@@ -188,9 +200,12 @@
 				<Item Name="ReadChStates.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadChStates.ctl"/>
 				<Item Name="ReadFunctions.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadFunctions.ctl"/>
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
+				<Item Name="SetAcqParMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/SetAcqParMessage.ctl"/>
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
+				<Item Name="Spex Goto.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Goto.vi"/>
+				<Item Name="Spex Halt.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Halt.vi"/>
 				<Item Name="Spex ScanMove.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex ScanMove.vi"/>
 				<Item Name="Spex ScanPar.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex ScanPar.vi"/>
 				<Item Name="Spex StartScan.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex StartScan.vi"/>
@@ -225,6 +240,15 @@
 				<Item Name="ST5 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Read Param.vi"/>
 				<Item Name="ST5 Write Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Write Param.vi"/>
 				<Item Name="StatesConst.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/StatesConst.ctl"/>
+				<Item Name="Symphony Acq Image States.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Acq Image States.ctl"/>
+				<Item Name="Symphony Acquire Image.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Acquire Image.vi"/>
+				<Item Name="Symphony Format Area.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Format Area.vi"/>
+				<Item Name="Symphony Init ADC &amp; Gain.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Init ADC &amp; Gain.vi"/>
+				<Item Name="Symphony Init.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Init.vi"/>
+				<Item Name="Symphony Read Det Uniq_ID.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Read Det Uniq_ID.vi"/>
+				<Item Name="Symphony ReadTemp.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadTemp.vi"/>
+				<Item Name="Symphony ReadWrite.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadWrite.vi"/>
+				<Item Name="Symphony Setup V2.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Setup V2.vi"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
 				<Item Name="TimerGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerGen.vi"/>
 				<Item Name="TIO Avg AVM Field Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg AVM Field Data.vi"/>
@@ -423,6 +447,7 @@
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
+				<Item Name="Enum Registry Keys.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Keys.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -461,6 +486,7 @@
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
@@ -470,10 +496,24 @@
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="Query Registry Key Info.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Query Registry Key Info.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
@@ -487,6 +527,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -512,6 +553,9 @@
 			</Item>
 			<Item Name="AboutLS1.vi" Type="VI" URL="../AboutLS1.vi"/>
 			<Item Name="AddCurveStates.ctl" Type="VI" URL="../Interface Class/AddCurveStates.ctl"/>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="ArrangeRemPan.vi" Type="VI" URL="../ArrangeRemPan.vi"/>
 			<Item Name="BrowseDataStates.ctl" Type="VI" URL="../BrowseDataStates.ctl"/>
 			<Item Name="ChgGraphConfState.ctl" Type="VI" URL="../Interface Class/ChgGraphConfState.ctl"/>
@@ -532,6 +576,9 @@
 			<Item Name="GetScanFormats.vi" Type="VI" URL="../GetScanFormats.vi"/>
 			<Item Name="GetSubPanState.vi" Type="VI" URL="../GetSubPanState.vi"/>
 			<Item Name="IndexName.vi" Type="VI" URL="../IndexName.vi"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="LoadInstr.ctl" Type="VI" URL="../LoadInstr.ctl"/>
 			<Item Name="LoadInstrConfig_LS1.vi" Type="VI" URL="../LoadInstrConfig_LS1.vi"/>
 			<Item Name="LoadNewGraph_LS1.vi" Type="VI" URL="../LoadNewGraph_LS1.vi"/>

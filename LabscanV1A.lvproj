@@ -84,7 +84,6 @@
 		<Item Name="Agilent34410A Get Apperture.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Get Apperture.vi"/>
 		<Item Name="Symphony Operate.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Operate.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
-		<Item Name="testqueue buff alooc.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/testqueue buff alooc.vi"/>
 		<Item Name="ArrDevData.ctl" Type="VI" URL="../Experiment Class/ArrDevData.ctl"/>
 		<Item Name="AddCurveStatesArrDev.ctl" Type="VI" URL="../Interface Class/AddCurveStatesArrDev.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
@@ -243,6 +242,7 @@
 				<Item Name="Symphony Acq Image States.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Acq Image States.ctl"/>
 				<Item Name="Symphony Acquire Image.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Acquire Image.vi"/>
 				<Item Name="Symphony Format Area.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Format Area.vi"/>
+				<Item Name="Symphony GetProgPar.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony GetProgPar.vi"/>
 				<Item Name="Symphony Init ADC &amp; Gain.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Init ADC &amp; Gain.vi"/>
 				<Item Name="Symphony Init.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Init.vi"/>
 				<Item Name="Symphony Read Det Uniq_ID.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Read Det Uniq_ID.vi"/>
@@ -479,6 +479,7 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>

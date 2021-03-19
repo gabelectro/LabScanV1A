@@ -71,6 +71,7 @@
 		<Item Name="VarParFormats.vi" Type="VI" URL="../VarParFormats.vi"/>
 		<Item Name="ScanlistFormats.vi" Type="VI" URL="../ScanlistFormats.vi"/>
 		<Item Name="WriteHeaderFile.vi" Type="VI" URL="../WriteHeaderFile.vi"/>
+		<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

@@ -1,0 +1,4454 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0.1f3</Version>
+<Object>
+<Name>Objet LabVIEW</Name>
+<NumLevels>1</NumLevels>
+<Class>Interface.lvclass</Class>
+<Version>1.0.0.91</Version>
+<Cluster>
+<Name>Interface.lvclass</Name>
+<NumElts>39</NumElts>
+<Object>
+<Name>Experiment.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>Experiment.lvclass</Class>
+<Version>1.0.0.26</Version>
+<Cluster>
+<Name>Experiment.lvclass</Name>
+<NumElts>26</NumElts>
+<Array>
+<Name>LoadedInst</Name>
+<Dimsize>3</Dimsize>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>Tools.lvclass</Class>
+<Version>1.0.0.13</Version>
+<Version>1.0.0.33</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>42</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Indice de points(Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Time(s)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val>Instrument: Tools@Tools.lvclass Function:Indice de Point (Points); Parameters:*BeforeWait(ms):0*AfterWait(ms):0</Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>13</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 1 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 2 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 3 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 123 (Arb,Arb,Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Scan Pos (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Indice de Point (Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>AbsTime (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Minuteur (s)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Panneaux Infos (Na)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Délais (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>RandomNum (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Multisweep (Sw)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>ScanTime (s)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFuncInd</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>Indice de Point (Points)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanInd</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>Tools</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>6.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>7.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>9.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x803000DD</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1CD0001E</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0xDF700008</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DatDisplayNm</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)</Val>
+</String>
+</Array>
+<Array>
+<Name>ShowInstrNm</Name>
+<Dimsize>2</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParValue</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ParSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<U32>
+<Name>Delta Time(ms)</Name>
+<Val>0</Val>
+</U32>
+<Path>
+<Name>BaseDataPath</Name>
+<Val></Val>
+</Path>
+<Array>
+<Name>SubDatDisplayNm</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>SubScanTable(y)</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>SubVarParNm X</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>SubVarParNm Y</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataBindCtrl</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataCtrl</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Array>
+<Boolean>
+<Name>ReuseVarPar</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Tools.lvclass</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>Courbe 1 (Arb)</Choice>
+<Choice>Courbe 2 (Arb)</Choice>
+<Choice>Courbe 3 (Arb)</Choice>
+<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
+<Choice>Scan Pos (Arb)</Choice>
+<Choice>Indice de Point (Points)</Choice>
+<Choice>AbsTime (ms)</Choice>
+<Choice>Minuteur (s)</Choice>
+<Choice>Panneaux Infos (Na)</Choice>
+<Choice>Délais (ms)</Choice>
+<Choice>RandomNum (Arb)</Choice>
+<Choice>Multisweep (Sw)</Choice>
+<Choice>ScanTime (s)</Choice>
+<Val>5</Val>
+</EW>
+<DBL>
+<Name>Multiplicateur</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Last Sample Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>Tools.lvclass</Class>
+<Version>1.0.0.13</Version>
+<Version>1.0.0.33</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>42</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>ScanPar(Arb)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val>Instrument: Tools@Tools.lvclass Function:Scan Pos (Arb); Parameters:*BeforeWait(ms):0*AfterWait(ms):0</Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>13</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 1 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 2 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 3 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 123 (Arb,Arb,Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Scan Pos (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Indice de Point (Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>AbsTime (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Minuteur (s)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Panneaux Infos (Na)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Délais (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>RandomNum (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Multisweep (Sw)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>ScanTime (s)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFuncInd</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>Scan Pos (Arb)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanInd</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>Tools</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>6.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>12.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>14.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>16.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>18.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val>20.00000000000000</Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x805000EB</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>-1</Val>
+</I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1CE0001C</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0xDF800005</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DatDisplayNm</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)</Val>
+</String>
+</Array>
+<Array>
+<Name>ShowInstrNm</Name>
+<Dimsize>1</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParValue</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ParSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<U32>
+<Name>Delta Time(ms)</Name>
+<Val>0</Val>
+</U32>
+<Path>
+<Name>BaseDataPath</Name>
+<Val></Val>
+</Path>
+<Array>
+<Name>SubDatDisplayNm</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>SubScanTable(y)</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>SubVarParNm X</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>SubVarParNm Y</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataBindCtrl</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataCtrl</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Array>
+<Boolean>
+<Name>ReuseVarPar</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Tools.lvclass</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>Courbe 1 (Arb)</Choice>
+<Choice>Courbe 2 (Arb)</Choice>
+<Choice>Courbe 3 (Arb)</Choice>
+<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
+<Choice>Scan Pos (Arb)</Choice>
+<Choice>Indice de Point (Points)</Choice>
+<Choice>AbsTime (ms)</Choice>
+<Choice>Minuteur (s)</Choice>
+<Choice>Panneaux Infos (Na)</Choice>
+<Choice>Délais (ms)</Choice>
+<Choice>RandomNum (Arb)</Choice>
+<Choice>Multisweep (Sw)</Choice>
+<Choice>ScanTime (s)</Choice>
+<Val>4</Val>
+</EW>
+<DBL>
+<Name>Multiplicateur</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Last Sample Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+<Object>
+<Name>Device.lvclass</Name>
+<NumLevels>2</NumLevels>
+<Class>Tools.lvclass</Class>
+<Version>1.0.0.13</Version>
+<Version>1.0.0.33</Version>
+<Cluster>
+<Name>BaseDevice.lvclass</Name>
+<NumElts>42</NumElts>
+<Refnum>
+<Name>Nom de ressource VISA</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Array>
+<Name>DeviceCtrl</Name>
+<Dimsize>12</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x84E00A7B</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x84F00A4B</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x85000A78</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x85100A82</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x85200A73</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x84C00A7E</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x85300A84</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x85400A76</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x85500A7A</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x856002CD</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x84B00A85</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x85700A4A</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Random Number(Arb)</Val>
+</String>
+</Array>
+<DBL>
+<Name>ScanParamOut</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>HeaderString</Name>
+<Val>Instrument: Tools@Tools.lvclass Function:RandomNum (Arb); Parameters:*BeforeWait(ms):0*AfterWait(ms):0</Val>
+</String>
+<Array>
+<Name>Functions</Name>
+<Dimsize>13</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 1 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 2 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 3 (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Courbe 123 (Arb,Arb,Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Scan Pos (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Indice de Point (Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>AbsTime (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Minuteur (s)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Panneaux Infos (Na)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Délais (ms)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>RandomNum (Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Multisweep (Sw)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>ScanTime (s)</Val>
+</String>
+</Array>
+<I32>
+<Name>ScanFuncInd</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Function</Name>
+<Val>RandomNum (Arb)</Val>
+</String>
+<Boolean>
+<Name>StartStatPanel</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>PanelVIRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x808000C2</Val>
+</Refnum>
+<Refnum>
+<Name>SubPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92600392</Val>
+</Refnum>
+<Array>
+<Name>SubPanelCtrl</Name>
+<Dimsize>12</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>OffsetOut</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MultiplierOut</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Random Number</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Offset</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Multiplier</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>MiseAJour</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.lvclass</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.lvclass Out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error in (no error)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>error out</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Init Program</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Stop</Val>
+</String>
+</Array>
+<I32>
+<Name>LoadedPanInd</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>InstrumentName</Name>
+<Val>Tools</Val>
+</String>
+<Array>
+<Name>AvailFuncPan</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>RandomNum</Val>
+</String>
+</Array>
+<Array>
+<Name>ScanTable</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>ScanPanelRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>ScanPanelPath</Name>
+<Val></Val>
+</Path>
+<DBL>
+<Name>LastScanPos</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Beforewait(ms)</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Afterwait(ms)</Name>
+<Val>0</Val>
+</U32>
+<I32>
+<Name>SynchToClk(ms)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>FuncPanelIndex</Name>
+<Val>0</Val>
+</I32>
+<Refnum>
+<Name>ClassQueue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1CF00006</Val>
+</Refnum>
+<Refnum>
+<Name>ClassEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0xDF900009</Val>
+</Refnum>
+<Array>
+<Name>InstrParam</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DatDisplayNm</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+</Array>
+<Array>
+<Name>ShowInstrNm</Name>
+<Dimsize>1</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val>1</Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm 2</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ShowParValue</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>ShowInstrNm</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ParSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanSuffix</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<U32>
+<Name>Delta Time(ms)</Name>
+<Val>0</Val>
+</U32>
+<Path>
+<Name>BaseDataPath</Name>
+<Val></Val>
+</Path>
+<Array>
+<Name>SubDatDisplayNm</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>SubScanTable(y)</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>ScanParamIn</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>SubVarParNm X</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>SubVarParNm Y</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataBindCtrl</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataCtrl</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>Refnum Cmde</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val></Val>
+</Refnum>
+</Array>
+<Boolean>
+<Name>ReuseVarPar</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Tools.lvclass</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Functions</Name>
+<Choice>Courbe 1 (Arb)</Choice>
+<Choice>Courbe 2 (Arb)</Choice>
+<Choice>Courbe 3 (Arb)</Choice>
+<Choice>Courbe 123 (Arb,Arb,Arb)</Choice>
+<Choice>Scan Pos (Arb)</Choice>
+<Choice>Indice de Point (Points)</Choice>
+<Choice>AbsTime (ms)</Choice>
+<Choice>Minuteur (s)</Choice>
+<Choice>Panneaux Infos (Na)</Choice>
+<Choice>Délais (ms)</Choice>
+<Choice>RandomNum (Arb)</Choice>
+<Choice>Multisweep (Sw)</Choice>
+<Choice>ScanTime (s)</Choice>
+<Val>10</Val>
+</EW>
+<DBL>
+<Name>Multiplicateur</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Positions</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name></Name>
+<Val></Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Last Sample Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+</Array>
+<Array>
+<Name>LoadedFuncArr</Name>
+<Dimsize>3</Dimsize>
+<String>
+<Name></Name>
+<Val>Indice de Point (Points)@Tools</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Scan Pos (Arb)@Tools</Val>
+</String>
+<String>
+<Name></Name>
+<Val>RandomNum (Arb)@Tools</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpRessArr</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name></Name>
+<Val>Na</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpMeasArr</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name></Name>
+<Val>RandomNum (Arb)@Tools</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpScanArr</Name>
+<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
+<String>
+<Name></Name>
+<Val>Indice de Point (Points)@Tools</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Scan Pos (Arb)@Tools</Val>
+</String>
+</Array>
+<Array>
+<Name>ExpHeadArr</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>ScanIndex</Name>
+<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+</Array>
+<Array>
+<Name>MeasIndex</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+</Array>
+<Array>
+<Name>HeadIndex</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>PointCount</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>11</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>11</Val>
+</I32>
+</Array>
+<Array>
+<Name>PanelIndex</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+</Array>
+<Array>
+<Name>ActiveFunc</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>Booléen</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>RessAvail</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>Booléen</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>ExpPanArr</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name></Name>
+<Val>RandomNum (Arb)@Tools</Val>
+</String>
+</Array>
+<Refnum>
+<Name>ScanSubPan</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92900395</Val>
+</Refnum>
+<Array>
+<Name>AvailResArray</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>4</Dimsize>
+<String>
+<Name></Name>
+<Val>ASRL5::INSTR</Val>
+</String>
+<String>
+<Name></Name>
+<Val>COM5</Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>DataNames</Name>
+<Dimsize>4</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+</Array>
+<Array>
+<Name>DatNmDevInd</Name>
+<Dimsize>4</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+</Array>
+<I32>
+<Name>FirstMeasNmInd</Name>
+<Val>3</Val>
+</I32>
+<Array>
+<Name>DisIndex</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>SubPanelRef</Name>
+<Dimsize>4</Dimsize>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92600392</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92700393</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92800394</Val>
+</Refnum>
+<Refnum>
+<Name>Refnum FAsec</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x9320039E</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>ParamIndex 2</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>InstrParamArr</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>LoadedTools</Name>
+<Dimsize>0</Dimsize>
+<Object>
+<Name>Device.lvclass</Name>
+</Object>
+</Array>
+<Array>
+<Name>CalcNameInd</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>ArrDevIndex</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+</Object>
+<Path>
+<Name>DataFileName</Name>
+<Val>C:\Data\tests\Data_210319_0_0.txt</Val>
+</Path>
+<Path>
+<Name>HdrFileName</Name>
+<Val>C:\Data\tests\Header_210319_0_0.dat</Val>
+</Path>
+<Refnum>
+<Name>DataFileRef</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x5B200000</Val>
+</Refnum>
+<Cluster>
+<Name>ScanPars</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Entête</Name>
+<Val>#2021-03-19
+#10:35
+#Balayage par: lalg1702
+#Descritpion Keyword: test1
+#ScanTask Size: 11,11
+##Instrument: Tools@Tools.lvclass Function:Indice de Point (Points); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+#Instrument: Tools@Tools.lvclass Function:Scan Pos (Arb); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+#Instrument: Tools@Tools.lvclass Function:RandomNum (Arb); Parameters:*BeforeWait(ms):0*AfterWait(ms):0
+
+#Tools.Indice de points(Points)	Tools.Time(s)                 	Tools.ScanPar(Arb)            	Tools.Random Number(Arb)      
+</Val>
+</String>
+<Array>
+<Name>Scan list</Name>
+<Dimsize>11</Dimsize>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+</Array>
+<I32>
+<Name>NbCourbe</Name>
+<Val>1</Val>
+</I32>
+<I64>
+<Name>IndCourbe</Name>
+<Val>1</Val>
+</I64>
+<Array>
+<Name>NomDon</Name>
+<Dimsize>4</Dimsize>
+<String>
+<Name>string</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>Tools.Time(s)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>Tools.ScanPar(Arb)</Val>
+</String>
+<String>
+<Name>string</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+</Array>
+<I32>
+<Name>Session </Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Date</Name>
+<Val>2021-03-19</Val>
+</String>
+<String>
+<Name>Time</Name>
+<Val>10:35</Val>
+</String>
+<Array>
+<Name>VarParams</Name>
+<Dimsize>2</Dimsize>
+<Dimsize>2</Dimsize>
+<String>
+<Name>VarPar</Name>
+<Val>Tools.Indice de points(Points)_Scan0</Val>
+</String>
+<String>
+<Name>VarPar</Name>
+<Val>Tools.Time(s)_Scan0</Val>
+</String>
+<String>
+<Name>VarPar</Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>VarPar</Name>
+<Val></Val>
+</String>
+</Array>
+<String>
+<Name>UserName</Name>
+<Val>lalg1702</Val>
+</String>
+<Array>
+<Name>ScanTableSize</Name>
+<Dimsize>2</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>11</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>11</Val>
+</I32>
+</Array>
+<Array>
+<Name>VarPar list</Name>
+<Dimsize>33</Dimsize>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+<String>
+<Name></Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+</Array>
+<String>
+<Name>DescKeyword</Name>
+<Val>test1</Val>
+</String>
+</Cluster>
+<Array>
+<Name>DataQRefs</Name>
+<Dimsize>11</Dimsize>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E40001F</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E500009</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E60000B</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E700017</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E800003</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EA00014</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EB00002</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EC0001A</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20C00034</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20D00035</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20E00036</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>XYGraphCurves</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>11</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>3</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>4</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>7</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name>Numérique</Name>
+<Val>10</Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>AllCurves</Name>
+<Dimsize>11</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+</Array>
+<Array>
+<Name>CurvesParams</Name>
+<Dimsize>11</Dimsize>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16777215</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16777215</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E40001F</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E300010</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16711680</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16711680</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E500009</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EE00007</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>3</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>65280</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>65280</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E60000B</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F10000C</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16776960</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16776960</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E700017</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F400005</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>65535</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>65535</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E800003</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F70001D</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>12</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16711935</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16711935</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EA00014</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FA00022</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>15</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>255</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>255</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EB00002</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FD00025</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>18</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>16744448</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>16744448</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EC0001A</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20000028</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>21</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>8388863</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>8388863</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20C00034</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2030002B</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>24</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>11645283</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>11645283</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20D00035</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2060002E</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>27</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val>Scan0</Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>46096</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>46096</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20E00036</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20900031</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>30</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Array>
+<Array>
+<Name>ScanGphInd</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Array>
+<Name>CurvesSetup</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>CurveParam</Name>
+<NumElts>27</NumElts>
+<String>
+<Name>CurveName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>YParam</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>XParam</Name>
+<Val></Val>
+</String>
+<String>
+<Name>ZParam </Name>
+<Val>Tools.ScanPar(Arb)_Scan0</Val>
+</String>
+<String>
+<Name>GroupName</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>LinWdth</Name>
+<Val>1</Val>
+</U8>
+<U32>
+<Name>PntCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U32>
+<Name>LinCol</Name>
+<Val>4294967295</Val>
+</U32>
+<U8>
+<Name>LablFor</Name>
+<Val>0</Val>
+</U8>
+<U32>
+<Name>XScale</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>YScale</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>Interpol</Name>
+<Val>2</Val>
+</U8>
+<String>
+<Name>DisplayName</Name>
+<Val></Val>
+</String>
+<I16>
+<Name>FillType</Name>
+<Val>-1</Val>
+</I16>
+<U8>
+<Name>LineStyle</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PntStyle</Name>
+<Val>12</Val>
+</U8>
+<U8>
+<Name>BarTyp</Name>
+<Val>0</Val>
+</U8>
+<I32>
+<Name>GraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Visible</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>XScaleName</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>YScaleName</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<Refnum>
+<Name>XYGraph_Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Data Only</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>DataQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<I32>
+<Name>XParamInd</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>ScanInd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Array>
+<Array>
+<Name>ScanDataQ</Name>
+<Dimsize>11</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+</Array>
+<Array>
+<Name>GraphRefArr</Name>
+<Dimsize>1</Dimsize>
+<Refnum>
+<Name>Graph</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x7DD003FB</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>Graph_FA</Name>
+<Dimsize>6</Dimsize>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92A00396</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92B00397</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92C00398</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92D00399</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92E0039A</Val>
+</Refnum>
+<Refnum>
+<Name>FA_G6</Name>
+<RefKind>LV Object</RefKind>
+<RefType>LV Object</RefType>
+<Val>0x92F0039B</Val>
+</Refnum>
+</Array>
+<U8>
+<Name>FirstFreeFA</Name>
+<Val>1</Val>
+</U8>
+<I32>
+<Name>GraphConfig</Name>
+<Val>0</Val>
+</I32>
+<Refnum>
+<Name>PanRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x9310039D</Val>
+</Refnum>
+<Array>
+<Name>FAGraphNumArr</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Graph</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Path>
+<Name>BaseDataPath</Name>
+<Val>C:\Data\tests</Val>
+</Path>
+<Refnum>
+<Name>ListBoxRef</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x870002DC</Val>
+</Refnum>
+<I32>
+<Name>VarParCount</Name>
+<Val>3</Val>
+</I32>
+<Array>
+<Name>GraphQRefArr</Name>
+<Dimsize>1</Dimsize>
+<Refnum>
+<Name>GraphQRef</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1CA00015</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>XScalesNames</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>YScalesNames</Name>
+<Dimsize>1</Dimsize>
+<Dimsize>6</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val></Val>
+</String>
+</Array>
+<Refnum>
+<Name>MainGraphQ</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1C900004</Val>
+</Refnum>
+<Refnum>
+<Name>GraphEvent</Name>
+<RefKind>User Event Refnum</RefKind>
+<Val>0xDF600006</Val>
+</Refnum>
+<Array>
+<Name>2DGraphQRefArr</Name>
+<Dimsize>1</Dimsize>
+<Refnum>
+<Name>GraphQRef</Name>
+<RefKind>Queue</RefKind>
+<Val>0x21A00037</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>Scan2DGphInd</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Array>
+<Name>2DGraphRefArr</Name>
+<Dimsize>1</Dimsize>
+<Refnum>
+<Name>Graph</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x86600A9E</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>2DGphParams</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>2DGphParam</Name>
+<NumElts>8</NumElts>
+<I32>
+<Name>ZDataIndex</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>XParIndex</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>YParIndex</Name>
+<Val>2</Val>
+</I32>
+<Boolean>
+<Name>FillLineFirst</Name>
+<Val>1</Val>
+</Boolean>
+<I32>
+<Name>2DGraphIndex</Name>
+<Val>0</Val>
+</I32>
+<Refnum>
+<Name>XParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>YParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Array>
+<Name>DataQRefs</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>YParQ Ref</Name>
+<RefKind>Queue</RefKind>
+<Val></Val>
+</Refnum>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>GraphNumbers</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Graph</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<I32>
+<Name>LastGrphNum</Name>
+<Val>1</Val>
+</I32>
+<Array>
+<Name>AllDataQ</Name>
+<Dimsize>11</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Random Number(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+</Array>
+<Array>
+<Name>AllQRefs</Name>
+<Dimsize>11</Dimsize>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E40001F</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E500009</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E60000B</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E700017</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E800003</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EA00014</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EB00002</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EC0001A</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20C00034</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20D00035</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20E00036</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>VarParQRefs</Name>
+<Dimsize>33</Dimsize>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E300010</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E900013</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1ED00016</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EE00007</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EF00000</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F000011</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F10000C</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F200008</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F30000D</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F400005</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F50000F</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F600001</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F70001D</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F800020</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F900021</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FA00022</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FB00023</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FC00024</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FD00025</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FE00026</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FF00027</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20000028</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20100029</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2020002A</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2030002B</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2040002C</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2050002D</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2060002E</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2070002F</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20800030</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20900031</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20A00032</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20B00033</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>DatQIndex </Name>
+<Dimsize>11</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>0</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>1</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>2</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>3</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>4</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>5</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>6</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>7</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>8</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>9</Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>1</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val>10</Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>CalcQIndex</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Tableau</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numérique</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>AllVarParQRefs</Name>
+<Dimsize>33</Dimsize>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E300010</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1E900013</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1ED00016</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EE00007</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1EF00000</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F000011</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F10000C</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F200008</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F30000D</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F400005</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F50000F</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F600001</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F70001D</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F800020</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1F900021</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FA00022</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FB00023</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FC00024</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FD00025</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FE00026</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x1FF00027</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20000028</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20100029</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2020002A</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2030002B</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2040002C</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2050002D</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2060002E</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x2070002F</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20800030</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20900031</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20A00032</Val>
+</Refnum>
+<Refnum>
+<Name>queue out</Name>
+<RefKind>Queue</RefKind>
+<Val>0x20B00033</Val>
+</Refnum>
+</Array>
+<Array>
+<Name>AllVarParQ</Name>
+<Dimsize>33</Dimsize>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par0</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par1</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par2</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par3</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par4</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par5</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par6</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par7</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par8</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par9</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Indice de points(Points)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.Time(s)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+<String>
+<Name>Chaîne</Name>
+<Val>Tools.ScanPar(Arb)_Scan0@Tools.ScanPar(Arb)_par10</Val>
+</String>
+</Array>
+</Cluster>
+</Object>
+</LVData>

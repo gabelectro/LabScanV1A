@@ -42,11 +42,14 @@
 		<Item Name="Unload2DGraphVI_LS1.vi" Type="VI" URL="../Unload2DGraphVI_LS1.vi"/>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<Item Name="SetGraphParams.vi" Type="VI" URL="../SetGraphParams.vi"/>
 		<Item Name="KlingerV2 ErrorMessage.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 ErrorMessage.vi"/>
 		<Item Name="ST5 Load Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Load Act .vi"/>
 		<Item Name="ST5 Save Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Save Act .vi"/>
 		<Item Name="ST5 Settings Mess.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Settings Mess.vi"/>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -58,10 +61,13 @@
 		<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		<Item Name="Range test.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Range test.vi"/>
@@ -90,6 +96,9 @@
 				<Item Name="Agilent34410A Set TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set TrigSource.vi"/>
 				<Item Name="Agilent34410A VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A VisaRW.vi"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

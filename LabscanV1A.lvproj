@@ -71,7 +71,7 @@
 		<Item Name="VarParFormats.vi" Type="VI" URL="../VarParFormats.vi"/>
 		<Item Name="ScanlistFormats.vi" Type="VI" URL="../ScanlistFormats.vi"/>
 		<Item Name="WriteHeaderFile.vi" Type="VI" URL="../WriteHeaderFile.vi"/>
-		<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
+		<Item Name="test python datasocket.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/test python datasocket.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -566,6 +566,7 @@
 			<Item Name="ChgGraphConfState.ctl" Type="VI" URL="../Interface Class/ChgGraphConfState.ctl"/>
 			<Item Name="ClassSelectMess.vi" Type="VI" URL="../ClassSelectMess.vi"/>
 			<Item Name="CreateScanPattern_LS1.vi" Type="VI" URL="../CreateScanPattern_LS1.vi"/>
+			<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
 			<Item Name="DataReadTxt.vi" Type="VI" URL="../DataReadTxt.vi"/>
 			<Item Name="DataTree_Add_Crv_Names.vi" Type="VI" URL="../DataTree_Add_Crv_Names.vi"/>
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>

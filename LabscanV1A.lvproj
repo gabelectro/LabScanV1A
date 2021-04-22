@@ -72,6 +72,7 @@
 		<Item Name="ScanlistFormats.vi" Type="VI" URL="../ScanlistFormats.vi"/>
 		<Item Name="WriteHeaderFile.vi" Type="VI" URL="../WriteHeaderFile.vi"/>
 		<Item Name="test python datasocket.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/test python datasocket.vi"/>
+		<Item Name="FilterScanPar_LS1_Old.vi" Type="VI" URL="../FilterScanPar_LS1_Old.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

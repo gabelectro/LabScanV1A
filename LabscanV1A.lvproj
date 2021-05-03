@@ -38,42 +38,42 @@
 		<Item Name="SymphonyCCD.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SymphonyCCD/SymphonyCCD.lvclass"/>
 		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
-		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
-		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
-		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
-		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
-		<Item Name="InitDataQArrDevGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/InitDataQArrDevGen.vi"/>
+		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
+		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
 		<Item Name="ColorGraphWindow_LS1.vi" Type="VI" URL="../ColorGraphWindow_LS1.vi"/>
 		<Item Name="FilterScanPar_LS1.vi" Type="VI" URL="../FilterScanPar_LS1.vi"/>
 		<Item Name="GetFiltDataFilesNm.vi" Type="VI" URL="../GetFiltDataFilesNm.vi"/>
 		<Item Name="GetPltColTable.vi" Type="VI" URL="../GetPltColTable.vi"/>
 		<Item Name="GraphConfCount.vi" Type="VI" URL="../GraphConfCount.vi"/>
 		<Item Name="GraphWindow_LS1.vi" Type="VI" URL="../GraphWindow_LS1.vi"/>
+		<Item Name="InitDataQArrDevGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/InitDataQArrDevGen.vi"/>
 		<Item Name="LoadNew2DGraph_LS1.vi" Type="VI" URL="../LoadNew2DGraph_LS1.vi"/>
 		<Item Name="RangeDataFilesNm.vi" Type="VI" URL="../RangeDataFilesNm.vi"/>
-		<Item Name="SizeMainPanel_LS1.vi" Type="VI" URL="../SizeMainPanel_LS1.vi"/>
+		<Item Name="Range test.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Range test.vi"/>
+		<Item Name="ScanlistFormats.vi" Type="VI" URL="../ScanlistFormats.vi"/>
 		<Item Name="SearchClsterArrInd.vi" Type="VI" URL="../SearchClsterArrInd.vi"/>
 		<Item Name="SetGraphParams.vi" Type="VI" URL="../SetGraphParams.vi"/>
 		<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
-		<Item Name="Unload2DGraphVI_LS1.vi" Type="VI" URL="../Unload2DGraphVI_LS1.vi"/>
-		<Item Name="SetupCalcStates.ctl" Type="VI" URL="../Interface Class/SetupCalcStates.ctl"/>
-		<Item Name="ScanPos.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ScanPos.ctl"/>
-		<Item Name="ClassCluster.ctl" Type="VI" URL="../Experiment Class/ClassCluster.ctl"/>
-		<Item Name="BDClassCluster.ctl" Type="VI" URL="../DevicesClass/BaseDevice/BDClassCluster.ctl"/>
-		<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
-		<Item Name="Range test.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Range test.vi"/>
+		<Item Name="SizeMainPanel_LS1.vi" Type="VI" URL="../SizeMainPanel_LS1.vi"/>
 		<Item Name="Symphony Operate.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Operate.vi"/>
-		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
-		<Item Name="ArrDevData.ctl" Type="VI" URL="../Experiment Class/ArrDevData.ctl"/>
-		<Item Name="AddCurveStatesArrDev.ctl" Type="VI" URL="../Interface Class/AddCurveStatesArrDev.ctl"/>
-		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
+		<Item Name="Unload2DGraphVI_LS1.vi" Type="VI" URL="../Unload2DGraphVI_LS1.vi"/>
 		<Item Name="VarParFormats.vi" Type="VI" URL="../VarParFormats.vi"/>
-		<Item Name="ScanlistFormats.vi" Type="VI" URL="../ScanlistFormats.vi"/>
 		<Item Name="WriteHeaderFile.vi" Type="VI" URL="../WriteHeaderFile.vi"/>
 		<Item Name="test python datasocket.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/test python datasocket.vi"/>
 		<Item Name="FilterScanPar_LS1_Old.vi" Type="VI" URL="../FilterScanPar_LS1_Old.vi"/>
 		<Item Name="Symphony ReadWrite test.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadWrite test.vi"/>
+		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
+		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
+		<Item Name="AddCurveStatesArrDev.ctl" Type="VI" URL="../Interface Class/AddCurveStatesArrDev.ctl"/>
+		<Item Name="ArrDevData.ctl" Type="VI" URL="../Experiment Class/ArrDevData.ctl"/>
+		<Item Name="BDClassCluster.ctl" Type="VI" URL="../DevicesClass/BaseDevice/BDClassCluster.ctl"/>
+		<Item Name="ClassCluster.ctl" Type="VI" URL="../Experiment Class/ClassCluster.ctl"/>
+		<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
+		<Item Name="ScanPos.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ScanPos.ctl"/>
+		<Item Name="SetupCalcStates.ctl" Type="VI" URL="../Interface Class/SetupCalcStates.ctl"/>
+		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
+		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -234,6 +234,7 @@
 				<Item Name="Sr830 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Read Param.vi"/>
 				<Item Name="Sr830 ReadCh.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 ReadCh.vi"/>
 				<Item Name="Sr830 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 VisaRW.vi"/>
+				<Item Name="Sr830 Write Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Write Param.vi"/>
 				<Item Name="ST5 Check Errors.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Check Errors.vi"/>
 				<Item Name="ST5 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Goto.vi"/>
 				<Item Name="ST5 Load Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Load Act .vi"/>

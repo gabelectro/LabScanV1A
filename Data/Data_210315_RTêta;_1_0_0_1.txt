@@ -1,6 +1,0 @@
-1E+0	0E+0
-2E+0	0E+0
-
-SymphonyCCD.YPixels_Scan0     	                              
-0E+0
-1E+0

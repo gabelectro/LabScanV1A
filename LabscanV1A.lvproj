@@ -74,6 +74,10 @@
 		<Item Name="SetupCalcStates.ctl" Type="VI" URL="../Interface Class/SetupCalcStates.ctl"/>
 		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
 		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
+		<Item Name="ReadValByRefVariant.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefVariant.vi"/>
+		<Item Name="ReadValByRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRef.vi"/>
+		<Item Name="ReadValByRefDbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefDbl.vi"/>
+		<Item Name="ReadValByRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefBool.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

@@ -78,6 +78,15 @@
 		<Item Name="ReadValByRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRef.vi"/>
 		<Item Name="ReadValByRefDbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefDbl.vi"/>
 		<Item Name="ReadValByRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefBool.vi"/>
+		<Item Name="GetHeaderFilePar.vi" Type="VI" URL="../GetHeaderFilePar.vi"/>
+		<Item Name="ModHeaderFilePar.vi" Type="VI" URL="../ModHeaderFilePar.vi"/>
+		<Item Name="ModHeaderFileItem.vi" Type="VI" URL="../ModHeaderFileItem.vi"/>
+		<Item Name="Test Tree ctrl.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/Test Tree ctrl.vi"/>
+		<Item Name="DataTreeOrderSess.vi" Type="VI" URL="../DataTreeOrderSess.vi"/>
+		<Item Name="DataTreeOrderScan.vi" Type="VI" URL="../DataTreeOrderScan.vi"/>
+		<Item Name="DataReadTxtFileMod.vi" Type="VI" URL="../DataReadTxtFileMod.vi"/>
+		<Item Name="conversion pixel camera.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/conversion pixel camera.vi"/>
+		<Item Name="Symphony Wavelenght Conv.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Wavelenght Conv.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

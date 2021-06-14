@@ -61,7 +61,6 @@
 		<Item Name="VarParFormats.vi" Type="VI" URL="../VarParFormats.vi"/>
 		<Item Name="WriteHeaderFile.vi" Type="VI" URL="../WriteHeaderFile.vi"/>
 		<Item Name="test python datasocket.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/test python datasocket.vi"/>
-		<Item Name="FilterScanPar_LS1_Old.vi" Type="VI" URL="../FilterScanPar_LS1_Old.vi"/>
 		<Item Name="Symphony ReadWrite test.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadWrite test.vi"/>
 		<Item Name="2DGraphQData.ctl" Type="VI" URL="../2DGraphQData.ctl"/>
 		<Item Name="2DGraphSetup.ctl" Type="VI" URL="../Interface Class/2DGraphSetup.ctl"/>
@@ -88,7 +87,9 @@
 		<Item Name="conversion pixel camera.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/conversion pixel camera.vi"/>
 		<Item Name="Symphony Wavelenght Conv.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Wavelenght Conv.vi"/>
 		<Item Name="ModHeaderFile.vi" Type="VI" URL="../ModHeaderFile.vi"/>
-		<Item Name="Symphony Format CrvNames.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Format CrvNames.vi"/>
+		<Item Name="ReadValByRefU32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU32.vi"/>
+		<Item Name="ReadValByRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU16.vi"/>
+		<Item Name="Symphony AverageDat.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony AverageDat.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -263,9 +264,11 @@
 				<Item Name="Symphony Acquire Image.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Acquire Image.vi"/>
 				<Item Name="Symphony Format Area.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Format Area.vi"/>
 				<Item Name="Symphony Format AreaV2.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Format AreaV2.vi"/>
+				<Item Name="Symphony Format CrvNames.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Format CrvNames.vi"/>
 				<Item Name="Symphony GetProgPar.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony GetProgPar.vi"/>
 				<Item Name="Symphony Init ADC &amp; Gain.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Init ADC &amp; Gain.vi"/>
 				<Item Name="Symphony Init.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Init.vi"/>
+				<Item Name="Symphony ProcessDat.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ProcessDat.vi"/>
 				<Item Name="Symphony Read Det Uniq_ID.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Read Det Uniq_ID.vi"/>
 				<Item Name="Symphony ReadTemp.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadTemp.vi"/>
 				<Item Name="Symphony ReadWrite.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadWrite.vi"/>

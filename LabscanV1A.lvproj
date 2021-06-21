@@ -38,6 +38,7 @@
 		<Item Name="SymphonyCCD.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SymphonyCCD/SymphonyCCD.lvclass"/>
 		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
+		<Item Name="AttoAMC.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AttoAMC/AttoAMC.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
@@ -90,6 +91,9 @@
 		<Item Name="ReadValByRefU32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU32.vi"/>
 		<Item Name="ReadValByRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU16.vi"/>
 		<Item Name="Symphony AverageDat.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony AverageDat.vi"/>
+		<Item Name="Running Avg.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Running Avg.vi"/>
+		<Item Name="Symphony 3d_Data_to_2d.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony 3d_Data_to_2d.vi"/>
+		<Item Name="ClassQueueMess.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ClassQueueMess.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -334,10 +338,13 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
+				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
@@ -500,6 +507,7 @@
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -508,6 +516,8 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -521,6 +531,7 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
+				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
@@ -557,6 +568,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -578,6 +590,7 @@
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="AboutLS1.vi" Type="VI" URL="../AboutLS1.vi"/>
 			<Item Name="AddCurveStates.ctl" Type="VI" URL="../Interface Class/AddCurveStates.ctl"/>
@@ -588,15 +601,24 @@
 			<Item Name="BrowseDataStates.ctl" Type="VI" URL="../BrowseDataStates.ctl"/>
 			<Item Name="ChgGraphConfState.ctl" Type="VI" URL="../Interface Class/ChgGraphConfState.ctl"/>
 			<Item Name="ClassSelectMess.vi" Type="VI" URL="../ClassSelectMess.vi"/>
+			<Item Name="connect.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/connect.vi"/>
+			<Item Name="controlAmplitude.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlAmplitude.vi"/>
+			<Item Name="controlEotOutputDeactive.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlEotOutputDeactive.vi"/>
+			<Item Name="controlFrequenzy.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlFrequenzy.vi"/>
+			<Item Name="controlMove.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlMove.vi"/>
+			<Item Name="controlOutput.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlOutput.vi"/>
+			<Item Name="controlTargetPosition.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlTargetPosition.vi"/>
 			<Item Name="CreateScanPattern_LS1.vi" Type="VI" URL="../CreateScanPattern_LS1.vi"/>
 			<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
 			<Item Name="DataReadTxt.vi" Type="VI" URL="../DataReadTxt.vi"/>
 			<Item Name="DataTree_Add_Crv_Names.vi" Type="VI" URL="../DataTree_Add_Crv_Names.vi"/>
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>
 			<Item Name="DataWriteTxt.vi" Type="VI" URL="../DataWriteTxt.vi"/>
+			<Item Name="errorHandler.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/errorHandler.vi"/>
 			<Item Name="FillClassFamTree.vi" Type="VI" URL="../FillClassFamTree.vi"/>
 			<Item Name="FillScanFuncTree.vi" Type="VI" URL="../FillScanFuncTree.vi"/>
 			<Item Name="FormatCrvNames.vi" Type="VI" URL="../Interface Class/FormatCrvNames.vi"/>
+			<Item Name="getActorName.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getActorName.vi"/>
 			<Item Name="GetClassAndFunc.vi" Type="VI" URL="../GetClassAndFunc.vi"/>
 			<Item Name="GetClassPath.vi" Type="VI" URL="../GetClassPath.vi"/>
 			<Item Name="GetDataFromTable.vi" Type="VI" URL="../GetDataFromTable.vi"/>
@@ -605,6 +627,7 @@
 			<Item Name="GetScanFormats.vi" Type="VI" URL="../GetScanFormats.vi"/>
 			<Item Name="GetSubPanState.vi" Type="VI" URL="../GetSubPanState.vi"/>
 			<Item Name="IndexName.vi" Type="VI" URL="../IndexName.vi"/>
+			<Item Name="JSONHandler.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/JSONHandler.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -628,6 +651,7 @@
 			<Item Name="SetupInterfStates.ctl" Type="VI" URL="../Interface Class/SetupInterfStates.ctl"/>
 			<Item Name="SizeGraphPanelV2.vi" Type="VI" URL="../SizeGraphPanelV2.vi"/>
 			<Item Name="StdFileName_LS1.vi" Type="VI" URL="../StdFileName_LS1.vi"/>
+			<Item Name="TCPHandler.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/TCPHandler.vi"/>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">

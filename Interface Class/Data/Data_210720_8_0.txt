@@ -1,0 +1,15 @@
+#2021-07-20
+#10:20:31
+#Balayage par: dphy-morrislab
+#Description Keyword: 
+#ScanTask Size: 6
+##KlingerMotor Infos: Axe W; Nom: Délais THz; Id 0; Type: UE30, Vitesse: 4000 pas/s; Accel:  0.40s; FactConv: 0.000001m/pas; 
+#Instrument: SR830@SR830.lvclass Function:Read X,Y,Mag & Phase (V,V,V,°); Parameters:*BeforeWait(ms):300*AfterWait(ms):0Phase Shift: 138.45°; Reference Source: External; Reference Frequency: 95.5009Hz; Reference Trigger: TTL Rising Edge; Detection Harmonic: 1; Sine Amplitude: 0.5V; Input Configuration: A; Input Shield: Ground; Input Coupling: AC; 1xLineFilter: On; 2xLineFilter: On; Sensitivity: 500µV/pA; Dynamic Reserve: High; Time Constant: 300 ms; Low Pass Filter: 24 dB/oct; Sync Filter: Off; Expand X: Off, Offset: 0%; Expand Y: Off, Offset: 0%; Expand R: Off, Offset: 0%; 
+
+#SondeTHz.Position (ps)        	SondeTHz.Position (mm)        	SR830.X(V)                    	SR830.Y(V)                    	SR830.Mag(V)                  	SR830.Phase(°)                
+-0E+0	-0E+0	0E+0	89.4074E-9	89.4074E-9	90E+0
+6.671281903963E+0	1E+0	208.617E-9	208.617E-9	298.025E-9	47.118E+0
+13.34256380793E+0	2E+0	238.42E-9	89.4074E-9	238.42E-9	21.804E+0
+20.01384571189E+0	3E+0	238.42E-9	-298.025E-9	357.63E-9	-46.734E+0
+26.68512761585E+0	4E+0	29.8025E-9	149.013E-9	149.013E-9	77.472E+0
+33.35640951982E+0	5E+0	178.815E-9	-89.4074E-9	208.617E-9	-22.62E+0

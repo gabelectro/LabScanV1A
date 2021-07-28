@@ -95,6 +95,8 @@
 		<Item Name="Symphony 3d_Data_to_2d.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony 3d_Data_to_2d.vi"/>
 		<Item Name="ClassQueueMess.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ClassQueueMess.ctl"/>
 		<Item Name="datasockstringconv.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/datasockstringconv.vi"/>
+		<Item Name="controlTargetRange.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetRange.vi"/>
+		<Item Name="AMC_OpenCloseConn.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_OpenCloseConn.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -116,7 +118,17 @@
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
 				<Item Name="ArrayTo1DString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DString.vi"/>
 				<Item Name="CheckStatusState.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/CheckStatusState.ctl"/>
+				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
 				<Item Name="Commande ST5V2.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/Commande ST5V2.vi"/>
+				<Item Name="connect.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/connect.vi"/>
+				<Item Name="controlAmplitude.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlAmplitude.vi"/>
+				<Item Name="controlAutoReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlAutoReset.vi"/>
+				<Item Name="controlEotOutputDeactive.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlEotOutputDeactive.vi"/>
+				<Item Name="controlFrequenzy.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlFrequenzy.vi"/>
+				<Item Name="controlMove.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlMove.vi"/>
+				<Item Name="controlOutput.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlOutput.vi"/>
+				<Item Name="controlReferenceAutoUpdate.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlReferenceAutoUpdate.vi"/>
+				<Item Name="controlTargetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetPosition.vi"/>
 				<Item Name="CréeTablePositionsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CréeTablePositionsGen.vi"/>
 				<Item Name="CurrentVIFolder.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CurrentVIFolder.vi"/>
 				<Item Name="DataSimGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DataSimGen.vi"/>
@@ -130,14 +142,25 @@
 				<Item Name="EG_G5210 SetOscPar.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 SetOscPar.vi"/>
 				<Item Name="EG_G5210 SetTrigMode.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 SetTrigMode.vi"/>
 				<Item Name="EG_G5210 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 VisaRW.vi"/>
+				<Item Name="errorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/errorHandler.vi"/>
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
+				<Item Name="getActorName.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getActorName.vi"/>
 				<Item Name="GetAvailRessGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetAvailRessGen.vi"/>
+				<Item Name="getOutputVoltage.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getOutputVoltage.vi"/>
 				<Item Name="GetParentsChildsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentsChildsGen.vi"/>
 				<Item Name="GetParentTag.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentTag.vi"/>
+				<Item Name="getPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getPosition.vi"/>
+				<Item Name="getReferencePosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getReferencePosition.vi"/>
+				<Item Name="getStatusEotBkwd.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusEotBkwd.vi"/>
+				<Item Name="getStatusEotFwd.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusEotFwd.vi"/>
+				<Item Name="getStatusMoving.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusMoving.vi"/>
+				<Item Name="getStatusReference.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusReference.vi"/>
+				<Item Name="getStatusTargetRange.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusTargetRange.vi"/>
 				<Item Name="GetTabCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTabCtrlRefGen.vi"/>
 				<Item Name="GetTreeColTxt.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTreeColTxt.vi"/>
 				<Item Name="GetViCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetViCtrlRefGen.vi"/>
+				<Item Name="JSONHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/JSONHandler.vi"/>
 				<Item Name="KlingerV2 AxisParams.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 AxisParams.vi"/>
 				<Item Name="KlingerV2 CheckOptions.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 CheckOptions.vi"/>
 				<Item Name="KlingerV2 Control.vi" Type="VI" URL="/&lt;userlib&gt;/KlingerV2/KlingerV2 Control.vi"/>
@@ -226,6 +249,7 @@
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
+				<Item Name="setReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/setReset.vi"/>
 				<Item Name="Spex Goto.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Goto.vi"/>
 				<Item Name="Spex Halt.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Halt.vi"/>
 				<Item Name="Spex ScanMove.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex ScanMove.vi"/>
@@ -279,6 +303,7 @@
 				<Item Name="Symphony ReadTemp.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadTemp.vi"/>
 				<Item Name="Symphony ReadWrite.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadWrite.vi"/>
 				<Item Name="Symphony Setup V2.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Setup V2.vi"/>
+				<Item Name="TCPHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/TCPHandler.vi"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
 				<Item Name="TimerGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerGen.vi"/>
 				<Item Name="TIO Avg AVM Field Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg AVM Field Data.vi"/>
@@ -606,14 +631,6 @@
 			<Item Name="BrowseDataStates.ctl" Type="VI" URL="../BrowseDataStates.ctl"/>
 			<Item Name="ChgGraphConfState.ctl" Type="VI" URL="../Interface Class/ChgGraphConfState.ctl"/>
 			<Item Name="ClassSelectMess.vi" Type="VI" URL="../ClassSelectMess.vi"/>
-			<Item Name="close.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/close.vi"/>
-			<Item Name="connect.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/connect.vi"/>
-			<Item Name="controlAmplitude.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlAmplitude.vi"/>
-			<Item Name="controlEotOutputDeactive.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlEotOutputDeactive.vi"/>
-			<Item Name="controlFrequenzy.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlFrequenzy.vi"/>
-			<Item Name="controlMove.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlMove.vi"/>
-			<Item Name="controlOutput.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlOutput.vi"/>
-			<Item Name="controlTargetPosition.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/controlTargetPosition.vi"/>
 			<Item Name="CreateScanPattern_LS1.vi" Type="VI" URL="../CreateScanPattern_LS1.vi"/>
 			<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
 			<Item Name="DataReadTxt.vi" Type="VI" URL="../DataReadTxt.vi"/>
@@ -621,28 +638,17 @@
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>
 			<Item Name="DataWriteTxt.vi" Type="VI" URL="../DataWriteTxt.vi"/>
 			<Item Name="Discovery.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/Discovery/Discovery.vi"/>
-			<Item Name="errorHandler.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/errorHandler.vi"/>
 			<Item Name="FillClassFamTree.vi" Type="VI" URL="../FillClassFamTree.vi"/>
 			<Item Name="FillScanFuncTree.vi" Type="VI" URL="../FillScanFuncTree.vi"/>
 			<Item Name="FormatCrvNames.vi" Type="VI" URL="../Interface Class/FormatCrvNames.vi"/>
-			<Item Name="getActorName.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getActorName.vi"/>
 			<Item Name="GetClassAndFunc.vi" Type="VI" URL="../GetClassAndFunc.vi"/>
 			<Item Name="GetClassPath.vi" Type="VI" URL="../GetClassPath.vi"/>
 			<Item Name="GetDataFromTable.vi" Type="VI" URL="../GetDataFromTable.vi"/>
 			<Item Name="GetDevTree_LS1.vi" Type="VI" URL="../GetDevTree_LS1.vi"/>
-			<Item Name="getOutputVoltage.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getOutputVoltage.vi"/>
 			<Item Name="GetPlotColors.vi" Type="VI" URL="../GetPlotColors.vi"/>
-			<Item Name="getPosition.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getPosition.vi"/>
-			<Item Name="getReferencePosition.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getReferencePosition.vi"/>
 			<Item Name="GetScanFormats.vi" Type="VI" URL="../GetScanFormats.vi"/>
-			<Item Name="getStatusEotBkwd.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getStatusEotBkwd.vi"/>
-			<Item Name="getStatusEotFwd.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getStatusEotFwd.vi"/>
-			<Item Name="getStatusMoving.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getStatusMoving.vi"/>
-			<Item Name="getStatusReference.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getStatusReference.vi"/>
-			<Item Name="getStatusTargetRange.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/getStatusTargetRange.vi"/>
 			<Item Name="GetSubPanState.vi" Type="VI" URL="../GetSubPanState.vi"/>
 			<Item Name="IndexName.vi" Type="VI" URL="../IndexName.vi"/>
-			<Item Name="JSONHandler.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/JSONHandler.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -666,7 +672,6 @@
 			<Item Name="SetupInterfStates.ctl" Type="VI" URL="../Interface Class/SetupInterfStates.ctl"/>
 			<Item Name="SizeGraphPanelV2.vi" Type="VI" URL="../SizeGraphPanelV2.vi"/>
 			<Item Name="StdFileName_LS1.vi" Type="VI" URL="../StdFileName_LS1.vi"/>
-			<Item Name="TCPHandler.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/AMC100 VIs/TCPHandler.vi"/>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">

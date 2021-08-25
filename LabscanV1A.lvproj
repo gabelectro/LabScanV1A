@@ -90,7 +90,6 @@
 		<Item Name="ModHeaderFile.vi" Type="VI" URL="../ModHeaderFile.vi"/>
 		<Item Name="ReadValByRefU32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU32.vi"/>
 		<Item Name="ReadValByRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU16.vi"/>
-		<Item Name="Symphony AverageDat.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony AverageDat.vi"/>
 		<Item Name="Running Avg.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Running Avg.vi"/>
 		<Item Name="Symphony 3d_Data_to_2d.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony 3d_Data_to_2d.vi"/>
 		<Item Name="ClassQueueMess.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ClassQueueMess.ctl"/>

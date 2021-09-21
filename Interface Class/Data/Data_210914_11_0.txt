@@ -1,0 +1,24 @@
+#2021-09-14
+#14:18:11
+#Balayage par: lalg1702
+#Description Keyword: 
+#ScanTask Size: 4,3
+##Instrument: Tools@Tools.lvclass; Function:Indice de Point (Points); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+#Instrument: Tools@Tools.lvclass; Function:Scan Pos (Arb); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+#Instrument: Tools@Tools.lvclass; Function:AbsTime (ms); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+#Instrument: Tools@Tools.lvclass; Function:RandomNum (Arb); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+#Instrument: Tools@Tools.lvclass; Function:Courbe 1 (Arb); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+
+#Tools.Indice de points(Points)	Tools.Time(s)                 	Tools.ScanPar(Arb)            	Tools.Temps Abs(ms)           	Tools.Random Number(Arb)      	Tools.Crb 1 Dat(Arb)          
+0E+0	3.714488291411E+9	0E+0	3.714488291411E+9	173.4969535751E-3	0E+0
+1E+0	3.714488291413E+9	0E+0	3.714488291413E+9	518.9739263916E-3	37.66353525169E-3
+2E+0	3.714488291419E+9	0E+0	3.714488291419E+9	378.3301014876E-3	74.95074890905E-3
+3E+0	3.714488291441E+9	0E+0	3.714488291441E+9	360.3246467395E-3	111.4890794587E-3
+0E+0	3.714488291446E+9	4E+0	3.714488291446E+9	364.2962891193E-3	0E+0
+1E+0	3.714488291454E+9	4E+0	3.714488291454E+9	125.9773376238E-3	37.66353525169E-3
+2E+0	3.714488291459E+9	4E+0	3.714488291459E+9	473.9836747253E-3	74.95074890905E-3
+3E+0	3.714488291466E+9	4E+0	3.714488291466E+9	187.0620591743E-3	111.4890794587E-3
+0E+0	3.714488291475E+9	8E+0	3.714488291475E+9	894.1346221562E-3	0E+0
+1E+0	3.714488291481E+9	8E+0	3.714488291481E+9	566.0795664555E-3	37.66353525169E-3
+2E+0	3.714488291488E+9	8E+0	3.714488291488E+9	899.8468955552E-3	74.95074890905E-3
+3E+0	3.714488291494E+9	8E+0	3.714488291494E+9	865.8949292273E-3	111.4890794587E-3

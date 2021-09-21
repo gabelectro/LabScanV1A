@@ -99,6 +99,14 @@
 		<Item Name="GetCtrlListGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetCtrlListGen.vi"/>
 		<Item Name="Symphony GetMaxVal.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony GetMaxVal.vi"/>
 		<Item Name="ScanActionStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AttoAMC/ScanActionStates.ctl"/>
+		<Item Name="Scale_Offset_Pan.vi" Type="VI" URL="../CrvEditor Panel/Scale_Offset_Pan.vi"/>
+		<Item Name="LoadCrvEdPanel.vi" Type="VI" URL="../LoadCrvEdPanel.vi"/>
+		<Item Name="WriteValByNmVariant.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteValByNmVariant.vi"/>
+		<Item Name="CrvEdStates.ctl" Type="VI" URL="../CrvEdStates.ctl"/>
+		<Item Name="ReadValByNmString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByNmString.vi"/>
+		<Item Name="UnloadCrvEdPanel.vi" Type="VI" URL="../UnloadCrvEdPanel.vi"/>
+		<Item Name="InsertSubPanelViGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/InsertSubPanelViGen.vi"/>
+		<Item Name="Crv_Info_Pan.vi" Type="VI" URL="../CrvEditor Panel/Crv_Info_Pan.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

@@ -1108,7 +1108,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074536980</Property>
 	</Item>
 	<Item Name="UnLoadScanPanel.vi" Type="VI" URL="../UnLoadScanPanel.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;G!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!=1&amp;!!!Q!!!!%!!A^T&lt;X*U;75A:#&gt;F=H*F&gt;8)!"!!!!#Z!=!!?!!!5%E*B=W6%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!$E2F&gt;GFD:3ZM&gt;G.M98.T!!!=1%!!!@````]!"1Z-&lt;W&amp;E:72*&lt;H.U)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!-!#F"B&lt;G6M37ZE:8A!!"J!1!!#``````````]!#!F49W&amp;O37ZE:8A!&amp;E"Q!!A!!!""!!!*5X6C5'&amp;O5G6G!"B!1!!"`````Q!&amp;#ERP972F:%FO=X1!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!E!#A!,!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!A!!!)+!!!!!!%!$!!!!!!</Property>

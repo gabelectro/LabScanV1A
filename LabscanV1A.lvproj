@@ -72,6 +72,9 @@
 		<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
 		<Item Name="ScanPos.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ScanPos.ctl"/>
 		<Item Name="SetupCalcStates.ctl" Type="VI" URL="../Interface Class/SetupCalcStates.ctl"/>
+		<Item Name="ClassQueueMess.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ClassQueueMess.ctl"/>
+		<Item Name="ScanActionStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AttoAMC/ScanActionStates.ctl"/>
+		<Item Name="CrvEdStates.ctl" Type="VI" URL="../CrvEdStates.ctl"/>
 		<Item Name="2DGraphMenu.rtm" Type="Document" URL="../2DGraphMenu.rtm"/>
 		<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
 		<Item Name="ReadValByRefVariant.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefVariant.vi"/>
@@ -92,17 +95,14 @@
 		<Item Name="ReadValByRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU16.vi"/>
 		<Item Name="Running Avg.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Running Avg.vi"/>
 		<Item Name="Symphony 3d_Data_to_2d.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony 3d_Data_to_2d.vi"/>
-		<Item Name="ClassQueueMess.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ClassQueueMess.ctl"/>
 		<Item Name="datasockstringconv.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/datasockstringconv.vi"/>
 		<Item Name="controlTargetRange.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetRange.vi"/>
 		<Item Name="AMC_OpenCloseConn.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_OpenCloseConn.vi"/>
 		<Item Name="GetCtrlListGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetCtrlListGen.vi"/>
 		<Item Name="Symphony GetMaxVal.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony GetMaxVal.vi"/>
-		<Item Name="ScanActionStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AttoAMC/ScanActionStates.ctl"/>
 		<Item Name="Scale_Offset_Pan.vi" Type="VI" URL="../CrvEditor Panel/Scale_Offset_Pan.vi"/>
 		<Item Name="LoadCrvEdPanel.vi" Type="VI" URL="../LoadCrvEdPanel.vi"/>
 		<Item Name="WriteValByNmVariant.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteValByNmVariant.vi"/>
-		<Item Name="CrvEdStates.ctl" Type="VI" URL="../CrvEdStates.ctl"/>
 		<Item Name="ReadValByNmString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByNmString.vi"/>
 		<Item Name="UnloadCrvEdPanel.vi" Type="VI" URL="../UnloadCrvEdPanel.vi"/>
 		<Item Name="InsertSubPanelViGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/InsertSubPanelViGen.vi"/>
@@ -384,6 +384,9 @@
 				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -621,6 +624,7 @@
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>

@@ -114,6 +114,7 @@
 		<Item Name="Sr530 Set Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 Set Param.vi"/>
 		<Item Name="SetParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/SetParam.ctl"/>
 		<Item Name="ReadParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/ReadParam.ctl"/>
+		<Item Name="SR400 FlushBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 FlushBuffer.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

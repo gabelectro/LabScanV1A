@@ -114,6 +114,7 @@
 		<Item Name="Sr530 Set Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 Set Param.vi"/>
 		<Item Name="SetParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/SetParam.ctl"/>
 		<Item Name="ReadParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/ReadParam.ctl"/>
+		<Item Name="ReadValByRefI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -221,6 +222,7 @@
 				<Item Name="LSCI332 SetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetResistance.vi"/>
 				<Item Name="LSCI332 SetSetpoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetSetpoint.vi"/>
 				<Item Name="LSCI332 SetZoneInfo.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetZoneInfo.vi"/>
+				<Item Name="LSCI332 WaitSetpoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 WaitSetpoint.vi"/>
 				<Item Name="LSCI332 Zone Setup.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 Zone Setup.vi"/>
 				<Item Name="LSCI332CurveHandler.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332CurveHandler.vi"/>
 				<Item Name="LSCI332ReadCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332ReadCalFile.vi"/>

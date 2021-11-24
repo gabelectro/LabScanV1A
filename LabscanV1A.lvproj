@@ -276,6 +276,7 @@
 				<Item Name="Spex StartScan.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex StartScan.vi"/>
 				<Item Name="SR400 Control.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 Control.vi"/>
 				<Item Name="SR400 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ErrorHandler.vi"/>
+				<Item Name="SR400 FlushBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 FlushBuffer.vi"/>
 				<Item Name="SR400 GetCountParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetCountParams.vi"/>
 				<Item Name="SR400 GetCountSource.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetCountSource.vi"/>
 				<Item Name="SR400 GetDiscParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetDiscParams.vi"/>

@@ -115,6 +115,10 @@
 		<Item Name="SetParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/SetParam.ctl"/>
 		<Item Name="ReadParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/ReadParam.ctl"/>
 		<Item Name="ReadValByRefI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32.vi"/>
+		<Item Name="LSCI332 GetAllPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetAllPar.vi"/>
+		<Item Name="LSCI332 GetGenPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetGenPar.vi"/>
+		<Item Name="InputPars.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/InputPars.ctl"/>
+		<Item Name="GetAllPAr States.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/GetAllPAr States.ctl"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="19008000">
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
@@ -155,6 +156,8 @@
 	</Item>
 </LVClass>
 =======
+=======
+>>>>>>> Stashed changes
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="19008000">
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
@@ -306,4 +309,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 </LVClass>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

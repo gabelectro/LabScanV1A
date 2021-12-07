@@ -120,10 +120,14 @@
 		<Item Name="LSCI332 GetGenPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetGenPar.vi"/>
 		<Item Name="InputPars.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/InputPars.ctl"/>
 		<Item Name="GetAllPAr States.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/GetAllPAr States.ctl"/>
+		<Item Name="Measure Power Sample.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/Measure Power Sample.vi"/>
+		<Item Name="LoadCalcParPanel.vi" Type="VI" URL="../LoadCalcParPanel.vi"/>
+		<Item Name="CloseCalcPanel.vi" Type="VI" URL="../CloseCalcPanel.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Close.vi"/>
+				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Find Resources.vi"/>
 				<Item Name="TLPM Get Attenuation.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Attenuation.vi"/>
 				<Item Name="TLPM Get Average Count.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Average Count.vi"/>
 				<Item Name="TLPM Get Power Autorange Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Power Autorange Mode.vi"/>

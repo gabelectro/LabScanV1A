@@ -126,7 +126,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="SetClassQueue.vi" Type="VI" URL="../SetClassQueue.vi">
+	<Item Name="SetClassQueueMessage.vi" Type="VI" URL="../SetClassQueueMessage.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!=1&amp;!!!Q!!!!%!!A^T&lt;X*U;75A:#&gt;F=H*F&gt;8)!"!!!!$*!=!!?!!!2$UR41UET-T)O&lt;(:D&lt;'&amp;T=Q!72'6G986M&gt;%2F&gt;CZM&gt;G.M98.T)%^V&gt;!!!(E"1!!-!!!!"!!)228*S&lt;X**&lt;CB/&lt;S"&amp;=H*P=CE!.!$RX0&amp;&gt;(A!!!!%31WRB=X.2&gt;76V:5VF=X-O9X2M!"F!"A!/476O&gt;3"E[8*P&gt;7RB&lt;H1!!#Z!=!!?!!!2$UR41UET-T)O&lt;(:D&lt;'&amp;T=Q!32'6G986M&gt;%2F&gt;CZM&gt;G.M98.T!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!EA!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>

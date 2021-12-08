@@ -123,32 +123,11 @@
 		<Item Name="Measure Power Sample.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/Measure Power Sample.vi"/>
 		<Item Name="LoadCalcParPanel.vi" Type="VI" URL="../LoadCalcParPanel.vi"/>
 		<Item Name="CloseCalcPanel.vi" Type="VI" URL="../CloseCalcPanel.vi"/>
+		<Item Name="TLPM_OpenCloseConn.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM_OpenCloseConn.vi"/>
+		<Item Name="SR400 ResetCount.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ResetCount.vi"/>
+		<Item Name="GPIB_RQS_W_StopGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GPIB_RQS_W_StopGen.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Close.vi"/>
-				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Close.vi"/>
-				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Find Resources.vi"/>
-				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Find Resources.vi"/>
-				<Item Name="TLPM Get Attenuation.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Attenuation.vi"/>
-				<Item Name="TLPM Get Average Count.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Average Count.vi"/>
-				<Item Name="TLPM Get Power Autorange Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Power Autorange Mode.vi"/>
-				<Item Name="TLPM Get Power Range.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Power Range.vi"/>
-				<Item Name="TLPM Get Resource Information.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Resource Information.vi"/>
-				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Resource Name.vi"/>
-				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Resource Name.vi"/>
-				<Item Name="TLPM Get Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Wavelength.vi"/>
-				<Item Name="TLPM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Initialize.vi"/>
-				<Item Name="TLPM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Initialize.vi"/>
-				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Measure Power.vi"/>
-				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Measure Power.vi"/>
-				<Item Name="TLPM Set Attenuation.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Set Attenuation.vi"/>
-				<Item Name="TLPM Set Average Count.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Set Average Count.vi"/>
-				<Item Name="TLPM Set Power Autorange Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Set Power Autorange Mode.vi"/>
-				<Item Name="TLPM Set Power Range.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Set Power Range.vi"/>
-				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Set Wavelength.vi"/>
-				<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM VXIpnp Error Converter.vi"/>
-			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AcqParState.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/AcqParState.ctl"/>
 				<Item Name="Agilent34410A DMM_Func.ctl" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A DMM_Func.ctl"/>
@@ -381,6 +360,23 @@
 				<Item Name="TIO Stream Read Non-blocking_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read Non-blocking_Ser.vi"/>
 				<Item Name="TIO Stream Read_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Read_Ser.vi"/>
 				<Item Name="TIO Stream Write_Ser.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Stream Write_Ser.vi"/>
+				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Close.vi"/>
+				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Find Resources.vi"/>
+				<Item Name="TLPM Get Attenuation.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Get Attenuation.vi"/>
+				<Item Name="TLPM Get Average Count.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Get Average Count.vi"/>
+				<Item Name="TLPM Get Power Autorange Mode.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Get Power Autorange Mode.vi"/>
+				<Item Name="TLPM Get Power Range.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Get Power Range.vi"/>
+				<Item Name="TLPM Get Resource Information.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Get Resource Information.vi"/>
+				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Get Resource Name.vi"/>
+				<Item Name="TLPM Get Wavelength.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Get Wavelength.vi"/>
+				<Item Name="TLPM Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Initialize.vi"/>
+				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Measure Power.vi"/>
+				<Item Name="TLPM Set Attenuation.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Set Attenuation.vi"/>
+				<Item Name="TLPM Set Average Count.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Set Average Count.vi"/>
+				<Item Name="TLPM Set Power Autorange Mode.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Set Power Autorange Mode.vi"/>
+				<Item Name="TLPM Set Power Range.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Set Power Range.vi"/>
+				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM Set Wavelength.vi"/>
+				<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="/&lt;userlib&gt;/TLPM/TLPM VXIpnp Error Converter.vi"/>
 				<Item Name="Triax Init States.ctl" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax Init States.ctl"/>
 				<Item Name="Triax320 GetParams.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetParams.vi"/>
 				<Item Name="Triax320 GetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 GetPosition.vi"/>

@@ -1,0 +1,17 @@
+#2021-12-08
+#5:10:14 PM
+#Balayage par: dphy-morrislab
+#Description Keyword: 
+#ScanTask Size: 126
+###Échantillon: NV centerboite 2 : J; #Matériaux: Diamond; #Objectif: 100x 0.75NA; #Hauteur fente d'entrée: 15 mm; #Hauteur fente de sortie: 15 mm; #Filtre ND 1: 0.4 OD; #Filtre ND 2: 1.0 OD; 
+#Température: 293.00°K; #Filtre Entrée: Orange 550nm; #Détecteur: Photon Counter R2949; 
+#Source d'excitation: Diode 532nm; #Puissance Laser: 100.00mW; #Pre-amplificateur: Aucun; #Autres: ; 
+
+#Instrument: Triax@Triax320.lvclass; Function:Position (nm); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; ; Grating#: 1; Line Density(Grv/mm): 1800; Blaze: 400nm; Input Slit(mm): 0.200; Output Slit(mm): 0.400;
+#Instrument: SR400@SR400.lvclass; Function:Read_Count (Arb); Parameters: *BeforeWait(ms): 200;*AfterWait(ms): 0; ; NbPeriod:1; Dwell(s)2.000000E-3; T Preset(s)1.000000E+0; Mode:A,B for T Preset
+#
+#Triax.Position(nm)            	SR400.Compte moy(ph)          
+625.0034666667E+0	2.831E+3
+625.1988E+0	3.044E+3
+625.3942666667E+0	3.04E+3
+625.5895333333E+0	3.132E+3

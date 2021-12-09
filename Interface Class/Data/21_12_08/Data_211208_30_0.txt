@@ -1,0 +1,11 @@
+#2021-12-08
+#4:20:33 PM
+#Balayage par: dphy-morrislab
+#Description Keyword: 
+#ScanTask Size: 21
+##Instrument: Triax@Triax320.lvclass; Function:Position (nm); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; ; Grating#: 1; Line Density(Grv/mm): 1800; Blaze: 400nm; Input Slit(mm): 0.200; Output Slit(mm): 0.400;
+#Instrument: AttoFocus@AttoAMC.lvclass; Function:Position (um); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; Axis: 0; Model: ECSx3030; Output Enable: 1; Amplitude: 35.000; Freq.: 499.716; AutoUpdate Ref: 0; AutoReset Ref: 0; Valid Ref: 1; Ref Pos(um): 0.000; Act.Pos(um): 0.005; FwdLim: 0; BwdLim: 0; In Range: 1; Range(nm): 1000.000000
+#Instrument: AttoFocus@AttoAMC.lvclass; Function:Position (um); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; Axis: 0; Model: ECSx3030; Output Enable: 1; Amplitude: 35.000; Freq.: 499.716; AutoUpdate Ref: 0; AutoReset Ref: 0; Valid Ref: 1; Ref Pos(um): 0.000; Act.Pos(um): 0.000; FwdLim: 0; BwdLim: 0; In Range: 1; Range(nm): 1000.000000
+#Instrument: SR400@SR400.lvclass; Function:Read_Count (Arb); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; ; NbPeriod:1728; Dwell(s)3.000000E-1; T Preset(s)1.000000E+0; Mode:A,B for T Preset
+#
+#AttoFocus.ReqPosition(um)     	AttoFocus.DetPos(um)          	SR400.Compte moy(ph)          

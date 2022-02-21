@@ -1,0 +1,10 @@
+#2021-12-14
+#2:22:56 PM
+#Balayage par: dphy-morrislab
+#Description Keyword: 
+#ScanTask Size: 50000
+##Instrument: Tools@Tools.lvclass; Function:Minuteur (s); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+#Instrument: LSCI332@LSCI332.lvclass; Function:Read_InputB&Heater (K,S,%,W); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; Input A Parameters: Sensor Type: 7.5V 1mA; Compensation: OFF; Curve Number: 28; Filtering : On; Filter Points: 45; Window %: 7; Input B Parameters: Sensor Type: Silicon Diode; Compensation: OFF; Curve Number: 2; Filtering : OFF; Filter Points: 8; Window %: 1; Heat Range: Off; Heater Power: 0.00W; Heater Output: 0.00%; Heater Resistance: 50 Ohms; Loop 1 Parameters: Ctrl Input: B; Ctrl Mode: Manual PID; Setpoint Units: Kelvin; Heater Units: Current; Power Up Enable: NO; Proportional Val: 40.00; Integral Val: 30.00; Derivative Val: 0; Setpoint: 310.00; Ramp Mode: OFF; Ramp Rate 1.00K/min; Manual Output: 0.00;  Loop 2 Parameters: Ctrl Input: A; Ctrl Mode: Manual PID; Setpoint Units: Sensor Units; Heater Units: Current; Power Up Enable: NO; Proportional Val: 50.00; Integral Val: 20.00; Derivative Val: 0; Setpoint: 0.00; Ramp Mode: OFF; Ramp Rate 0.00K/min; Manual Output: 0.00;  
+#
+#Tools.Time(s)                 	LSCI332.Temp(K)               	LSCI332.Sensor(U)             	LSCI332.Heater(%)             	LSCI332.Heater(W)             
+3.722354585245E+9	3.503E+0	1.5989E+0	0E+0	0E+0

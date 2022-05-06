@@ -1,0 +1,9 @@
+#2022-04-11
+#10:42:52
+#Balayage par: iq-qfl
+#Description Keyword: 
+#ScanTask Size: 2
+##Instrument: Triax320@Triax320.lvclass; Function:Position (nm); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; ; Grating#: 1; Line Density(Grv/mm): 1800; Blaze: 400nm; Input Slit(mm): 0.000; Output Slit(mm): 0.000;
+#Instrument: SympCCD@SymphonyCCD.lvclass; Function:AcqImage (Counts); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0;  Lambda Factor: 0.00000; Lambda Source: Lambda@Triax320; Lambda Offset: 0.00000;Multiplier Source: GrooveRatio@Triax320; Multiplier Value: 0.00000; Y Bins: 5; X Start: 1; X End: 1024; Y Start: 1; Y End: 256; Integration Time(ms): 100; ADC1:  20 kHz Tab 1; Gain  2.0(x); Ccd Temp(degC): 23.408; Shutter Enable: True; Accumulation: 1; Noise Mode: Off; Noise Window Enabled: False; Window Width(ds): 1.000; Window Avg Samples: 1;
+#
+#Triax320.Position(nm)         	SympCCD.Acquisition(Counts)   	SympCCD.Y Pix Row 0 Max Val(Cnt)	SympCCD.Y Pix Row 0 Max Pos(nm)

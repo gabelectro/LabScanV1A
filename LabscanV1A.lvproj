@@ -127,6 +127,8 @@
 		<Item Name="SR400 ResetCount.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ResetCount.vi"/>
 		<Item Name="GPIB_RQS_W_StopGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GPIB_RQS_W_StopGen.vi"/>
 		<Item Name="SR400 SetDiscParams_a.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetDiscParams_a.vi"/>
+		<Item Name="Discovery.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/Discovery.vi"/>
+		<Item Name="Discovery.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/Discovery.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -143,10 +145,16 @@
 				<Item Name="Agilent34410A Set Range.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Range.vi"/>
 				<Item Name="Agilent34410A Set TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set TrigSource.vi"/>
 				<Item Name="Agilent34410A VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A VisaRW.vi"/>
+				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
+				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_discover_devices_SubVI.vi"/>
+				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_select_IP_SubVI.vi"/>
+				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
 				<Item Name="ArrayTo1DString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DString.vi"/>
+				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/attocube-discovery-dll.dll"/>
+				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/attocube-discovery-dll.dll"/>
 				<Item Name="CheckStatusState.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/CheckStatusState.ctl"/>
 				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
 				<Item Name="Commande ST5V2.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/Commande ST5V2.vi"/>
@@ -669,10 +677,7 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
-			<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/Discovery/AMC_select_IP_SubVI.vi"/>
 			<Item Name="ArrangeRemPan.vi" Type="VI" URL="../ArrangeRemPan.vi"/>
-			<Item Name="attocube-discovery-dll.dll" Type="Document" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/Discovery/attocube-discovery-dll.dll"/>
 			<Item Name="BrowseDataStates.ctl" Type="VI" URL="../BrowseDataStates.ctl"/>
 			<Item Name="ChgGraphConfState.ctl" Type="VI" URL="../Interface Class/ChgGraphConfState.ctl"/>
 			<Item Name="ClassSelectMess.vi" Type="VI" URL="../ClassSelectMess.vi"/>
@@ -682,7 +687,6 @@
 			<Item Name="DataTree_Add_Crv_Names.vi" Type="VI" URL="../DataTree_Add_Crv_Names.vi"/>
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>
 			<Item Name="DataWriteTxt.vi" Type="VI" URL="../DataWriteTxt.vi"/>
-			<Item Name="Discovery.vi" Type="VI" URL="//bob/Recherche/Morris/Appareils/Attocube/USB Key/AMC100/Software/05_AMC100_LabVIEW_Driver/32bit/Discovery/Discovery.vi"/>
 			<Item Name="FillClassFamTree.vi" Type="VI" URL="../FillClassFamTree.vi"/>
 			<Item Name="FillScanFuncTree.vi" Type="VI" URL="../FillScanFuncTree.vi"/>
 			<Item Name="FormatCrvNames.vi" Type="VI" URL="../Interface Class/FormatCrvNames.vi"/>

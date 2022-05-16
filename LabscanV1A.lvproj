@@ -40,6 +40,8 @@
 		<Item Name="ThorPM100A.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ThorPM100A/ThorPM100A.lvclass"/>
 		<Item Name="Triax320.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Triax320/Triax320.lvclass"/>
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
+		<Item Name="MultiHarp150.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MultiHarp150.lvclass"/>
+		<Item Name="TaikoLaser.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/TaikoLaser/TaikoLaser.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
@@ -127,10 +129,21 @@
 		<Item Name="SR400 ResetCount.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ResetCount.vi"/>
 		<Item Name="GPIB_RQS_W_StopGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GPIB_RQS_W_StopGen.vi"/>
 		<Item Name="SR400 SetDiscParams_a.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetDiscParams_a.vi"/>
-		<Item Name="Discovery.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/Discovery.vi"/>
 		<Item Name="Discovery.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/Discovery.vi"/>
+		<Item Name="Taiko_Demo.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/Taiko_Demo.vi"/>
+		<Item Name="MH_InputChannel_LS.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_InputChannel_LS.ctl"/>
+		<Item Name="MH_SetParams.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetParams.vi"/>
+		<Item Name="MH_HistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_HistGraph.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Close.vi"/>
+				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Find Resources.vi"/>
+				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Resource Name.vi"/>
+				<Item Name="TLPM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Initialize.vi"/>
+				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Measure Power.vi"/>
+				<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM VXIpnp Error Converter.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AcqParState.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/AcqParState.ctl"/>
 				<Item Name="Agilent34410A DMM_Func.ctl" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A DMM_Func.ctl"/>
@@ -146,15 +159,12 @@
 				<Item Name="Agilent34410A Set TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set TrigSource.vi"/>
 				<Item Name="Agilent34410A VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A VisaRW.vi"/>
 				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
-				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_discover_devices_SubVI.vi"/>
 				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_select_IP_SubVI.vi"/>
-				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
 				<Item Name="ArrayTo1DString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DString.vi"/>
 				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/attocube-discovery-dll.dll"/>
-				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/attocube-discovery-dll.dll"/>
 				<Item Name="CheckStatusState.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/CheckStatusState.ctl"/>
 				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
 				<Item Name="Commande ST5V2.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/Commande ST5V2.vi"/>
@@ -231,6 +241,7 @@
 				<Item Name="LSCI332 GetManOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetManOutput.vi"/>
 				<Item Name="LSCI332 GetPID.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetPID.vi"/>
 				<Item Name="LSCI332 GetRamp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetRamp.vi"/>
+				<Item Name="LSCI332 GetRelayOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetRelayOutput.vi"/>
 				<Item Name="LSCI332 GetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetResistance.vi"/>
 				<Item Name="LSCI332 GetSetPoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetSetPoint.vi"/>
 				<Item Name="LSCI332 GetZoneInfo.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetZoneInfo.vi"/>
@@ -239,6 +250,7 @@
 				<Item Name="LSCI332 SetManOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetManOutput.vi"/>
 				<Item Name="LSCI332 SetPID.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetPID.vi"/>
 				<Item Name="LSCI332 SetRamp.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetRamp.vi"/>
+				<Item Name="LSCI332 SetRelayOutput.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetRelayOutput.vi"/>
 				<Item Name="LSCI332 SetResistance.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetResistance.vi"/>
 				<Item Name="LSCI332 SetSetpoint.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetSetpoint.vi"/>
 				<Item Name="LSCI332 SetZoneInfo.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 SetZoneInfo.vi"/>
@@ -255,6 +267,40 @@
 				<Item Name="LSCI332VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332VisaRW.vi"/>
 				<Item Name="LSCI332WriteCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalFile.vi"/>
 				<Item Name="LSCI332WriteCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalib.vi"/>
+				<Item Name="MH_AllocateCntRateBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_AllocateCntRateBuffer.vi"/>
+				<Item Name="MH_AllocateHistoBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_AllocateHistoBuffer.vi"/>
+				<Item Name="MH_ClearHistMem.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ClearHistMem.vi"/>
+				<Item Name="MH_CTCStatus.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_CTCStatus.vi"/>
+				<Item Name="MH_DllPath_global.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_DllPath_global.vi"/>
+				<Item Name="MH_GetAllCountRates.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetAllCountRates.vi"/>
+				<Item Name="MH_GetBaseResolution.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetBaseResolution.vi"/>
+				<Item Name="MH_GetCountRate.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetCountRate.vi"/>
+				<Item Name="MH_GetDLLPath.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_GetDLLPath.vi"/>
+				<Item Name="MH_GetErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetErrorString.vi"/>
+				<Item Name="MH_GetFlags.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetFlags.vi"/>
+				<Item Name="MH_GetHistogram.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetHistogram.vi"/>
+				<Item Name="MH_GetSyncRate.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetSyncRate.vi"/>
+				<Item Name="MH_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Initialize.vi"/>
+				<Item Name="MH_LoadHistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_LoadHistGraph.vi"/>
+				<Item Name="MH_MeasMode.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_MeasMode.ctl"/>
+				<Item Name="MH_OpenDevice.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_OpenDevice.vi"/>
+				<Item Name="MH_RefSource.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_RefSource.ctl"/>
+				<Item Name="MH_SetBinning.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetBinning.vi"/>
+				<Item Name="MH_SetHistoLen.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetHistoLen.vi"/>
+				<Item Name="MH_SetInpChanCmds.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInpChanCmds.ctl"/>
+				<Item Name="MH_SetInpChanData.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInpChanData.ctl"/>
+				<Item Name="MH_SetInputChannelEnable.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputChannelEnable.vi"/>
+				<Item Name="MH_SetInputChannelOffset.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputChannelOffset.vi"/>
+				<Item Name="MH_SetInputChannels.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInputChannels.vi"/>
+				<Item Name="MH_SetInputDeadTime.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputDeadTime.vi"/>
+				<Item Name="MH_SetInputEdgeTrg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputEdgeTrg.vi"/>
+				<Item Name="MH_SetStopOverflow.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetStopOverflow.vi"/>
+				<Item Name="MH_SetSyncChannelOffset.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncChannelOffset.vi"/>
+				<Item Name="MH_SetSyncDeadTime.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncDeadTime.vi"/>
+				<Item Name="MH_SetSyncDiv.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncDiv.vi"/>
+				<Item Name="MH_SetSyncEdgeTrg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncEdgeTrg.vi"/>
+				<Item Name="MH_StartMeas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_StartMeas.vi"/>
+				<Item Name="MH_StopMeas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_StopMeas.vi"/>
 				<Item Name="MonoSpec50 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 ErrorHandler.vi"/>
 				<Item Name="MonoSpec50 Find Ref Position.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position.vi"/>
 				<Item Name="MonoSpec50 Goto States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Goto States.ctl"/>
@@ -421,10 +467,13 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
+				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -585,19 +634,24 @@
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U32.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U32.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -612,6 +666,7 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
+				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
@@ -649,6 +704,8 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -671,8 +728,12 @@
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="AboutLS1.vi" Type="VI" URL="../AboutLS1.vi"/>
+			<Item Name="AddControl(s)ToControlStateArray.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/AddControl(s)ToControlStateArray.vi"/>
+			<Item Name="AddControlsToControlStateArray.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/AddControlsToControlStateArray.vi"/>
+			<Item Name="AddControlToControlStateArray.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/AddControlToControlStateArray.vi"/>
 			<Item Name="AddCurveStates.ctl" Type="VI" URL="../Interface Class/AddCurveStates.ctl"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -681,22 +742,29 @@
 			<Item Name="BrowseDataStates.ctl" Type="VI" URL="../BrowseDataStates.ctl"/>
 			<Item Name="ChgGraphConfState.ctl" Type="VI" URL="../Interface Class/ChgGraphConfState.ctl"/>
 			<Item Name="ClassSelectMess.vi" Type="VI" URL="../ClassSelectMess.vi"/>
+			<Item Name="ControlAttributes.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/Types/ControlAttributes.ctl"/>
 			<Item Name="CreateScanPattern_LS1.vi" Type="VI" URL="../CreateScanPattern_LS1.vi"/>
+			<Item Name="CreateStringBufferOfDefinedSize.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/CreateStringBufferOfDefinedSize.vi"/>
 			<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
 			<Item Name="DataReadTxt.vi" Type="VI" URL="../DataReadTxt.vi"/>
 			<Item Name="DataTree_Add_Crv_Names.vi" Type="VI" URL="../DataTree_Add_Crv_Names.vi"/>
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>
 			<Item Name="DataWriteTxt.vi" Type="VI" URL="../DataWriteTxt.vi"/>
+			<Item Name="DLLPathFromAPPDir.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/DLLPathFromAPPDir.vi"/>
 			<Item Name="FillClassFamTree.vi" Type="VI" URL="../FillClassFamTree.vi"/>
 			<Item Name="FillScanFuncTree.vi" Type="VI" URL="../FillScanFuncTree.vi"/>
 			<Item Name="FormatCrvNames.vi" Type="VI" URL="../Interface Class/FormatCrvNames.vi"/>
+			<Item Name="GetAttachedTaikoSerials.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/GetAttachedTaikoSerials.vi"/>
 			<Item Name="GetClassAndFunc.vi" Type="VI" URL="../GetClassAndFunc.vi"/>
 			<Item Name="GetClassPath.vi" Type="VI" URL="../GetClassPath.vi"/>
 			<Item Name="GetDataFromTable.vi" Type="VI" URL="../GetDataFromTable.vi"/>
 			<Item Name="GetDevTree_LS1.vi" Type="VI" URL="../GetDevTree_LS1.vi"/>
+			<Item Name="GetDLLPath.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/GetDLLPath.vi"/>
+			<Item Name="GetEmptyTagValueList.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/GetEmptyTagValueList.vi"/>
 			<Item Name="GetPlotColors.vi" Type="VI" URL="../GetPlotColors.vi"/>
 			<Item Name="GetScanFormats.vi" Type="VI" URL="../GetScanFormats.vi"/>
 			<Item Name="GetSubPanState.vi" Type="VI" URL="../GetSubPanState.vi"/>
+			<Item Name="GetTagsStringsAndValues.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/GetTagsStringsAndValues.vi"/>
 			<Item Name="IndexName.vi" Type="VI" URL="../IndexName.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -709,11 +777,61 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PDLM_CloseDevice.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_CloseDevice.vi"/>
+			<Item Name="PDLM_DecodeError.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_DecodeError.vi"/>
+			<Item Name="PDLM_DecodeLHFeatures.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_DecodeLHFeatures.vi"/>
+			<Item Name="PDLM_DecodePulseShape.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_DecodePulseShape.vi"/>
+			<Item Name="PDLM_DecodeSystemStatus.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_DecodeSystemStatus.vi"/>
+			<Item Name="PDLM_DllPath_global.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_DllPath_global.vi"/>
+			<Item Name="PDLM_GetDriverInfo.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetDriverInfo.vi"/>
+			<Item Name="PDLM_GetFrequency.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetFrequency.vi"/>
+			<Item Name="PDLM_GetFrequencyLimits.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetFrequencyLimits.vi"/>
+			<Item Name="PDLM_GetLDHPulsePowerTable.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetLDHPulsePowerTable.vi"/>
+			<Item Name="PDLM_GetLHData.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetLHData.vi"/>
+			<Item Name="PDLM_GetLHInfo.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetLHInfo.vi"/>
+			<Item Name="PDLM_GetLibraryVersion.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetLibraryVersion.vi"/>
+			<Item Name="PDLM_GetPulsePowerPermille.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetPulsePowerPermille.vi"/>
+			<Item Name="PDLM_GetQueuedChanges.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetQueuedChanges.vi"/>
+			<Item Name="PDLM_GetQueuedError.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetQueuedError.vi"/>
+			<Item Name="PDLM_GetQueuedErrorString.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetQueuedErrorString.vi"/>
+			<Item Name="PDLM_GetSystemStatus.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetSystemStatus.vi"/>
+			<Item Name="PDLM_GetTagDescription.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetTagDescription.vi"/>
+			<Item Name="PDLM_GetTagValueList.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetTagValueList.vi"/>
+			<Item Name="PDLM_GetTriggerLevel.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetTriggerLevel.vi"/>
+			<Item Name="PDLM_GetTriggerLevelLimits.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_GetTriggerLevelLimits.vi"/>
+			<Item Name="PDLM_LHData.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_LHData.ctl"/>
+			<Item Name="PDLM_LHData_LaserType.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_LHData_LaserType.ctl"/>
+			<Item Name="PDLM_LHFeatures.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_LHFeatures.ctl"/>
+			<Item Name="PDLM_LHInfo.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_LHInfo.ctl"/>
+			<Item Name="PDLM_LHVersion.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_LHVersion.ctl"/>
+			<Item Name="PDLM_NamedBit.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_NamedBit.ctl"/>
+			<Item Name="PDLM_OpenDevice.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_OpenDevice.vi"/>
+			<Item Name="PDLM_OpenGetSerNumAndClose.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_OpenGetSerNumAndClose.vi"/>
+			<Item Name="PDLM_PulseTableIDs.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_PulseTableIDs.ctl"/>
+			<Item Name="PDLM_ScaleID.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_ScaleID.ctl"/>
+			<Item Name="PDLM_SetExclusiveUI.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_SetExclusiveUI.vi"/>
+			<Item Name="PDLM_SetFrequency.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_SetFrequency.vi"/>
+			<Item Name="PDLM_SetLDHPulsePowerTable.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_SetLDHPulsePowerTable.vi"/>
+			<Item Name="PDLM_SetPulsePowerPermille.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_SetPulsePowerPermille.vi"/>
+			<Item Name="PDLM_SetTriggerLevel.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_SetTriggerLevel.vi"/>
+			<Item Name="PDLM_SetTriggerMode.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_SetTriggerMode.vi"/>
+			<Item Name="PDLM_Status.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_Status.ctl"/>
+			<Item Name="PDLM_Tag.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_Tag.ctl"/>
+			<Item Name="PDLM_TaggedValue.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_TaggedValue.ctl"/>
+			<Item Name="PDLM_TaggedValueList.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_TaggedValueList.ctl"/>
+			<Item Name="PDLM_TriggerMode.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/_lib/PDLM/pdlm_lib_x86_x64_UIThread.llb/PDLM_TriggerMode.ctl"/>
 			<Item Name="PlotChange.ctl" Type="VI" URL="../Interface Class/PlotChange.ctl"/>
 			<Item Name="ReadFiltHdrFiles_LS1.vi" Type="VI" URL="../ReadFiltHdrFiles_LS1.vi"/>
 			<Item Name="ReadIniFile_LS1.vi" Type="VI" URL="../ReadIniFile_LS1.vi"/>
+			<Item Name="ScaleDisplayParams.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/Types/ScaleDisplayParams.ctl"/>
+			<Item Name="selector.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/Types/selector.ctl"/>
 			<Item Name="SelRess.vi" Type="VI" URL="../SelRess.vi"/>
 			<Item Name="SelRessState.ctl" Type="VI" URL="../SelRessState.ctl"/>
+			<Item Name="SetAllControlsVisibilityAndEnabledState.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/SetAllControlsVisibilityAndEnabledState.vi"/>
+			<Item Name="SetControlsEnableDisableVisibleStates.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/SetControlsEnableDisableVisibleStates.vi"/>
+			<Item Name="SetControlsVisibilityAndEnabledState.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/SetControlsVisibilityAndEnabledState.vi"/>
+			<Item Name="SetControlVisibilityAndEnabledState.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/SetControlVisibilityAndEnabledState.vi"/>
+			<Item Name="SetDLLPath.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/SetDLLPath.vi"/>
 			<Item Name="SetInitPar.ctl" Type="VI" URL="../SetInitPar.ctl"/>
 			<Item Name="SetScanFormats.vi" Type="VI" URL="../SetScanFormats.vi"/>
 			<Item Name="SetUpExperStates.ctl" Type="VI" URL="../SetUpExperStates.ctl"/>
@@ -721,6 +839,15 @@
 			<Item Name="SetupInterfStates.ctl" Type="VI" URL="../Interface Class/SetupInterfStates.ctl"/>
 			<Item Name="SizeGraphPanelV2.vi" Type="VI" URL="../SizeGraphPanelV2.vi"/>
 			<Item Name="StdFileName_LS1.vi" Type="VI" URL="../StdFileName_LS1.vi"/>
+			<Item Name="Taiko_Cmds.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/Types/Taiko_Cmds.ctl"/>
+			<Item Name="Taiko_Data.ctl" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/Types/Taiko_Data.ctl"/>
+			<Item Name="Taiko_ErrorDlg.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/Taiko_ErrorDlg.vi"/>
+			<Item Name="Taiko_Init.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/Taiko_Init.vi"/>
+			<Item Name="Taiko_LHDataToStrArray.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/Taiko_LHDataToStrArray.vi"/>
+			<Item Name="Taiko_ProcCmd.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/Taiko_ProcCmd.vi"/>
+			<Item Name="Taiko_TaggedValueListToStrArray.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/Taiko_TaggedValueListToStrArray.vi"/>
+			<Item Name="Taiko_UpdateTaggedValueList.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/Taiko_UpdateTaggedValueList.vi"/>
+			<Item Name="Taikoi_GetSystemStatus.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/Taikoi_GetSystemStatus.vi"/>
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

@@ -47,6 +47,7 @@
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
 		<Item Name="ColorGraphWindow_LS1.vi" Type="VI" URL="../ColorGraphWindow_LS1.vi"/>
 		<Item Name="FilterScanPar_LS1.vi" Type="VI" URL="../FilterScanPar_LS1.vi"/>
+		<Item Name="GetCtrlListGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetCtrlListGen.vi"/>
 		<Item Name="GetFiltDataFilesNm.vi" Type="VI" URL="../GetFiltDataFilesNm.vi"/>
 		<Item Name="GetPltColTable.vi" Type="VI" URL="../GetPltColTable.vi"/>
 		<Item Name="GraphConfCount.vi" Type="VI" URL="../GraphConfCount.vi"/>
@@ -60,6 +61,7 @@
 		<Item Name="SetGraphParams.vi" Type="VI" URL="../SetGraphParams.vi"/>
 		<Item Name="SetupGraphConfig.vi" Type="VI" URL="../Interface Class/SetupGraphConfig.vi"/>
 		<Item Name="SizeMainPanel_LS1.vi" Type="VI" URL="../SizeMainPanel_LS1.vi"/>
+		<Item Name="GetHeaderFilePar.vi" Type="VI" URL="../GetHeaderFilePar.vi"/>
 		<Item Name="Symphony Operate.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Operate.vi"/>
 		<Item Name="Unload2DGraphVI_LS1.vi" Type="VI" URL="../Unload2DGraphVI_LS1.vi"/>
 		<Item Name="VarParFormats.vi" Type="VI" URL="../VarParFormats.vi"/>
@@ -84,7 +86,6 @@
 		<Item Name="ReadValByRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRef.vi"/>
 		<Item Name="ReadValByRefDbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefDbl.vi"/>
 		<Item Name="ReadValByRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefBool.vi"/>
-		<Item Name="GetHeaderFilePar.vi" Type="VI" URL="../GetHeaderFilePar.vi"/>
 		<Item Name="ModHeaderFilePar.vi" Type="VI" URL="../ModHeaderFilePar.vi"/>
 		<Item Name="ModHeaderFileItem.vi" Type="VI" URL="../ModHeaderFileItem.vi"/>
 		<Item Name="Test Tree ctrl.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/Test Tree ctrl.vi"/>
@@ -101,7 +102,6 @@
 		<Item Name="datasockstringconv.vi" Type="VI" URL="/H/Mes documents/Programmes Labview/test/datasockstringconv.vi"/>
 		<Item Name="controlTargetRange.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetRange.vi"/>
 		<Item Name="AMC_OpenCloseConn.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_OpenCloseConn.vi"/>
-		<Item Name="GetCtrlListGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetCtrlListGen.vi"/>
 		<Item Name="Symphony GetMaxVal.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony GetMaxVal.vi"/>
 		<Item Name="Scale_Offset_Pan.vi" Type="VI" URL="../CrvEditor Panel/Scale_Offset_Pan.vi"/>
 		<Item Name="LoadCrvEdPanel.vi" Type="VI" URL="../LoadCrvEdPanel.vi"/>
@@ -136,14 +136,6 @@
 		<Item Name="MH_HistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_HistGraph.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Close.vi"/>
-				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Find Resources.vi"/>
-				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Get Resource Name.vi"/>
-				<Item Name="TLPM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Initialize.vi"/>
-				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM Measure Power.vi"/>
-				<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM VXIpnp Error Converter.vi"/>
-			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AcqParState.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/AcqParState.ctl"/>
 				<Item Name="Agilent34410A DMM_Func.ctl" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A DMM_Func.ctl"/>
@@ -158,13 +150,13 @@
 				<Item Name="Agilent34410A Set Range.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Range.vi"/>
 				<Item Name="Agilent34410A Set TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set TrigSource.vi"/>
 				<Item Name="Agilent34410A VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A VisaRW.vi"/>
-				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
-				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_select_IP_SubVI.vi"/>
+				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_discover_devices_SubVI.vi"/>
+				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
 				<Item Name="ArrayTo1DString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DString.vi"/>
-				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/attocube-discovery-dll.dll"/>
+				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/attocube-discovery-dll.dll"/>
 				<Item Name="CheckStatusState.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/CheckStatusState.ctl"/>
 				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
 				<Item Name="Commande ST5V2.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/Commande ST5V2.vi"/>
@@ -270,6 +262,7 @@
 				<Item Name="MH_AllocateCntRateBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_AllocateCntRateBuffer.vi"/>
 				<Item Name="MH_AllocateHistoBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_AllocateHistoBuffer.vi"/>
 				<Item Name="MH_ClearHistMem.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ClearHistMem.vi"/>
+				<Item Name="MH_CloseDevice.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_CloseDevice.vi"/>
 				<Item Name="MH_CTCStatus.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_CTCStatus.vi"/>
 				<Item Name="MH_DllPath_global.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_DllPath_global.vi"/>
 				<Item Name="MH_GetAllCountRates.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetAllCountRates.vi"/>
@@ -294,6 +287,7 @@
 				<Item Name="MH_SetInputChannels.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInputChannels.vi"/>
 				<Item Name="MH_SetInputDeadTime.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputDeadTime.vi"/>
 				<Item Name="MH_SetInputEdgeTrg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputEdgeTrg.vi"/>
+				<Item Name="MH_SetOffset.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetOffset.vi"/>
 				<Item Name="MH_SetStopOverflow.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetStopOverflow.vi"/>
 				<Item Name="MH_SetSyncChannelOffset.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncChannelOffset.vi"/>
 				<Item Name="MH_SetSyncDeadTime.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncDeadTime.vi"/>
@@ -467,13 +461,10 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
-				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -640,7 +631,6 @@
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -651,7 +641,6 @@
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U32.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U32.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -666,7 +655,6 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
-				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
@@ -704,7 +692,6 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -728,7 +715,6 @@
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
-				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="AboutLS1.vi" Type="VI" URL="../AboutLS1.vi"/>
 			<Item Name="AddControl(s)ToControlStateArray.vi" Type="VI" URL="../../../ProgramData/Taiko PDL M1/API/Demos/LabView/LabVIEW2017/SubVIs/AddControl(s)ToControlStateArray.vi"/>

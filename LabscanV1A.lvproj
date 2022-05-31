@@ -150,13 +150,13 @@
 				<Item Name="Agilent34410A Set Range.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Range.vi"/>
 				<Item Name="Agilent34410A Set TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set TrigSource.vi"/>
 				<Item Name="Agilent34410A VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A VisaRW.vi"/>
-				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_discover_devices_SubVI.vi"/>
+				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
 				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
 				<Item Name="ArrayTo1DString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DString.vi"/>
-				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/attocube-discovery-dll.dll"/>
+				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/attocube-discovery-dll.dll"/>
 				<Item Name="CheckStatusState.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/CheckStatusState.ctl"/>
 				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
 				<Item Name="Commande ST5V2.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/Commande ST5V2.vi"/>

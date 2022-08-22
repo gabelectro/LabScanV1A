@@ -1,0 +1,11 @@
+#2022-08-18
+#12:44:40
+#Balayage par: iq-qfl
+#Description Keyword: 
+#ScanTask Size: 2
+##Output Freq(kHz): 50000.000000; Output Power(%): 11.000000; KeyLock: OFF; OnOffLock: OFF; Laser Mode: Pulse; Pulse Power (uW): 28.050000; Temp (C): 25.000000; SoftLock: OFF; : OFF; : ; Output Freq(kHz): 50000.000000; Output Power(%): 11.000000; KeyLock: OFF; OnOffLock: OFF; Laser Mode: Pulse; Pulse Power (uW): 28.050000; Temp (C): 25.000000; SoftLock: OFF; Interlock: OFF; Pulse Shape: ; Narrow Pulses
+#Instrument: Tools@Tools.lvclass; Function:AbsTime (ms); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+#
+#TaikoLaser.OutputPower(%)     	Tools.Temps Abs(ms)           
+0E+0	3.743685880445E+9
+1E+0	3.743685880445E+9

@@ -1,0 +1,20 @@
+#2022-08-18
+#14:26:00
+#Balayage par: iq-qfl
+#Description Keyword: 
+#ScanTask Size: 11
+##Instrument: TaikoLaser@TaikoLaser.lvclass; Function:Power (mW); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; Output Freq(kHz): 50000.00; Output Power(%): 15.00; KeyLock: OFF; OnOffLock: OFF; Laser Mode: Pulse; Pulse Power (uW): 38.25; Temp (C): 24.90; SoftLock: OFF; Interlock: OFF; Pulse Shape: Narrow Pulses; Laser Head: LDH-IB-532-T-P; Date: 21-06-22; Class: 3B; Protection: No; Serial: 1043930; Laser Type: TA_SHG; Laser Version: 0.0; Min. Frequ. [Hz]: 1; Max. Frequ. [Hz]: 100000000; Max. CW Power [mW]: 23000.000; Max. Pulse Power [mW]: 5000.000; Wavelength [nm]: 530.8; Max. Case Temp. [°C]: 56.0; Max. Driver Voltage [mV]: 40950; Max. LH Voltage [mV]: 19000; Current Consumption [mA]: 500; Calib. Warranty [h]: 2000; 
+#Instrument: Tools@Tools.lvclass; Function:AbsTime (ms); Parameters: *BeforeWait(ms): 0;*AfterWait(ms): 0; 
+#
+#TaikoLaser.OutputPower(%)     	TaikoLaser.Pulse Power(W)     	Tools.Temps Abs(ms)           
+10E+0	25.49999953771E-6	3.74369196044E+9
+10.5E+0	26.74999996088E-6	3.743691960487E+9
+11E+0	28.05000076478E-6	3.743691960543E+9
+11.5E+0	29.29999936896E-6	3.743691960578E+9
+12E+0	30.60000017285E-6	3.743691960627E+9
+12.5E+0	31.84999877703E-6	3.743691960711E+9
+13E+0	33.15000139992E-6	3.743691960752E+9
+13.5E+0	34.4000000041E-6	3.743691960795E+9
+14E+0	35.699998989E-6	3.743691960837E+9
+14.5E+0	36.95000123116E-6	3.743691960878E+9
+15E+0	38.25000021607E-6	3.743691960919E+9

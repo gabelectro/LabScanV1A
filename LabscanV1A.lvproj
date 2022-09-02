@@ -321,6 +321,7 @@
 				<Item Name="PDLM_DllPath_global.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_DllPath_global.vi"/>
 				<Item Name="PDLM_GetCwPower.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetCwPower.vi"/>
 				<Item Name="PDLM_GetCwPowerPermille.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetCwPowerPermille.vi"/>
+				<Item Name="PDLM_GetFrequency.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetFrequency.vi"/>
 				<Item Name="PDLM_GetLHData.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetLHData.vi"/>
 				<Item Name="PDLM_GetLHInfo.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetLHInfo.vi"/>
 				<Item Name="PDLM_GetPulsePower.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetPulsePower.vi"/>

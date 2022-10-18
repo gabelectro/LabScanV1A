@@ -42,6 +42,7 @@
 		<Item Name="YokoGS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/YokoGS200/YokoGS200.lvclass"/>
 		<Item Name="MultiHarp150.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MultiHarp150.lvclass"/>
 		<Item Name="TaikoLaser.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/TaikoLaser/TaikoLaser.lvclass"/>
+		<Item Name="HeFlowMeter.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/HeFlowMeter/HeFlowMeter.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>

@@ -134,6 +134,8 @@
 		<Item Name="MH_HistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_HistGraph.vi"/>
 		<Item Name="MH_RateDatAvg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_RateDatAvg.vi"/>
 		<Item Name="ReadValByRefString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefString.vi"/>
+		<Item Name="AMC_QuickMovePan.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QuickMovePan.vi"/>
+		<Item Name="AMC_QkMvPanSetting.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QkMvPanSetting.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">

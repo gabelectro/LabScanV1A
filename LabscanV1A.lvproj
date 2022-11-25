@@ -137,6 +137,7 @@
 		<Item Name="AMC_QuickMovePan.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QuickMovePan.vi"/>
 		<Item Name="AMC_QkMvPanSetting.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QkMvPanSetting.vi"/>
 		<Item Name="AMC.rtm" Type="Document" URL="/&lt;userlib&gt;/AMC100/AMC.rtm"/>
+		<Item Name="MH_T2Interface.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_T2Interface.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -301,6 +302,7 @@
 				<Item Name="MH_LoadHistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_LoadHistGraph.vi"/>
 				<Item Name="MH_MeasMode.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_MeasMode.ctl"/>
 				<Item Name="MH_OpenDevice.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_OpenDevice.vi"/>
+				<Item Name="MH_ReadFiFo.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ReadFiFo.vi"/>
 				<Item Name="MH_RefSource.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_RefSource.ctl"/>
 				<Item Name="MH_SetBinning.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetBinning.vi"/>
 				<Item Name="MH_SetHistoLen.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetHistoLen.vi"/>

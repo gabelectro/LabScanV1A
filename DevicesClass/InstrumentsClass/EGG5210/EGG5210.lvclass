@@ -135,12 +135,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 	</Item>
 	<Item Name="SetClassQueueMessage.vi" Type="VI" URL="../SetClassQueueMessage.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!=1&amp;!!!Q!!!!%!!A^T&lt;X*U;75A:#&gt;F=H*F&gt;8)!"!!!!#Z!=!!?!!!2$U6(2T5S-4!O&lt;(:D&lt;'&amp;T=Q!425&gt;(.4)R-#ZM&gt;G.M98.T)%^V&gt;!!?1&amp;!!!Q!!!!%!!B&amp;&amp;=H*P=EFO+%ZP)%6S=G^S+1!U!0(=]6U?!!!!!2*$&lt;'&amp;T=V&amp;V:86F476T=SZD&gt;'Q!'5!'!!Z.:7ZV)'4J=G^V&lt;'&amp;O&gt;!!!+E"Q!"Y!!"%025&gt;(.4)R-#ZM&gt;G.M98.T!!^&amp;2U=V-D%Q,GRW9WRB=X-!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*)!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;J!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!=1&amp;!!!Q!!!!%!!A^T&lt;X*U;75A:#&gt;F=H*F&gt;8)!"!!!!#Z!=!!?!!!2$U6(2T5S-4!O&lt;(:D&lt;'&amp;T=Q!425&gt;(.4)R-#ZM&gt;G.M98.T)%^V&gt;!!31$$`````#&amp;&amp;.:8.T97&gt;F!!!?1&amp;!!!Q!!!!%!!B&amp;&amp;=H*P=EFO+%ZP)%6S=G^S+1!+1&amp;-%2'&amp;U91!!.!$RX[6L&lt;A!!!!%31WRB=X.2&gt;76V:5VF=X-O9X2M!"F!"A!/476O&gt;3"E[8*P&gt;7RB&lt;H1!!#J!=!!?!!!2$U6(2T5S-4!O&lt;(:D&lt;'&amp;T=Q!025&gt;(.4)R-#ZM&gt;G.M98.T!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!##!!!!!!!!!!+!!!!#A!!!!A!!!#3!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 </LVClass>

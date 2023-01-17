@@ -113,15 +113,15 @@
 		<Item Name="GetVarParRowCol.vi" Type="VI" URL="../GetVarParRowCol.vi"/>
 		<Item Name="ColorGraphScale.vi" Type="VI" URL="../ColorGraphScale.vi"/>
 		<Item Name="Sr530 ReadAnalog.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 ReadAnalog.vi"/>
+		<Item Name="GetAllPAr States.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/GetAllPAr States.ctl"/>
+		<Item Name="InputPars.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/InputPars.ctl"/>
 		<Item Name="Inputs.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/Inputs.ctl"/>
-		<Item Name="Sr530 Set Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 Set Param.vi"/>
 		<Item Name="SetParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/SetParam.ctl"/>
 		<Item Name="ReadParam.ctl" Type="VI" URL="/&lt;userlib&gt;/SR530/ReadParam.ctl"/>
+		<Item Name="Sr530 Set Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR530/Sr530 Set Param.vi"/>
 		<Item Name="ReadValByRefI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32.vi"/>
 		<Item Name="LSCI332 GetAllPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetAllPar.vi"/>
 		<Item Name="LSCI332 GetGenPar.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332 GetGenPar.vi"/>
-		<Item Name="InputPars.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/InputPars.ctl"/>
-		<Item Name="GetAllPAr States.ctl" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/GetAllPAr States.ctl"/>
 		<Item Name="LoadCalcParPanel.vi" Type="VI" URL="../LoadCalcParPanel.vi"/>
 		<Item Name="CloseCalcPanel.vi" Type="VI" URL="../CloseCalcPanel.vi"/>
 		<Item Name="TLPM_OpenCloseConn.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM_OpenCloseConn.vi"/>
@@ -145,6 +145,23 @@
 		<Item Name="MH_ReadFiFoV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ReadFiFoV2.vi"/>
 		<Item Name="test T2 acq redfifo.vi" Type="VI" URL="../../test/test T2 acq redfifo.vi"/>
 		<Item Name="T2AcqStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/T2AcqStates.ctl"/>
+		<Item Name="MH_ReadPTUAndQueue.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_ReadPTUAndQueue.vi"/>
+		<Item Name="MH_BufferRecord.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BufferRecord.vi"/>
+		<Item Name="MH_Graph_Deltas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_Graph_Deltas.vi"/>
+		<Item Name="MH_T2 Read Acq Q_V2.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MH_T2 Read Acq Q_V2.vi"/>
+		<Item Name="AllocU64BufferGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AllocU64BufferGen.vi"/>
+		<Item Name="MH_CalcDeltaT.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_CalcDeltaT.vi"/>
+		<Item Name="t2datacompare.vi" Type="VI" URL="//bob/Recherche/QFL/Temp/t2datacompare.vi"/>
+		<Item Name="MH_BuffAndQDeltasB.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BuffAndQDeltasB.vi"/>
+		<Item Name="MH_CalcDeltaTNegB.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_CalcDeltaTNegB.vi"/>
+		<Item Name="MH_T2DeltaQMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_T2DeltaQMessage.ctl"/>
+		<Item Name="Sans titre 6.vi" Type="VI" URL="//bob/Recherche/QFL/Temp/Sans titre 6.vi"/>
+		<Item Name="MH_CalcDeltaT_EB.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_CalcDeltaT_EB.vi"/>
+		<Item Name="MH_CalcDeltaTNeg_EB.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_CalcDeltaTNeg_EB.vi"/>
+		<Item Name="t2 benchmark1.vi" Type="VI" URL="../../test/t2 benchmark1.vi"/>
+		<Item Name="MH_BufferRecordV3.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BufferRecordV3.vi"/>
+		<Item Name="MH_WriteTestPTUFileV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WriteTestPTUFileV2.vi"/>
+		<Item Name="Time BenchmarkGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Time BenchmarkGen.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -180,6 +197,7 @@
 				<Item Name="Agilent34410A Set Range.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set Range.vi"/>
 				<Item Name="Agilent34410A Set TrigSource.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A Set TrigSource.vi"/>
 				<Item Name="Agilent34410A VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A VisaRW.vi"/>
+				<Item Name="AllocU32BufferGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AllocU32BufferGen.vi"/>
 				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
 				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
@@ -218,7 +236,9 @@
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
 				<Item Name="getActorName.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getActorName.vi"/>
 				<Item Name="GetAvailRessGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetAvailRessGen.vi"/>
+				<Item Name="GetDouble.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetDouble.vi"/>
 				<Item Name="GetEmptyTagValueList.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/GetEmptyTagValueList.vi"/>
+				<Item Name="GetInt.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetInt.vi"/>
 				<Item Name="getOutputVoltage.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getOutputVoltage.vi"/>
 				<Item Name="GetParentsChildsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentsChildsGen.vi"/>
 				<Item Name="GetParentTag.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentTag.vi"/>
@@ -293,7 +313,6 @@
 				<Item Name="LSCI332WriteCalFile.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalFile.vi"/>
 				<Item Name="LSCI332WriteCalib.vi" Type="VI" URL="/&lt;userlib&gt;/LSCI 332 V2/LSCI332WriteCalib.vi"/>
 				<Item Name="MH_AllocateCntRateBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_AllocateCntRateBuffer.vi"/>
-				<Item Name="MH_AllocateHistoBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_AllocateHistoBuffer.vi"/>
 				<Item Name="MH_CalcBinningValues.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/SubVIs/MH_CalcBinningValues.vi"/>
 				<Item Name="MH_CalcTimeTrace.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/SubVIs/MH_CalcTimeTrace.vi"/>
 				<Item Name="MH_ClearHistMem.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ClearHistMem.vi"/>
@@ -304,6 +323,8 @@
 				<Item Name="MH_DataProcThread_QCmds.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/Types/MH_DataProcThread_QCmds.ctl"/>
 				<Item Name="MH_DataProcThread_QData.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/Types/MH_DataProcThread_QData.ctl"/>
 				<Item Name="MH_DataProcThread_QRef.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/Types/MH_DataProcThread_QRef.ctl"/>
+				<Item Name="MH_DataToPTUTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_DataToPTUTag.vi"/>
+				<Item Name="MH_DatatoRecMH150T2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_DatatoRecMH150T2.vi"/>
 				<Item Name="MH_DllPath_global.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_DllPath_global.vi"/>
 				<Item Name="MH_EnQError.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/SubVIs/MH_EnQError.vi"/>
 				<Item Name="MH_GetAllCountRates.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetAllCountRates.vi"/>
@@ -329,9 +350,12 @@
 				<Item Name="MH_LoadHistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_LoadHistGraph.vi"/>
 				<Item Name="MH_MeasMode.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_MeasMode.ctl"/>
 				<Item Name="MH_OpenDevice.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_OpenDevice.vi"/>
+				<Item Name="MH_OpenPTU.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_OpenPTU.vi"/>
 				<Item Name="MH_ProcData.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/SubVIs/MH_ProcData.vi"/>
 				<Item Name="MH_ReadFiFo.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ReadFiFo.vi"/>
+				<Item Name="MH_ReadPTUHeader.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_ReadPTUHeader.vi"/>
 				<Item Name="MH_RefSource.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_RefSource.ctl"/>
+				<Item Name="MH_ResizeBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_ResizeBuffer.vi"/>
 				<Item Name="MH_SetBinning.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetBinning.vi"/>
 				<Item Name="MH_SetHistoLen.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetHistoLen.vi"/>
 				<Item Name="MH_SetInpChanCmds.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInpChanCmds.ctl"/>
@@ -356,6 +380,8 @@
 				<Item Name="MH_VisThread_QCmds.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/Types/MH_VisThread_QCmds.ctl"/>
 				<Item Name="MH_VisThread_QData.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/Types/MH_VisThread_QData.ctl"/>
 				<Item Name="MH_VisThread_QRef.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/Types/MH_VisThread_QRef.ctl"/>
+				<Item Name="MH_WritePTURecordArr.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTURecordArr.vi"/>
+				<Item Name="MH_WritePTURecordSgl.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTURecordSgl.vi"/>
 				<Item Name="MH_WritePTUTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUTag.vi"/>
 				<Item Name="MonoSpec50 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 ErrorHandler.vi"/>
 				<Item Name="MonoSpec50 Find Ref Position.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position.vi"/>
@@ -420,6 +446,7 @@
 				<Item Name="ReadChStates.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadChStates.ctl"/>
 				<Item Name="ReadFunctions.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadFunctions.ctl"/>
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
+				<Item Name="ReadTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/ReadTag.vi"/>
 				<Item Name="SetAcqParMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/SetAcqParMessage.ctl"/>
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
@@ -466,6 +493,7 @@
 				<Item Name="ST5 Settings Mess.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Settings Mess.vi"/>
 				<Item Name="ST5 Write Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Write Param.vi"/>
 				<Item Name="StatesConst.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/StatesConst.ctl"/>
+				<Item Name="StrnCmp.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/StrnCmp.vi"/>
 				<Item Name="Symphony Acq Image States.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Acq Image States.ctl"/>
 				<Item Name="Symphony Acquire Image.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Acquire Image.vi"/>
 				<Item Name="Symphony Format Area.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Format Area.vi"/>
@@ -479,6 +507,9 @@
 				<Item Name="Symphony ReadTemp.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadTemp.vi"/>
 				<Item Name="Symphony ReadWrite.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony ReadWrite.vi"/>
 				<Item Name="Symphony Setup V2.vi" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/Symphony Setup V2.vi"/>
+				<Item Name="T_At_Wire_Err.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/T_At_Wire/T_At_Wire_Err.vi"/>
+				<Item Name="T_At_Wire_I32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/T_At_Wire/T_At_Wire_I32.vi"/>
+				<Item Name="TagToString.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/TagToString.vi"/>
 				<Item Name="Taiko_LHDataToStrArray.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/Taiko_LHDataToStrArray.vi"/>
 				<Item Name="TCPHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/TCPHandler.vi"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
@@ -541,10 +572,13 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
+				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -711,6 +745,8 @@
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Increment Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Increment Array Element.vim"/>
+				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -719,6 +755,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -733,6 +770,7 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
+				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
@@ -770,6 +808,7 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -793,6 +832,7 @@
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="AboutLS1.vi" Type="VI" URL="../AboutLS1.vi"/>
 			<Item Name="AddCurveStates.ctl" Type="VI" URL="../Interface Class/AddCurveStates.ctl"/>

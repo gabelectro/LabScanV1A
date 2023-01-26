@@ -32,6 +32,7 @@
 		<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
 		<Item Name="OR77200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/OR77200/OR77200.lvclass"/>
 		<Item Name="PhotoLum.lvclass" Type="LVClass" URL="../DevicesClass/PhotoLum/PhotoLum.lvclass"/>
+		<Item Name="RedTide650.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/RedTide650/RedTide650.lvclass"/>
 		<Item Name="Spex.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Spex/Spex.lvclass"/>
 		<Item Name="SR530.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR530/SR530.lvclass"/>
 		<Item Name="SR830.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR830/SR830.lvclass"/>
@@ -444,6 +445,7 @@
 				<Item Name="ReadbyWeakRefNumV2.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefNumV2.vi"/>
 				<Item Name="ReadbyWeakRefRing.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefRing.vi"/>
 				<Item Name="ReadChStates.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadChStates.ctl"/>
+				<Item Name="ReadDataGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadDataGen.vi"/>
 				<Item Name="ReadFunctions.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadFunctions.ctl"/>
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
 				<Item Name="ReadTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/ReadTag.vi"/>

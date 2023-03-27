@@ -45,6 +45,7 @@
 		<Item Name="TaikoLaser.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/TaikoLaser/TaikoLaser.lvclass"/>
 		<Item Name="HeFlowMeter.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/HeFlowMeter/HeFlowMeter.lvclass"/>
 		<Item Name="DK240.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/DK240/DK240.lvclass"/>
+		<Item Name="ThorCCS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ThorCCS200/ThorCCS200.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
@@ -172,9 +173,17 @@
 		<Item Name="DK240 SlitInfo.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 SlitInfo.vi"/>
 		<Item Name="DK240 SlitAdjust.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 SlitAdjust.vi"/>
 		<Item Name="DK240 GratingSelect.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 GratingSelect.vi"/>
+		<Item Name="TLCCS_LoadAcqGraph.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS_LoadAcqGraph.vi"/>
+		<Item Name="TLCCS_ACQGraph.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS_ACQGraph.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="TLCCS Get Device Status.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Get Device Status.vi"/>
+				<Item Name="TLCCS Get Scan Data.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Get Scan Data.vi"/>
+				<Item Name="TLCCS Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Initialize.vi"/>
+				<Item Name="TLCCS Set Integration Time.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Set Integration Time.vi"/>
+				<Item Name="TLCCS Start Scan.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Start Scan.vi"/>
+				<Item Name="TLCCS VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS VXIpnp Error Converter.vi"/>
 				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Close.vi"/>
 				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Find Resources.vi"/>
 				<Item Name="TLPM Get Attenuation.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Attenuation.vi"/>
@@ -192,6 +201,11 @@
 				<Item Name="TLPM Set Power Range.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Power Range.vi"/>
 				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Wavelength.vi"/>
 				<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM VXIpnp Error Converter.vi"/>
+				<Item Name="x_ConnectToUSB.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_ConnectToUSB.vi"/>
+				<Item Name="x_GetSystemLanguage.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_GetSystemLanguage.vi"/>
+				<Item Name="x_Select USB Device.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_Select USB Device.vi"/>
+				<Item Name="x_StateMachine.ctl" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_StateMachine.ctl"/>
+				<Item Name="x_ZweiKnöpfeDialog.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_ZweiKnöpfeDialog.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AcqParState.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/AcqParState.ctl"/>
@@ -906,6 +920,9 @@
 			<Item Name="SetupInterfStates.ctl" Type="VI" URL="../Interface Class/SetupInterfStates.ctl"/>
 			<Item Name="SizeGraphPanelV2.vi" Type="VI" URL="../SizeGraphPanelV2.vi"/>
 			<Item Name="StdFileName_LS1.vi" Type="VI" URL="../StdFileName_LS1.vi"/>
+			<Item Name="tlccs_32.dll" Type="Document" URL="tlccs_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

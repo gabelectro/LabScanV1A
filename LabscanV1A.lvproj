@@ -178,6 +178,10 @@
 		<Item Name="Wait_At_Wire_Err.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Err.vi"/>
 		<Item Name="MH_WritePTUHeaderV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUHeaderV2.vi"/>
 		<Item Name="MH_TimeTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_TimeTag.vi"/>
+		<Item Name="SaveJournalGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SaveJournalGen.vi"/>
+		<Item Name="TLPM_RecordGraph.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM_RecordGraph.vi"/>
+		<Item Name="TLPM RecordData.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/ThorPM100A/TLPM RecordData.vi"/>
+		<Item Name="Wait_At_Wire_Bool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Bool.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -203,7 +207,9 @@
 				<Item Name="TLPM Set Power Autorange Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Power Autorange Mode.vi"/>
 				<Item Name="TLPM Set Power Range.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Power Range.vi"/>
 				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Wavelength.vi"/>
+				<Item Name="TLPM Start Dark Offset Adjustment.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Start Dark Offset Adjustment.vi"/>
 				<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM VXIpnp Error Converter.vi"/>
+				<Item Name="TLPM_LoadRecGraph.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM_LoadRecGraph.vi"/>
 				<Item Name="x_ConnectToUSB.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_ConnectToUSB.vi"/>
 				<Item Name="x_GetSystemLanguage.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_GetSystemLanguage.vi"/>
 				<Item Name="x_Select USB Device.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/x_Select USB Device.vi"/>
@@ -450,6 +456,8 @@
 				<Item Name="PDLM_GetPulsePower.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetPulsePower.vi"/>
 				<Item Name="PDLM_GetPulsePowerPermille.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetPulsePowerPermille.vi"/>
 				<Item Name="PDLM_GetQueuedChanges.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetQueuedChanges.vi"/>
+				<Item Name="PDLM_GetQueuedError.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetQueuedError.vi"/>
+				<Item Name="PDLM_GetQueuedErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetQueuedErrorString.vi"/>
 				<Item Name="PDLM_GetSystemStatus.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetSystemStatus.vi"/>
 				<Item Name="PDLM_GetTagValueList.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetTagValueList.vi"/>
 				<Item Name="PDLM_LaserLock.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_LaserLock.ctl"/>

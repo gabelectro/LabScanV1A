@@ -46,6 +46,7 @@
 		<Item Name="HeFlowMeter.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/HeFlowMeter/HeFlowMeter.lvclass"/>
 		<Item Name="DK240.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/DK240/DK240.lvclass"/>
 		<Item Name="ThorCCS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ThorCCS200/ThorCCS200.lvclass"/>
+		<Item Name="ThorKDC101.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ThorKDC101/ThorKDC101.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
@@ -182,6 +183,11 @@
 		<Item Name="TLPM_RecordGraph.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM_RecordGraph.vi"/>
 		<Item Name="TLPM RecordData.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/ThorPM100A/TLPM RecordData.vi"/>
 		<Item Name="Wait_At_Wire_Bool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Bool.vi"/>
+		<Item Name="KDC101_Init.vi" Type="VI" URL="/&lt;userlib&gt;/ThorKDC101/KDC101_Init.vi"/>
+		<Item Name="KDC101_Home.vi" Type="VI" URL="/&lt;userlib&gt;/ThorKDC101/KDC101_Home.vi"/>
+		<Item Name="KDC101_Goto.vi" Type="VI" URL="/&lt;userlib&gt;/ThorKDC101/KDC101_Goto.vi"/>
+		<Item Name="KDC101_Close.vi" Type="VI" URL="/&lt;userlib&gt;/ThorKDC101/KDC101_Close.vi"/>
+		<Item Name="KDC101_GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/ThorKDC101/KDC101_GetStatus.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -560,6 +566,9 @@
 				<Item Name="Taiko_LHDataToStrArray.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/Taiko_LHDataToStrArray.vi"/>
 				<Item Name="TCPHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/TCPHandler.vi"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
+				<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="/&lt;userlib&gt;/ThorKDC101/Kinesis_with_LabVIEW_Examples_LV12 - v3/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
+				<Item Name="Thorlabs.MotionControl.GenericMotorCLI.dll" Type="Document" URL="/&lt;userlib&gt;/ThorKDC101/Kinesis_with_LabVIEW_Examples_LV12 - v3/Thorlabs.MotionControl.GenericMotorCLI.dll"/>
+				<Item Name="ThorLabs.MotionControl.KCube.DCServoCLI.dll" Type="Document" URL="/&lt;userlib&gt;/ThorKDC101/Kinesis_with_LabVIEW_Examples_LV12 - v3/ThorLabs.MotionControl.KCube.DCServoCLI.dll"/>
 				<Item Name="TimerGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerGen.vi"/>
 				<Item Name="TIO Avg AVM Field Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg AVM Field Data.vi"/>
 				<Item Name="TIO Avg Field Data.vi" Type="VI" URL="/&lt;userlib&gt;/TIO Library 2010/TIO Avg Field Data.vi"/>
@@ -620,10 +629,12 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -850,6 +861,7 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -909,6 +921,9 @@
 			<Item Name="LoadNewGraph_LS1.vi" Type="VI" URL="../LoadNewGraph_LS1.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MoveScanFunc.vi" Type="VI" URL="../MoveScanFunc.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

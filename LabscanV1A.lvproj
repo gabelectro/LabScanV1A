@@ -189,6 +189,8 @@
 		<Item Name="KDC101_Close.vi" Type="VI" URL="/&lt;userlib&gt;/ThorKDC101/KDC101_Close.vi"/>
 		<Item Name="KDC101_GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/ThorKDC101/KDC101_GetStatus.vi"/>
 		<Item Name="ColorGraphMarkers_LS1.vi" Type="VI" URL="../ColorGraphMarkers_LS1.vi"/>
+		<Item Name="WritebyWeakRefI32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefI32Arr.vi"/>
+		<Item Name="Wait_At_Wire_U32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_U32.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">

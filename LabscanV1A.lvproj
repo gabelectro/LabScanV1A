@@ -197,6 +197,9 @@
 		<Item Name="ESP301 StopMot.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 StopMot.vi"/>
 		<Item Name="ESP301 Status.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Status.vi"/>
 		<Item Name="ESP301 MotorEn.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 MotorEn.vi"/>
+		<Item Name="Ini_file_RW_StrArrGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Ini_File_RW/Ini_file_RW_StrArrGen.vi"/>
+		<Item Name="Ini_file_RW_DblGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Ini_File_RW/Ini_file_RW_DblGen.vi"/>
+		<Item Name="BoolTrueFalseGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/BoolTrueFalseGen.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">

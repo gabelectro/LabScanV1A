@@ -47,6 +47,7 @@
 		<Item Name="DK240.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/DK240/DK240.lvclass"/>
 		<Item Name="ThorCCS200.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ThorCCS200/ThorCCS200.lvclass"/>
 		<Item Name="ThorKDC101.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ThorKDC101/ThorKDC101.lvclass"/>
+		<Item Name="ESP301.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ESP301/ESP301.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
@@ -191,6 +192,11 @@
 		<Item Name="ColorGraphMarkers_LS1.vi" Type="VI" URL="../ColorGraphMarkers_LS1.vi"/>
 		<Item Name="WritebyWeakRefI32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefI32Arr.vi"/>
 		<Item Name="Wait_At_Wire_U32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_U32.vi"/>
+		<Item Name="ESP301 GetPos.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 GetPos.vi"/>
+		<Item Name="ESP301 Home.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Home.vi"/>
+		<Item Name="ESP301 StopMot.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 StopMot.vi"/>
+		<Item Name="ESP301 Status.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Status.vi"/>
+		<Item Name="ESP301 MotorEn.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 MotorEn.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -260,6 +266,7 @@
 				<Item Name="controlOutput.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlOutput.vi"/>
 				<Item Name="controlReferenceAutoUpdate.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlReferenceAutoUpdate.vi"/>
 				<Item Name="controlTargetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetPosition.vi"/>
+				<Item Name="ConvLongTemps.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ConvLongTemps.vi"/>
 				<Item Name="CréeTablePositionsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CréeTablePositionsGen.vi"/>
 				<Item Name="CurrentVIFolder.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CurrentVIFolder.vi"/>
 				<Item Name="DataSimGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DataSimGen.vi"/>
@@ -272,6 +279,7 @@
 				<Item Name="DK240 Read.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 Read.vi"/>
 				<Item Name="DK240 WaveInfo.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 WaveInfo.vi"/>
 				<Item Name="DK240 Write.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 Write.vi"/>
+				<Item Name="DélaisGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DélaisGen.vi"/>
 				<Item Name="EG_G5210 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 CheckStatus.vi"/>
 				<Item Name="EG_G5210 ParString.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 ParString.vi"/>
 				<Item Name="EG_G5210 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 Read Param.vi"/>
@@ -280,6 +288,10 @@
 				<Item Name="EG_G5210 SetTrigMode.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 SetTrigMode.vi"/>
 				<Item Name="EG_G5210 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 VisaRW.vi"/>
 				<Item Name="errorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/errorHandler.vi"/>
+				<Item Name="ESP300 CheckErrors.vi" Type="VI" URL="/&lt;userlib&gt;/ESP300/ESP300 CheckErrors.vi"/>
+				<Item Name="ESP300 GotoState.ctl" Type="VI" URL="/&lt;userlib&gt;/ESP300/ESP300 GotoState.ctl"/>
+				<Item Name="ESP300 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/ESP300/ESP300 VisaRW.vi"/>
+				<Item Name="ESP301 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Goto.vi"/>
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
 				<Item Name="getActorName.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getActorName.vi"/>
@@ -614,7 +626,8 @@
 				<Item Name="WritebyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefBool.vi"/>
 				<Item Name="WritebyRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefNum.vi"/>
 				<Item Name="WritebyRefNumArrV2.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefNumArrV2.vi"/>
-				<Item Name="WritebyWeakRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefBool.vi"/>
+				<Item Name="WritebyWeakRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefBool.vi"/>
+				<Item Name="WritebyWeakRefBoolTyped.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefBoolTyped.vi"/>
 				<Item Name="WritebyWeakRefDbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefDbl.vi"/>
 				<Item Name="WritebyWeakRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefNum.vi"/>
 				<Item Name="WriteI32ClusterArray.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteI32ClusterArray.vi"/>
@@ -632,10 +645,12 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -862,6 +877,7 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>

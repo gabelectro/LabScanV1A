@@ -615,6 +615,7 @@
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
 				<Item Name="Wait_At_Wire_Bool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Bool.vi"/>
 				<Item Name="Wait_At_Wire_Err.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Err.vi"/>
+				<Item Name="Wait_At_Wire_U32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_U32.vi"/>
 				<Item Name="WritebyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRef.vi"/>
 				<Item Name="WritebyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefBool.vi"/>
 				<Item Name="WritebyRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefNum.vi"/>

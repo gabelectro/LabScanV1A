@@ -184,6 +184,7 @@
 		<Item Name="t2 read record benchmark.vi" Type="VI" URL="../../test/t2 read record benchmark.vi"/>
 		<Item Name="MH_Count_Records.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records.vi"/>
 		<Item Name="delta comparet2.vi" Type="VI" URL="../../../Data/tests/test t2/delta comparet2.vi"/>
+		<Item Name="MH_Count_Records_and_TT.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records_and_TT.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">

@@ -183,6 +183,7 @@
 		<Item Name="BNC845 SetPower.vi" Type="VI" URL="/&lt;instrlib&gt;/Berkeley Nucleonics 845/BNC845_Ls/BNC845 SetPower.vi"/>
 		<Item Name="t2 read record benchmark.vi" Type="VI" URL="../../test/t2 read record benchmark.vi"/>
 		<Item Name="MH_Count_Records.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records.vi"/>
+		<Item Name="delta comparet2.vi" Type="VI" URL="../../../Data/tests/test t2/delta comparet2.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">

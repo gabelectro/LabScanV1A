@@ -186,6 +186,8 @@
 		<Item Name="MH_Count_Records.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records.vi"/>
 		<Item Name="delta comparet2.vi" Type="VI" URL="../../../Data/tests/test t2/delta comparet2.vi"/>
 		<Item Name="MH_Count_Records_and_TT.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records_and_TT.vi"/>
+		<Item Name="Andor_LiveGraph.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_LiveGraph.vi"/>
+		<Item Name="GetCtrlRefByNameGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetCtrlRefByNameGen.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -227,6 +229,7 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AcqParState.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/AcqParState.ctl"/>
+				<Item Name="AcquisitionMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AcquisitionMode_mode typedef.ctl"/>
 				<Item Name="Add ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For DLL.vi"/>
 				<Item Name="Add ECO For LabVIEW.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For LabVIEW.vi"/>
 				<Item Name="Agilent34410A DMM_Func.ctl" Type="VI" URL="/&lt;userlib&gt;/Agilent34410A/Agilent34410A DMM_Func.ctl"/>
@@ -264,6 +267,8 @@
 				<Item Name="controlReferenceAutoUpdate.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlReferenceAutoUpdate.vi"/>
 				<Item Name="controlTargetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetPosition.vi"/>
 				<Item Name="ConvLongTemps.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ConvLongTemps.vi"/>
+				<Item Name="CoolerOFF.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/CoolerOFF.vi"/>
+				<Item Name="CoolerON.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/CoolerON.vi"/>
 				<Item Name="CréeTablePositionsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CréeTablePositionsGen.vi"/>
 				<Item Name="CurrentVIFolder.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CurrentVIFolder.vi"/>
 				<Item Name="DataSimGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DataSimGen.vi"/>
@@ -298,11 +303,13 @@
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
 				<Item Name="Get Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Get Error Source.vi"/>
+				<Item Name="GetAcquisitionTimings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionTimings.vi"/>
 				<Item Name="getActorName.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getActorName.vi"/>
 				<Item Name="GetAvailRessGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetAvailRessGen.vi"/>
 				<Item Name="GetDouble.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetDouble.vi"/>
 				<Item Name="GetEmptyTagValueList.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/GetEmptyTagValueList.vi"/>
 				<Item Name="GetInt.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetInt.vi"/>
+				<Item Name="GetNumberVSSpeeds.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberVSSpeeds.vi"/>
 				<Item Name="getOutputVoltage.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getOutputVoltage.vi"/>
 				<Item Name="GetParentsChildsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentsChildsGen.vi"/>
 				<Item Name="GetParentTag.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentTag.vi"/>
@@ -317,6 +324,7 @@
 				<Item Name="GetTreeColTxt.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTreeColTxt.vi"/>
 				<Item Name="GetViCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetViCtrlRefGen.vi"/>
 				<Item Name="HomeViStates.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/HomeViStates.ctl"/>
+				<Item Name="HSSpeed_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/HSSpeed_type typedef.ctl"/>
 				<Item Name="Ini_file_RW_DblGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Ini_File_RW/Ini_file_RW_DblGen.vi"/>
 				<Item Name="Ini_file_RW_StrArrGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Ini_File_RW/Ini_file_RW_StrArrGen.vi"/>
 				<Item Name="Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Initialize.vi"/>
@@ -522,14 +530,22 @@
 				<Item Name="ReadChStates.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadChStates.ctl"/>
 				<Item Name="ReadDataGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadDataGen.vi"/>
 				<Item Name="ReadFunctions.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/ReadFunctions.ctl"/>
+				<Item Name="ReadMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ReadMode_mode typedef.ctl"/>
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
 				<Item Name="ReadTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/ReadTag.vi"/>
 				<Item Name="SaveJournalGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SaveJournalGen.vi"/>
 				<Item Name="SetAcqParMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/SetAcqParMessage.ctl"/>
+				<Item Name="SetAcquisitionMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAcquisitionMode.vi"/>
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
+				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
+				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
+				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
 				<Item Name="setReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/setReset.vi"/>
+				<Item Name="SetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTemperature.vi"/>
+				<Item Name="SetTriggerMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTriggerMode.vi"/>
+				<Item Name="SetVSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSSpeed.vi"/>
 				<Item Name="Spex Goto.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Goto.vi"/>
 				<Item Name="Spex Halt.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Halt.vi"/>
 				<Item Name="Spex ScanMove.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex ScanMove.vi"/>
@@ -634,6 +650,7 @@
 				<Item Name="Triax320 SetTurretPos.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 SetTurretPos.vi"/>
 				<Item Name="Triax320 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Triax320/Triax320 VisaRW.vi"/>
 				<Item Name="TriaxParams.ctl" Type="VI" URL="/&lt;userlib&gt;/Triax320/TriaxParams.ctl"/>
+				<Item Name="TriggerMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/TriggerMode_mode typedef.ctl"/>
 				<Item Name="TrigMode.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/TrigMode.ctl"/>
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
 				<Item Name="Wait_At_Wire_Bool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Bool.vi"/>

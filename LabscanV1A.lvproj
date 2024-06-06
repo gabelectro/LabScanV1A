@@ -203,6 +203,7 @@
 		<Item Name="GetQE.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetQE.vi"/>
 		<Item Name="FVB32at.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Demos/FVB32at.vi"/>
 		<Item Name="AndorAcqStates.ctl" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/AndorAcqStates.ctl"/>
+		<Item Name="Andor_Wavelenght_Conv.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Wavelenght_Conv.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -267,6 +268,8 @@
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
 				<Item Name="ArrayTo1DString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DString.vi"/>
+				<Item Name="atspectrograph.lvlib" Type="Library" URL="/&lt;userlib&gt;/ATSpectrograph/atspectrograph.lvlib"/>
+				<Item Name="atspectrograph_info.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/ATSpectrograph.llb/atspectrograph_info.vi"/>
 				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/attocube-discovery-dll.dll"/>
 				<Item Name="BoolTrueFalseGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/BoolTrueFalseGen.vi"/>
 				<Item Name="CalcRate.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/_lib/CalcRate.vi"/>
@@ -560,6 +563,7 @@
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
 				<Item Name="ReadTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/ReadTag.vi"/>
 				<Item Name="SaveJournalGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SaveJournalGen.vi"/>
+				<Item Name="SetAccumulationCycleTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAccumulationCycleTime.vi"/>
 				<Item Name="SetAcqParMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/SetAcqParMessage.ctl"/>
 				<Item Name="SetAcquisitionMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAcquisitionMode.vi"/>
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
@@ -973,6 +977,9 @@
 			</Item>
 			<Item Name="ArrangeRemPan.vi" Type="VI" URL="../ArrangeRemPan.vi"/>
 			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="atspectrograph.dll" Type="Document" URL="atspectrograph.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="BrowseDataStates.ctl" Type="VI" URL="../BrowseDataStates.ctl"/>

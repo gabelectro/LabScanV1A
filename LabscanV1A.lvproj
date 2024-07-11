@@ -209,6 +209,8 @@
 		<Item Name="AndorAcq_States.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AndorSpectro/AndorAcq_States.ctl"/>
 		<Item Name="GetNewData.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNewData.vi"/>
 		<Item Name="WritebyWeakRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefU16.vi"/>
+		<Item Name="GetReadOutTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetReadOutTime.vi"/>
+		<Item Name="GetMostRecentImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetMostRecentImage.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -269,6 +271,7 @@
 				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
 				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
 				<Item Name="AndorCapabilities typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AndorCapabilities typedef.ctl"/>
+				<Item Name="AndorNoiseCorr.ctl" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/AndorNoiseCorr.ctl"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
@@ -346,6 +349,7 @@
 				<Item Name="GetEmptyTagValueList.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/GetEmptyTagValueList.vi"/>
 				<Item Name="GetFilterMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetFilterMode.vi"/>
 				<Item Name="GetInt.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetInt.vi"/>
+				<Item Name="GetNumberNewImages.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberNewImages.vi"/>
 				<Item Name="GetNumberVSSpeeds.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberVSSpeeds.vi"/>
 				<Item Name="getOutputVoltage.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getOutputVoltage.vi"/>
 				<Item Name="GetParentsChildsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentsChildsGen.vi"/>
@@ -362,6 +366,7 @@
 				<Item Name="getStatusTargetRange.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusTargetRange.vi"/>
 				<Item Name="GetTabCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTabCtrlRefGen.vi"/>
 				<Item Name="GetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetTemperature.vi"/>
+				<Item Name="GetTotalNumberImagesAcquired.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetTotalNumberImagesAcquired.vi"/>
 				<Item Name="GetTreeColTxt.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTreeColTxt.vi"/>
 				<Item Name="GetViCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetViCtrlRefGen.vi"/>
 				<Item Name="HomeViStates.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/HomeViStates.ctl"/>
@@ -731,12 +736,10 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -963,7 +966,6 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>

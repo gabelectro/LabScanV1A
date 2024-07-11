@@ -50,6 +50,7 @@
 		<Item Name="ESP301.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ESP301/ESP301.lvclass"/>
 		<Item Name="BNC845.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/BNC845/BNC845.lvclass"/>
 		<Item Name="AndorSpectro.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AndorSpectro/AndorSpectro.lvclass"/>
+		<Item Name="E8267D.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/E8267D/E8267D.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
@@ -206,6 +207,8 @@
 		<Item Name="Andor_Wavelenght_Conv.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Wavelenght_Conv.vi"/>
 		<Item Name="Andor_Acquire.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire.vi"/>
 		<Item Name="AndorAcq_States.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AndorSpectro/AndorAcq_States.ctl"/>
+		<Item Name="GetNewData.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNewData.vi"/>
+		<Item Name="WritebyWeakRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefU16.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -303,6 +306,12 @@
 				<Item Name="DK240 WaveInfo.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 WaveInfo.vi"/>
 				<Item Name="DK240 Write.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 Write.vi"/>
 				<Item Name="DélaisGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DélaisGen.vi"/>
+				<Item Name="E8267D GetFrequency.vi" Type="VI" URL="/&lt;userlib&gt;/E8267D/E8267D GetFrequency.vi"/>
+				<Item Name="E8267D GetPower.vi" Type="VI" URL="/&lt;userlib&gt;/E8267D/E8267D GetPower.vi"/>
+				<Item Name="E8267D OutputEn.vi" Type="VI" URL="/&lt;userlib&gt;/E8267D/E8267D OutputEn.vi"/>
+				<Item Name="E8267D SetFrequency.vi" Type="VI" URL="/&lt;userlib&gt;/E8267D/E8267D SetFrequency.vi"/>
+				<Item Name="E8267D SetPower.vi" Type="VI" URL="/&lt;userlib&gt;/E8267D/E8267D SetPower.vi"/>
+				<Item Name="E8267D VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/E8267D/E8267D VisaRW.vi"/>
 				<Item Name="EG_G5210 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 CheckStatus.vi"/>
 				<Item Name="EG_G5210 ParString.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 ParString.vi"/>
 				<Item Name="EG_G5210 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 Read Param.vi"/>
@@ -322,6 +331,7 @@
 				<Item Name="ESP301 Home.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Home.vi"/>
 				<Item Name="ESP301 MotorEn.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 MotorEn.vi"/>
 				<Item Name="ESP301 Status.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Status.vi"/>
+				<Item Name="Filter_SetMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_SetMode.vi"/>
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
 				<Item Name="Get Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Get Error Source.vi"/>
@@ -576,6 +586,7 @@
 				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
 				<Item Name="SetGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetGain.vi"/>
 				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
+				<Item Name="SetNumberAccumulations.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetNumberAccumulations.vi"/>
 				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
 				<Item Name="setReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/setReset.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTemperature.vi"/>
@@ -720,10 +731,12 @@
 				<Item Name="YokoGS200 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 VisaRW.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -950,6 +963,7 @@
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>

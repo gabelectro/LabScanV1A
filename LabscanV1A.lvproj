@@ -211,6 +211,11 @@
 		<Item Name="WritebyWeakRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefU16.vi"/>
 		<Item Name="GetReadOutTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetReadOutTime.vi"/>
 		<Item Name="GetMostRecentImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetMostRecentImage.vi"/>
+		<Item Name="Andor_Acquire_old.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire_old.vi"/>
+		<Item Name="Andor_Acquire_Im.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire_Im.vi"/>
+		<Item Name="GetRefPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetRefPropGen.vi"/>
+		<Item Name="Andor Format CrvNames.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor Format CrvNames.vi"/>
+		<Item Name="Andor_ProcessData.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_ProcessData.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -270,6 +275,7 @@
 				<Item Name="AllocU32BufferGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AllocU32BufferGen.vi"/>
 				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
 				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
+				<Item Name="Andor DisplayNames.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor DisplayNames.vi"/>
 				<Item Name="AndorCapabilities typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AndorCapabilities typedef.ctl"/>
 				<Item Name="AndorNoiseCorr.ctl" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/AndorNoiseCorr.ctl"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
@@ -334,7 +340,6 @@
 				<Item Name="ESP301 Home.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Home.vi"/>
 				<Item Name="ESP301 MotorEn.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 MotorEn.vi"/>
 				<Item Name="ESP301 Status.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Status.vi"/>
-				<Item Name="Filter_SetMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_SetMode.vi"/>
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
 				<Item Name="Get Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Get Error Source.vi"/>
@@ -344,11 +349,15 @@
 				<Item Name="GetAvailRessGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetAvailRessGen.vi"/>
 				<Item Name="GetCameraInformation.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetCameraInformation.vi"/>
 				<Item Name="GetCapabilities.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetCapabilities.vi"/>
+				<Item Name="GetCtrlRefByNameGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetCtrlRefByNameGen.vi"/>
 				<Item Name="GetDetector.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetDetector.vi"/>
 				<Item Name="GetDouble.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetDouble.vi"/>
 				<Item Name="GetEmptyTagValueList.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/GetEmptyTagValueList.vi"/>
 				<Item Name="GetFilterMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetFilterMode.vi"/>
+				<Item Name="GetHorizontalSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetHorizontalSpeed.vi"/>
+				<Item Name="GetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetHSSpeed.vi"/>
 				<Item Name="GetInt.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetInt.vi"/>
+				<Item Name="GetNumberHorizontalSpeeds.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberHorizontalSpeeds.vi"/>
 				<Item Name="GetNumberNewImages.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberNewImages.vi"/>
 				<Item Name="GetNumberVSSpeeds.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberVSSpeeds.vi"/>
 				<Item Name="getOutputVoltage.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getOutputVoltage.vi"/>
@@ -356,7 +365,6 @@
 				<Item Name="GetParentTag.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentTag.vi"/>
 				<Item Name="GetPixelSize.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPixelSize.vi"/>
 				<Item Name="getPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getPosition.vi"/>
-				<Item Name="GetPreAmpGainText.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPreAmpGainText.vi"/>
 				<Item Name="getReferencePosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getReferencePosition.vi"/>
 				<Item Name="GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetStatus.vi"/>
 				<Item Name="getStatusEotBkwd.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusEotBkwd.vi"/>
@@ -580,7 +588,10 @@
 				<Item Name="ReadMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ReadMode_mode typedef.ctl"/>
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
 				<Item Name="ReadTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/ReadTag.vi"/>
+				<Item Name="ReadValByRefArrU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefArrU16.vi"/>
 				<Item Name="ReadValByRefDblArr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefDblArr.vi"/>
+				<Item Name="ReadValByRefI32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32Arr.vi"/>
+				<Item Name="ReadValByRefNamedU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefNamedU16.vi"/>
 				<Item Name="SaveJournalGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SaveJournalGen.vi"/>
 				<Item Name="SetAccumulationCycleTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAccumulationCycleTime.vi"/>
 				<Item Name="SetAcqParMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/JY Symphony/SetAcqParMessage.ctl"/>
@@ -589,8 +600,8 @@
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
 				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
-				<Item Name="SetGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetGain.vi"/>
 				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
+				<Item Name="SetImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetImage.vi"/>
 				<Item Name="SetNumberAccumulations.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetNumberAccumulations.vi"/>
 				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
 				<Item Name="setReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/setReset.vi"/>

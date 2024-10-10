@@ -170,7 +170,6 @@
 		<Item Name="MH_Graph_Binned.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_Graph_Binned.vi"/>
 		<Item Name="MH_WritePTUHeaderV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUHeaderV2.vi"/>
 		<Item Name="MH_TimeTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_TimeTag.vi"/>
-		<Item Name="Sans titre 6.vi" Type="VI" URL="//bob/Recherche/QFL/Temp/Sans titre 6.vi"/>
 		<Item Name="Time BenchmarkGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Time BenchmarkGen.vi"/>
 		<Item Name="DK240 SlitInfo.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 SlitInfo.vi"/>
 		<Item Name="DK240 SlitAdjust.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 SlitAdjust.vi"/>
@@ -216,6 +215,9 @@
 		<Item Name="GetRefPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetRefPropGen.vi"/>
 		<Item Name="Andor Format CrvNames.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor Format CrvNames.vi"/>
 		<Item Name="Andor_ProcessData.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_ProcessData.vi"/>
+		<Item Name="ReadValByRefI32Arr2D.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32Arr2D.vi"/>
+		<Item Name="Andor_ProcessBckgnd.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_ProcessBckgnd.vi"/>
+		<Item Name="MH_BuildTimeTrace.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BuildTimeTrace.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -340,6 +342,13 @@
 				<Item Name="ESP301 Home.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Home.vi"/>
 				<Item Name="ESP301 MotorEn.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 MotorEn.vi"/>
 				<Item Name="ESP301 Status.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Status.vi"/>
+				<Item Name="Filter_GetAveragingFactor.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetAveragingFactor.vi"/>
+				<Item Name="Filter_GetAveragingFrameCount.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetAveragingFrameCount.vi"/>
+				<Item Name="Filter_GetDataAveragingMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetDataAveragingMode.vi"/>
+				<Item Name="Filter_GetMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetMode.vi"/>
+				<Item Name="Filter_GetThreshold.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetThreshold.vi"/>
+				<Item Name="Filter_SetMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_SetMode.vi"/>
+				<Item Name="Filter_SetThreshold.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_SetThreshold.vi"/>
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
 				<Item Name="Get Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Get Error Source.vi"/>
@@ -468,7 +477,6 @@
 				<Item Name="MH_GetBaseResolution.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetBaseResolution.vi"/>
 				<Item Name="MH_GetCountRate.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetCountRate.vi"/>
 				<Item Name="MH_GetDLLPath.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_GetDLLPath.vi"/>
-				<Item Name="MH_GetElapsedMeasTime.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetElapsedMeasTime.vi"/>
 				<Item Name="MH_GetErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetErrorString.vi"/>
 				<Item Name="MH_GetFeatures.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetFeatures.vi"/>
 				<Item Name="MH_GetFlags.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetFlags.vi"/>
@@ -600,14 +608,18 @@
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
 				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
+				<Item Name="SetFilterMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetFilterMode.vi"/>
 				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
 				<Item Name="SetImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetImage.vi"/>
 				<Item Name="SetNumberAccumulations.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetNumberAccumulations.vi"/>
 				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
 				<Item Name="setReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/setReset.vi"/>
+				<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTemperature.vi"/>
 				<Item Name="SetTriggerMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTriggerMode.vi"/>
 				<Item Name="SetVSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSSpeed.vi"/>
+				<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_mode typedef.ctl"/>
+				<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_type typedef.ctl"/>
 				<Item Name="Spex Goto.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Goto.vi"/>
 				<Item Name="Spex Halt.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex Halt.vi"/>
 				<Item Name="Spex ScanMove.vi" Type="VI" URL="/&lt;userlib&gt;/Spex/Spex ScanMove.vi"/>

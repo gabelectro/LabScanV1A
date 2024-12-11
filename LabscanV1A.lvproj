@@ -137,29 +137,22 @@
 		<Item Name="GPIB_RQS_W_StopGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GPIB_RQS_W_StopGen.vi"/>
 		<Item Name="SR400 SetDiscParams_a.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetDiscParams_a.vi"/>
 		<Item Name="Discovery.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/Discovery.vi"/>
+		<Item Name="test T3 demo.vi" Type="VI" URL="../../test/test T3 demo.vi"/>
+		<Item Name="test T2 acq redfifo.vi" Type="VI" URL="../../test/test T2 acq redfifo.vi"/>
+		<Item Name="T2AcqStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/T2AcqStates.ctl"/>
+		<Item Name="T2InterfStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/T2InterfStates.ctl"/>
+		<Item Name="MH_T2QMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_T2QMessage.ctl"/>
 		<Item Name="MH_InputChannel_LS.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_InputChannel_LS.ctl"/>
 		<Item Name="MH_SetParams.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetParams.vi"/>
 		<Item Name="MH_HistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_HistGraph.vi"/>
 		<Item Name="MH_RateDatAvg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_RateDatAvg.vi"/>
-		<Item Name="ReadValByRefString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefString.vi"/>
-		<Item Name="AMC_QuickMovePan.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QuickMovePan.vi"/>
-		<Item Name="AMC_QkMvPanSetting.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QkMvPanSetting.vi"/>
-		<Item Name="AMC.rtm" Type="Document" URL="/&lt;userlib&gt;/AMC100/AMC.rtm"/>
-		<Item Name="3_AdvancedDemo_MHT3.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/3_AdvancedDemo_MHT3.vi"/>
-		<Item Name="MH_T2QMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_T2QMessage.ctl"/>
-		<Item Name="T2InterfStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/T2InterfStates.ctl"/>
-		<Item Name="test T2 queue.vi" Type="VI" URL="../../test/test T2 queue.vi"/>
-		<Item Name="test T3 demo.vi" Type="VI" URL="../../test/test T3 demo.vi"/>
 		<Item Name="MH_ReadFiFoV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ReadFiFoV2.vi"/>
-		<Item Name="test T2 acq redfifo.vi" Type="VI" URL="../../test/test T2 acq redfifo.vi"/>
-		<Item Name="T2AcqStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/T2AcqStates.ctl"/>
-		<Item Name="MH_ReadPTUAndQueue.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_ReadPTUAndQueue.vi"/>
 		<Item Name="MH_BufferRecord.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BufferRecord.vi"/>
-		<Item Name="MH_Graph_Deltas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_Graph_Deltas.vi"/>
-		<Item Name="MH_T2 Read Acq Q_V2.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MH_T2 Read Acq Q_V2.vi"/>
-		<Item Name="AllocU64BufferGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AllocU64BufferGen.vi"/>
 		<Item Name="MH_CalcDeltaT.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_CalcDeltaT.vi"/>
-		<Item Name="t2datacompare.vi" Type="VI" URL="//bob/Recherche/QFL/Temp/t2datacompare.vi"/>
+		<Item Name="MH_Graph_Deltas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_Graph_Deltas.vi"/>
+		<Item Name="MH_ReadPTUAndQueue.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_ReadPTUAndQueue.vi"/>
+		<Item Name="MH_T2 Read Acq Q_V2.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MH_T2 Read Acq Q_V2.vi"/>
+		<Item Name="MH_WritePTUHeaderPostAcqV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUHeaderPostAcqV2.vi"/>
 		<Item Name="MH_BuffAndQDeltasB.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BuffAndQDeltasB.vi"/>
 		<Item Name="MH_CalcDeltaTNegB.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_CalcDeltaTNegB.vi"/>
 		<Item Name="MH_T2DeltaQMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_T2DeltaQMessage.ctl"/>
@@ -170,6 +163,18 @@
 		<Item Name="MH_Graph_Binned.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_Graph_Binned.vi"/>
 		<Item Name="MH_WritePTUHeaderV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUHeaderV2.vi"/>
 		<Item Name="MH_TimeTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_TimeTag.vi"/>
+		<Item Name="MH_Count_Records.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records.vi"/>
+		<Item Name="MH_Count_Records_and_TT.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records_and_TT.vi"/>
+		<Item Name="ReadValByRefString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefString.vi"/>
+		<Item Name="AMC_QuickMovePan.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QuickMovePan.vi"/>
+		<Item Name="AMC_QkMvPanSetting.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_QkMvPanSetting.vi"/>
+		<Item Name="AMC.rtm" Type="Document" URL="/&lt;userlib&gt;/AMC100/AMC.rtm"/>
+		<Item Name="3_AdvancedDemo_MHT3.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/3_AdvancedDemo_MHT3.vi"/>
+		<Item Name="MH_BuildTimeTrace.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BuildTimeTrace.vi"/>
+		<Item Name="MH_T2 Read Acq Q_TT.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MH_T2 Read Acq Q_TT.vi"/>
+		<Item Name="test T2 queue.vi" Type="VI" URL="../../test/test T2 queue.vi"/>
+		<Item Name="AllocU64BufferGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AllocU64BufferGen.vi"/>
+		<Item Name="t2datacompare.vi" Type="VI" URL="//bob/Recherche/QFL/Temp/t2datacompare.vi"/>
 		<Item Name="Time BenchmarkGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Time BenchmarkGen.vi"/>
 		<Item Name="DK240 SlitInfo.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 SlitInfo.vi"/>
 		<Item Name="DK240 SlitAdjust.vi" Type="VI" URL="/&lt;userlib&gt;/DK240/DK240 SlitAdjust.vi"/>
@@ -179,25 +184,18 @@
 		<Item Name="TLPM_RecordGraph.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM_RecordGraph.vi"/>
 		<Item Name="TLPM RecordData.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/ThorPM100A/TLPM RecordData.vi"/>
 		<Item Name="ColorGraphMarkers_LS1.vi" Type="VI" URL="../ColorGraphMarkers_LS1.vi"/>
-		<Item Name="MH_WritePTUHeaderPostAcqV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUHeaderPostAcqV2.vi"/>
 		<Item Name="BNC845 GetPower.vi" Type="VI" URL="/&lt;instrlib&gt;/Berkeley Nucleonics 845/BNC845_Ls/BNC845 GetPower.vi"/>
 		<Item Name="t2 read record benchmark.vi" Type="VI" URL="../../test/t2 read record benchmark.vi"/>
 		<Item Name="BNC845 SetPower.vi" Type="VI" URL="/&lt;instrlib&gt;/Berkeley Nucleonics 845/BNC845_Ls/BNC845 SetPower.vi"/>
-		<Item Name="MH_Count_Records.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records.vi"/>
 		<Item Name="delta comparet2.vi" Type="VI" URL="../../../Data/tests/test t2/delta comparet2.vi"/>
-		<Item Name="MH_Count_Records_and_TT.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records_and_TT.vi"/>
 		<Item Name="stopmeas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/stopmeas.vi"/>
 		<Item Name="Andor_Operate.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_Operate.vi"/>
-		<Item Name="SetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetPreAmpGain.vi"/>
+		<Item Name="Andor_Acquire_old.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire_old.vi"/>
+		<Item Name="Andor_Acquire_Im.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire_Im.vi"/>
 		<Item Name="Andor_LoadAcqGraph.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_LoadAcqGraph.vi"/>
-		<Item Name="SetEMCCDGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetEMCCDGain.vi"/>
-		<Item Name="SetEMGainMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetEMGainMode.vi"/>
-		<Item Name="SetSingleTrack.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetSingleTrack.vi"/>
-		<Item Name="WritebyWeakRefI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefI32.vi"/>
 		<Item Name="ShutDown.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ShutDown.vi"/>
-		<Item Name="GetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPreAmpGain.vi"/>
+		<Item Name="GetNewData.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNewData.vi"/>
 		<Item Name="TimerRateGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerRateGen.vi"/>
-		<Item Name="GetAcquisitionProgress.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionProgress.vi"/>
 		<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AbortAcquisition.vi"/>
 		<Item Name="WaitForAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/WaitForAcquisition.vi"/>
 		<Item Name="GetQE.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetQE.vi"/>
@@ -206,18 +204,10 @@
 		<Item Name="Andor_Wavelenght_Conv.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Wavelenght_Conv.vi"/>
 		<Item Name="Andor_Acquire.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire.vi"/>
 		<Item Name="AndorAcq_States.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AndorSpectro/AndorAcq_States.ctl"/>
-		<Item Name="GetNewData.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNewData.vi"/>
 		<Item Name="WritebyWeakRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefU16.vi"/>
-		<Item Name="GetReadOutTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetReadOutTime.vi"/>
-		<Item Name="GetMostRecentImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetMostRecentImage.vi"/>
-		<Item Name="Andor_Acquire_old.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire_old.vi"/>
-		<Item Name="Andor_Acquire_Im.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire_Im.vi"/>
-		<Item Name="GetRefPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetRefPropGen.vi"/>
 		<Item Name="Andor Format CrvNames.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor Format CrvNames.vi"/>
 		<Item Name="Andor_ProcessData.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_ProcessData.vi"/>
-		<Item Name="ReadValByRefI32Arr2D.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32Arr2D.vi"/>
 		<Item Name="Andor_ProcessBckgnd.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_ProcessBckgnd.vi"/>
-		<Item Name="MH_BuildTimeTrace.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BuildTimeTrace.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -330,7 +320,6 @@
 				<Item Name="EG_G5210 SetOscPar.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 SetOscPar.vi"/>
 				<Item Name="EG_G5210 SetTrigMode.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 SetTrigMode.vi"/>
 				<Item Name="EG_G5210 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/EG_G5210 VisaRW.vi"/>
-				<Item Name="EMGainMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/EMGainMode_mode typedef.ctl"/>
 				<Item Name="Error Code Enum typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Error Code Enum typedef.ctl"/>
 				<Item Name="Error Code Handler.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Handler.vi"/>
 				<Item Name="Error Code Offset global.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Offset global.vi"/>
@@ -353,6 +342,7 @@
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
 				<Item Name="Get Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Get Error Source.vi"/>
 				<Item Name="GetAcquiredData.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquiredData.vi"/>
+				<Item Name="GetAcquisitionProgress.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionProgress.vi"/>
 				<Item Name="GetAcquisitionTimings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionTimings.vi"/>
 				<Item Name="getActorName.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getActorName.vi"/>
 				<Item Name="GetAvailRessGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetAvailRessGen.vi"/>
@@ -366,6 +356,7 @@
 				<Item Name="GetHorizontalSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetHorizontalSpeed.vi"/>
 				<Item Name="GetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetHSSpeed.vi"/>
 				<Item Name="GetInt.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/GetInt.vi"/>
+				<Item Name="GetMostRecentImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetMostRecentImage.vi"/>
 				<Item Name="GetNumberHorizontalSpeeds.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberHorizontalSpeeds.vi"/>
 				<Item Name="GetNumberNewImages.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberNewImages.vi"/>
 				<Item Name="GetNumberVSSpeeds.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberVSSpeeds.vi"/>
@@ -374,6 +365,8 @@
 				<Item Name="GetParentTag.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentTag.vi"/>
 				<Item Name="GetPixelSize.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPixelSize.vi"/>
 				<Item Name="getPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getPosition.vi"/>
+				<Item Name="GetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPreAmpGain.vi"/>
+				<Item Name="GetReadOutTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetReadOutTime.vi"/>
 				<Item Name="getReferencePosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getReferencePosition.vi"/>
 				<Item Name="GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetStatus.vi"/>
 				<Item Name="getStatusEotBkwd.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusEotBkwd.vi"/>
@@ -599,6 +592,7 @@
 				<Item Name="ReadValByRefArrU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefArrU16.vi"/>
 				<Item Name="ReadValByRefDblArr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefDblArr.vi"/>
 				<Item Name="ReadValByRefI32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32Arr.vi"/>
+				<Item Name="ReadValByRefI32Arr2D.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32Arr2D.vi"/>
 				<Item Name="ReadValByRefNamedU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefNamedU16.vi"/>
 				<Item Name="SaveJournalGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SaveJournalGen.vi"/>
 				<Item Name="SetAccumulationCycleTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAccumulationCycleTime.vi"/>
@@ -612,9 +606,11 @@
 				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
 				<Item Name="SetImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetImage.vi"/>
 				<Item Name="SetNumberAccumulations.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetNumberAccumulations.vi"/>
+				<Item Name="SetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetPreAmpGain.vi"/>
 				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
 				<Item Name="setReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/setReset.vi"/>
 				<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
+				<Item Name="SetSingleTrack.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetSingleTrack.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTemperature.vi"/>
 				<Item Name="SetTriggerMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTriggerMode.vi"/>
 				<Item Name="SetVSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSSpeed.vi"/>
@@ -741,6 +737,7 @@
 				<Item Name="WritebyWeakRefBoolS.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefBoolS.vi"/>
 				<Item Name="WritebyWeakRefBoolTyped.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefBoolTyped.vi"/>
 				<Item Name="WritebyWeakRefDbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefDbl.vi"/>
+				<Item Name="WritebyWeakRefI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefI32.vi"/>
 				<Item Name="WritebyWeakRefI32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefI32Arr.vi"/>
 				<Item Name="WritebyWeakRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefNum.vi"/>
 				<Item Name="WritebyWeakRefU32S.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefU32S.vi"/>
@@ -1030,6 +1027,7 @@
 			<Item Name="ClassSelectMess.vi" Type="VI" URL="../ClassSelectMess.vi"/>
 			<Item Name="CreateScanPattern_LS1.vi" Type="VI" URL="../CreateScanPattern_LS1.vi"/>
 			<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
+			<Item Name="DataRead2D.vi" Type="VI" URL="../DataRead2D.vi"/>
 			<Item Name="DataReadTxt.vi" Type="VI" URL="../DataReadTxt.vi"/>
 			<Item Name="DataTree_Add_Crv_Names.vi" Type="VI" URL="../DataTree_Add_Crv_Names.vi"/>
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>

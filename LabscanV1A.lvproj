@@ -222,6 +222,7 @@
 				<Item Name="TLCCS Set Integration Time.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Set Integration Time.vi"/>
 				<Item Name="TLCCS Start Scan.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Start Scan.vi"/>
 				<Item Name="TLCCS VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS VXIpnp Error Converter.vi"/>
+				<Item Name="TLCCS_32.dll" Type="Document" URL="/&lt;instrlib&gt;/TLCCS/TLCCS_32.dll"/>
 				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Close.vi"/>
 				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Find Resources.vi"/>
 				<Item Name="TLPM Get Attenuation.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Attenuation.vi"/>
@@ -1070,9 +1071,6 @@
 			<Item Name="SetupInterfStates.ctl" Type="VI" URL="../Interface Class/SetupInterfStates.ctl"/>
 			<Item Name="SizeGraphPanelV2.vi" Type="VI" URL="../SizeGraphPanelV2.vi"/>
 			<Item Name="StdFileName_LS1.vi" Type="VI" URL="../StdFileName_LS1.vi"/>
-			<Item Name="tlccs_32.dll" Type="Document" URL="tlccs_32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

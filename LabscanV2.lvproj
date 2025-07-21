@@ -14,25 +14,187 @@
 		<Item Name="Calculations.lvclass" Type="LVClass" URL="../Calculations Class/Calculations.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Close.vi"/>
+				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Find Resources.vi"/>
+				<Item Name="TLPM Get Attenuation.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Attenuation.vi"/>
+				<Item Name="TLPM Get Average Count.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Average Count.vi"/>
+				<Item Name="TLPM Get Power Autorange Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Power Autorange Mode.vi"/>
+				<Item Name="TLPM Get Power Range.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Power Range.vi"/>
+				<Item Name="TLPM Get Resource Information.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Resource Information.vi"/>
+				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Resource Name.vi"/>
+				<Item Name="TLPM Get Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Wavelength.vi"/>
+				<Item Name="TLPM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Initialize.vi"/>
+				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Measure Power.vi"/>
+				<Item Name="TLPM Set Attenuation.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Attenuation.vi"/>
+				<Item Name="TLPM Set Average Count.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Average Count.vi"/>
+				<Item Name="TLPM Set Power Autorange Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Power Autorange Mode.vi"/>
+				<Item Name="TLPM Set Power Range.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Power Range.vi"/>
+				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Wavelength.vi"/>
+				<Item Name="TLPM Start Dark Offset Adjustment.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Start Dark Offset Adjustment.vi"/>
+				<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM VXIpnp Error Converter.vi"/>
+				<Item Name="TLPM_LoadRecGraph.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM_LoadRecGraph.vi"/>
+				<Item Name="TLPM_OpenCloseConn.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM_OpenCloseConn.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AbortAcquisition.vi"/>
+				<Item Name="AcquisitionMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AcquisitionMode_mode typedef.ctl"/>
+				<Item Name="Add ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For DLL.vi"/>
+				<Item Name="Add ECO For LabVIEW.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For LabVIEW.vi"/>
+				<Item Name="AllocU32BufferGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AllocU32BufferGen.vi"/>
+				<Item Name="AMC_discover_devices_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/AMC_discover_devices_SubVI.vi"/>
+				<Item Name="AMC_OpenCloseConn.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/AMC_OpenCloseConn.vi"/>
+				<Item Name="AMC_select_IP_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/Discovery 64bit/Discovery/AMC_select_IP_SubVI.vi"/>
+				<Item Name="Andor DisplayNames.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor DisplayNames.vi"/>
+				<Item Name="Andor Format CrvNames.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor Format CrvNames.vi"/>
+				<Item Name="Andor_Acquire.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire.vi"/>
+				<Item Name="Andor_Acquire_Im.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/Andor_Acquire_Im.vi"/>
+				<Item Name="Andor_ProcessBckgnd.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_ProcessBckgnd.vi"/>
+				<Item Name="Andor_ProcessData.vi" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/Andor_ProcessData.vi"/>
+				<Item Name="AndorCapabilities typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AndorCapabilities typedef.ctl"/>
+				<Item Name="AndorNoiseCorr.ctl" Type="VI" URL="/&lt;userlib&gt;/ATSpectrograph/GUI/AndorNoiseCorr.ctl"/>
 				<Item Name="AnimExecGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AnimExecGen.vi"/>
 				<Item Name="ArrayTo1DGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DGen.vi"/>
 				<Item Name="ArrayTo1DI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DI32.vi"/>
 				<Item Name="ArrayTo1DString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ArrayTo1DString.vi"/>
+				<Item Name="atspectrograph.lvlib" Type="Library" URL="/&lt;userlib&gt;/ATSpectrograph/atspectrograph.lvlib"/>
+				<Item Name="attocube-discovery-dll.dll" Type="Document" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/attocube-discovery-dll.dll"/>
+				<Item Name="BoolTrueFalseGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/BoolTrueFalseGen.vi"/>
+				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
+				<Item Name="Commande ST5V2.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/Commande ST5V2.vi"/>
+				<Item Name="connect.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/connect.vi"/>
+				<Item Name="controlAmplitude.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlAmplitude.vi"/>
+				<Item Name="controlAutoReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlAutoReset.vi"/>
+				<Item Name="controlEotOutputDeactive.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlEotOutputDeactive.vi"/>
+				<Item Name="controlFrequenzy.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlFrequenzy.vi"/>
+				<Item Name="controlMove.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlMove.vi"/>
+				<Item Name="controlOutput.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlOutput.vi"/>
+				<Item Name="controlReferenceAutoUpdate.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlReferenceAutoUpdate.vi"/>
+				<Item Name="controlTargetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetPosition.vi"/>
+				<Item Name="controlTargetRange.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlTargetRange.vi"/>
+				<Item Name="ConvLongTemps.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ConvLongTemps.vi"/>
+				<Item Name="CoolerOFF.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/CoolerOFF.vi"/>
+				<Item Name="CoolerON.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/CoolerON.vi"/>
 				<Item Name="CréeTablePositionsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CréeTablePositionsGen.vi"/>
 				<Item Name="CurrentVIFolder.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/CurrentVIFolder.vi"/>
 				<Item Name="DataSimGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DataSimGen.vi"/>
 				<Item Name="DelArrayEndNumI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DelArrayEndNumI32.vi"/>
 				<Item Name="DelArrayEndString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DelArrayEndString.vi"/>
+				<Item Name="Discovery.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/32bit/Discovery/Discovery.vi"/>
 				<Item Name="DivideAreaGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DivideAreaGen.vi"/>
+				<Item Name="DélaisGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/DélaisGen.vi"/>
+				<Item Name="Error Code Enum typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Error Code Enum typedef.ctl"/>
+				<Item Name="Error Code Handler.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Handler.vi"/>
+				<Item Name="Error Code Offset global.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Offset global.vi"/>
+				<Item Name="errorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/errorHandler.vi"/>
+				<Item Name="ESP300 CheckErrors.vi" Type="VI" URL="/&lt;userlib&gt;/ESP300/ESP300 CheckErrors.vi"/>
+				<Item Name="ESP300 GotoState.ctl" Type="VI" URL="/&lt;userlib&gt;/ESP300/ESP300 GotoState.ctl"/>
+				<Item Name="ESP300 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/ESP300/ESP300 VisaRW.vi"/>
+				<Item Name="ESP301 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Goto.vi"/>
+				<Item Name="ESP301 Home.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Home.vi"/>
+				<Item Name="ESP301 MotorEn.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 MotorEn.vi"/>
+				<Item Name="ESP301 Status.vi" Type="VI" URL="/&lt;userlib&gt;/ESP301/ESP301 Status.vi"/>
+				<Item Name="Filter_GetAveragingFactor.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetAveragingFactor.vi"/>
+				<Item Name="Filter_GetAveragingFrameCount.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetAveragingFrameCount.vi"/>
+				<Item Name="Filter_GetDataAveragingMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetDataAveragingMode.vi"/>
+				<Item Name="Filter_GetMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetMode.vi"/>
+				<Item Name="Filter_GetThreshold.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_GetThreshold.vi"/>
+				<Item Name="Filter_SetMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_SetMode.vi"/>
+				<Item Name="Filter_SetThreshold.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Filter_SetThreshold.vi"/>
 				<Item Name="Flatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Flatten_ClassGen.vi"/>
 				<Item Name="GestionMenuGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GestionMenuGen.vi"/>
+				<Item Name="Get Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Get Error Source.vi"/>
+				<Item Name="GetAcquiredData.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquiredData.vi"/>
+				<Item Name="GetAcquisitionProgress.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionProgress.vi"/>
+				<Item Name="GetAcquisitionTimings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionTimings.vi"/>
+				<Item Name="getActorName.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getActorName.vi"/>
 				<Item Name="GetAvailRessGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetAvailRessGen.vi"/>
+				<Item Name="GetCameraInformation.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetCameraInformation.vi"/>
+				<Item Name="GetCapabilities.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetCapabilities.vi"/>
+				<Item Name="GetCtrlRefByNameGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetCtrlRefByNameGen.vi"/>
+				<Item Name="GetEmptyTagValueList.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/GetEmptyTagValueList.vi"/>
+				<Item Name="GetFilterMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetFilterMode.vi"/>
+				<Item Name="GetHorizontalSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetHorizontalSpeed.vi"/>
+				<Item Name="GetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetHSSpeed.vi"/>
+				<Item Name="GetMostRecentImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetMostRecentImage.vi"/>
+				<Item Name="GetNewData.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNewData.vi"/>
+				<Item Name="GetNumberHorizontalSpeeds.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberHorizontalSpeeds.vi"/>
+				<Item Name="getOutputVoltage.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getOutputVoltage.vi"/>
 				<Item Name="GetParentsChildsGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentsChildsGen.vi"/>
 				<Item Name="GetParentTag.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetParentTag.vi"/>
+				<Item Name="GetPixelSize.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPixelSize.vi"/>
+				<Item Name="getPosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getPosition.vi"/>
+				<Item Name="GetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPreAmpGain.vi"/>
+				<Item Name="GetReadOutTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetReadOutTime.vi"/>
+				<Item Name="getReferencePosition.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getReferencePosition.vi"/>
+				<Item Name="GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetStatus.vi"/>
+				<Item Name="getStatusEotBkwd.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusEotBkwd.vi"/>
+				<Item Name="getStatusEotFwd.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusEotFwd.vi"/>
+				<Item Name="getStatusMoving.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusMoving.vi"/>
+				<Item Name="getStatusReference.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusReference.vi"/>
+				<Item Name="getStatusTargetRange.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/getStatusTargetRange.vi"/>
 				<Item Name="GetTabCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTabCtrlRefGen.vi"/>
+				<Item Name="GetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetTemperature.vi"/>
 				<Item Name="GetTreeColTxt.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetTreeColTxt.vi"/>
 				<Item Name="GetViCtrlRefGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GetViCtrlRefGen.vi"/>
+				<Item Name="GPIB_RQS_W_StopGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/GPIB_RQS_W_StopGen.vi"/>
+				<Item Name="HomeViStates.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/HomeViStates.ctl"/>
+				<Item Name="HSSpeed_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/HSSpeed_type typedef.ctl"/>
+				<Item Name="Ini_file_RW_DblGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Ini_File_RW/Ini_file_RW_DblGen.vi"/>
+				<Item Name="Ini_file_RW_StrArrGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Ini_File_RW/Ini_file_RW_StrArrGen.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Initialize.vi"/>
+				<Item Name="InsertSubPanelViGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/InsertSubPanelViGen.vi"/>
+				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Join Strings.vi"/>
+				<Item Name="JSONHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/JSONHandler.vi"/>
+				<Item Name="MH_AllocateCntRateBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_AllocateCntRateBuffer.vi"/>
+				<Item Name="MH_BuildTimeTrace.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BuildTimeTrace.vi"/>
+				<Item Name="MH_ChSumm.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_ChSumm.vi"/>
+				<Item Name="MH_ClearHistMem.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ClearHistMem.vi"/>
+				<Item Name="MH_CloseDevice.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_CloseDevice.vi"/>
+				<Item Name="MH_Count_Records.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Count_Records.vi"/>
+				<Item Name="MH_CTCStatus.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_CTCStatus.vi"/>
+				<Item Name="MH_DataToPTUTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_DataToPTUTag.vi"/>
+				<Item Name="MH_DllPath_global.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_DllPath_global.vi"/>
+				<Item Name="MH_GetAllCountRates.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetAllCountRates.vi"/>
+				<Item Name="MH_GetBaseResolution.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetBaseResolution.vi"/>
+				<Item Name="MH_GetCountRate.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetCountRate.vi"/>
+				<Item Name="MH_GetDLLPath.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_GetDLLPath.vi"/>
+				<Item Name="MH_GetErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetErrorString.vi"/>
+				<Item Name="MH_GetFlags.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetFlags.vi"/>
+				<Item Name="MH_GetHistogram.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetHistogram.vi"/>
+				<Item Name="MH_GetSyncRate.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_GetSyncRate.vi"/>
+				<Item Name="MH_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_Initialize.vi"/>
+				<Item Name="MH_InputChannel_LS.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_InputChannel_LS.ctl"/>
+				<Item Name="MH_LoadHistGraph.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_LoadHistGraph.vi"/>
+				<Item Name="MH_MeasMode.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_MeasMode.ctl"/>
+				<Item Name="MH_OpenDevice.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_OpenDevice.vi"/>
+				<Item Name="MH_OpenPTU.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_OpenPTU.vi"/>
+				<Item Name="MH_RateDatAvg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_RateDatAvg.vi"/>
+				<Item Name="MH_ReadFiFo.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_ReadFiFo.vi"/>
+				<Item Name="MH_RefSource.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_RefSource.ctl"/>
+				<Item Name="MH_SetBinning.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetBinning.vi"/>
+				<Item Name="MH_SetHistoLen.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetHistoLen.vi"/>
+				<Item Name="MH_SetInpChanCmds.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInpChanCmds.ctl"/>
+				<Item Name="MH_SetInpChanData.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInpChanData.ctl"/>
+				<Item Name="MH_SetInputChannelEnable.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputChannelEnable.vi"/>
+				<Item Name="MH_SetInputChannelOffset.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputChannelOffset.vi"/>
+				<Item Name="MH_SetInputChannels.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/UIThread/MH_SetInputChannels.vi"/>
+				<Item Name="MH_SetInputDeadTime.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputDeadTime.vi"/>
+				<Item Name="MH_SetInputEdgeTrg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetInputEdgeTrg.vi"/>
+				<Item Name="MH_SetOffset.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetOffset.vi"/>
+				<Item Name="MH_SetStopOverflow.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetStopOverflow.vi"/>
+				<Item Name="MH_SetSyncChannelOffset.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncChannelOffset.vi"/>
+				<Item Name="MH_SetSyncDeadTime.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncDeadTime.vi"/>
+				<Item Name="MH_SetSyncDiv.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncDiv.vi"/>
+				<Item Name="MH_SetSyncEdgeTrg.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_SetSyncEdgeTrg.vi"/>
+				<Item Name="MH_StartMeas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_StartMeas.vi"/>
+				<Item Name="MH_StopMeas.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/MH_StopMeas.vi"/>
+				<Item Name="MH_T2QMessage.ctl" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_T2QMessage.ctl"/>
+				<Item Name="MH_TimeTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_TimeTag.vi"/>
+				<Item Name="MH_WritePTUHeaderPostAcqV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUHeaderPostAcqV2.vi"/>
+				<Item Name="MH_WritePTUHeaderV2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUHeaderV2.vi"/>
+				<Item Name="MH_WritePTURecordArr.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTURecordArr.vi"/>
+				<Item Name="MH_WritePTUTag.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_WritePTUTag.vi"/>
 				<Item Name="MonoSpec50 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 ErrorHandler.vi"/>
 				<Item Name="MonoSpec50 Find Ref Position.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Find Ref Position.vi"/>
 				<Item Name="MonoSpec50 Goto States.ctl" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 Goto States.ctl"/>
@@ -42,6 +204,41 @@
 				<Item Name="MonoSpec50 MessageBox.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 MessageBox.vi"/>
 				<Item Name="MonoSpec50 PulseGen.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 PulseGen.vi"/>
 				<Item Name="MonoSpec50 WavelgtDialog.vi" Type="VI" URL="/&lt;userlib&gt;/Monospec 50/MonoSpec50 WavelgtDialog.vi"/>
+				<Item Name="PDLM_CloseDevice.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_CloseDevice.vi"/>
+				<Item Name="PDLM_DecodeError.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_DecodeError.vi"/>
+				<Item Name="PDLM_DecodePulseShape.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_DecodePulseShape.vi"/>
+				<Item Name="PDLM_DllPath_global.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_DllPath_global.vi"/>
+				<Item Name="PDLM_GetCwPower.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetCwPower.vi"/>
+				<Item Name="PDLM_GetCwPowerPermille.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetCwPowerPermille.vi"/>
+				<Item Name="PDLM_GetDLLPath.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetDLLPath.vi"/>
+				<Item Name="PDLM_GetFrequency.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetFrequency.vi"/>
+				<Item Name="PDLM_GetLHData.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetLHData.vi"/>
+				<Item Name="PDLM_GetLHInfo.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetLHInfo.vi"/>
+				<Item Name="PDLM_GetPulsePower.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetPulsePower.vi"/>
+				<Item Name="PDLM_GetPulsePowerPermille.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetPulsePowerPermille.vi"/>
+				<Item Name="PDLM_GetQueuedChanges.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetQueuedChanges.vi"/>
+				<Item Name="PDLM_GetQueuedError.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetQueuedError.vi"/>
+				<Item Name="PDLM_GetQueuedErrorString.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetQueuedErrorString.vi"/>
+				<Item Name="PDLM_GetSystemStatus.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetSystemStatus.vi"/>
+				<Item Name="PDLM_GetTagValueList.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_GetTagValueList.vi"/>
+				<Item Name="PDLM_LaserLock.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_LaserLock.ctl"/>
+				<Item Name="PDLM_LaserMode.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_LaserMode.ctl"/>
+				<Item Name="PDLM_LHData.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_LHData.ctl"/>
+				<Item Name="PDLM_LHData_LaserType.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_LHData_LaserType.ctl"/>
+				<Item Name="PDLM_LHInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_LHInfo.ctl"/>
+				<Item Name="PDLM_LHVersion.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_LHVersion.ctl"/>
+				<Item Name="PDLM_OpenDevice.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_OpenDevice.vi"/>
+				<Item Name="PDLM_SetCwPowerPermille.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_SetCwPowerPermille.vi"/>
+				<Item Name="PDLM_SetExclusiveUI.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_SetExclusiveUI.vi"/>
+				<Item Name="PDLM_SetFrequency.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_SetFrequency.vi"/>
+				<Item Name="PDLM_SetLaserMode.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_SetLaserMode.vi"/>
+				<Item Name="PDLM_SetPulsePowerPermille.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_SetPulsePowerPermille.vi"/>
+				<Item Name="PDLM_SetSoftLock.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_SetSoftLock.vi"/>
+				<Item Name="PDLM_SystemStatus.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_SystemStatus.ctl"/>
+				<Item Name="PDLM_Tag.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_Tag.ctl"/>
+				<Item Name="PDLM_TaggedValue.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_TaggedValue.ctl"/>
+				<Item Name="PDLM_TaggedValueList.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_TaggedValueList.ctl"/>
+				<Item Name="ProcessTTRecHH2T2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/ProcessTTRecHH2T2.vi"/>
 				<Item Name="ReadbyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyRef.vi"/>
 				<Item Name="ReadbyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyRefBool.vi"/>
 				<Item Name="ReadbyRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyRefNum.vi"/>
@@ -49,18 +246,54 @@
 				<Item Name="ReadbyWeakRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefNum.vi"/>
 				<Item Name="ReadbyWeakRefNumV2.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefNumV2.vi"/>
 				<Item Name="ReadbyWeakRefRing.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyWeakRefRing.vi"/>
+				<Item Name="ReadMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ReadMode_mode typedef.ctl"/>
 				<Item Name="ReadScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadScanPatternGen.vi"/>
+				<Item Name="ReadValByNmString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByNmString.vi"/>
+				<Item Name="ReadValByRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRef.vi"/>
+				<Item Name="ReadValByRefArrU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefArrU16.vi"/>
+				<Item Name="ReadValByRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefBool.vi"/>
+				<Item Name="ReadValByRefDbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefDbl.vi"/>
+				<Item Name="ReadValByRefDblArr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefDblArr.vi"/>
+				<Item Name="ReadValByRefI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32.vi"/>
+				<Item Name="ReadValByRefI32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32Arr.vi"/>
+				<Item Name="ReadValByRefI32Arr2D.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefI32Arr2D.vi"/>
+				<Item Name="ReadValByRefNamedU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefNamedU16.vi"/>
+				<Item Name="ReadValByRefString.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefString.vi"/>
+				<Item Name="ReadValByRefU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU16.vi"/>
+				<Item Name="ReadValByRefU32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefU32.vi"/>
+				<Item Name="ReadValByRefVariant.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefVariant.vi"/>
+				<Item Name="SaveJournalGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SaveJournalGen.vi"/>
+				<Item Name="SetAccumulationCycleTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAccumulationCycleTime.vi"/>
+				<Item Name="SetAcquisitionMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAcquisitionMode.vi"/>
 				<Item Name="SetCtrlPropGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGen.vi"/>
 				<Item Name="SetCtrlPropGenPol.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenPol.vi"/>
 				<Item Name="SetCtrlPropGenSgl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/SetCtrlPropGenSgl.vi"/>
+				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
+				<Item Name="SetFilterMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetFilterMode.vi"/>
+				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
+				<Item Name="SetImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetImage.vi"/>
+				<Item Name="SetNumberAccumulations.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetNumberAccumulations.vi"/>
+				<Item Name="SetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetPreAmpGain.vi"/>
+				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
+				<Item Name="setReset.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/setReset.vi"/>
+				<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
+				<Item Name="SetSingleTrack.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetSingleTrack.vi"/>
+				<Item Name="SetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTemperature.vi"/>
+				<Item Name="SetTriggerMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTriggerMode.vi"/>
+				<Item Name="SetVSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSSpeed.vi"/>
+				<Item Name="ShutDown.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ShutDown.vi"/>
+				<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_mode typedef.ctl"/>
+				<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_type typedef.ctl"/>
 				<Item Name="SR400 Control.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 Control.vi"/>
 				<Item Name="SR400 ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ErrorHandler.vi"/>
+				<Item Name="SR400 FlushBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 FlushBuffer.vi"/>
 				<Item Name="SR400 GetCountParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetCountParams.vi"/>
 				<Item Name="SR400 GetCountSource.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetCountSource.vi"/>
 				<Item Name="SR400 GetDiscParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetDiscParams.vi"/>
 				<Item Name="SR400 GetGateParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 GetGateParams.vi"/>
 				<Item Name="SR400 ReadCount.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ReadCount.vi"/>
 				<Item Name="SR400 ReadStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ReadStatus.vi"/>
+				<Item Name="SR400 ResetCount.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 ResetCount.vi"/>
 				<Item Name="SR400 SetCountParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetCountParams.vi"/>
 				<Item Name="SR400 SetCountSource.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetCountSource.vi"/>
 				<Item Name="SR400 SetDiscParams.vi" Type="VI" URL="/&lt;userlib&gt;/SR400/SR400 SetDiscParams.vi"/>
@@ -72,13 +305,49 @@
 				<Item Name="Sr830 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Read Param.vi"/>
 				<Item Name="Sr830 ReadCh.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 ReadCh.vi"/>
 				<Item Name="Sr830 VisaRW.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 VisaRW.vi"/>
+				<Item Name="Sr830 Write Param.vi" Type="VI" URL="/&lt;userlib&gt;/SR830/Sr830 Write Param.vi"/>
+				<Item Name="ST5 Check Errors.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Check Errors.vi"/>
+				<Item Name="ST5 Goto.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Goto.vi"/>
+				<Item Name="ST5 Home Search.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Home Search.vi"/>
+				<Item Name="ST5 Load Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Load Act .vi"/>
+				<Item Name="ST5 Move Status.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Move Status.vi"/>
+				<Item Name="ST5 Read Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Read Param.vi"/>
+				<Item Name="ST5 Save Act .vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Save Act .vi"/>
+				<Item Name="ST5 Settings Mess.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Settings Mess.vi"/>
+				<Item Name="ST5 Write Param.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/ST5 Write Param.vi"/>
+				<Item Name="StartAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/StartAcquisition.vi"/>
+				<Item Name="StatesConst.ctl" Type="VI" URL="/&lt;userlib&gt;/ST5/StatesConst.ctl"/>
+				<Item Name="StrnCmp.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/StrnCmp.vi"/>
+				<Item Name="Subtract ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Subtract ECO For DLL.vi"/>
+				<Item Name="T_At_Wire_Dbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/T_At_Wire/T_At_Wire_Dbl.vi"/>
+				<Item Name="T_At_Wire_Err.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/T_At_Wire/T_At_Wire_Err.vi"/>
+				<Item Name="T_At_Wire_I32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/T_At_Wire/T_At_Wire_I32.vi"/>
+				<Item Name="T_At_WireGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/T_At_WireGen.vi"/>
+				<Item Name="Taiko_LHDataToStrArray.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/Taiko_LHDataToStrArray.vi"/>
+				<Item Name="TCPHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/TCPHandler.vi"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
 				<Item Name="TimerGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerGen.vi"/>
+				<Item Name="TimerRateGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TimerRateGen.vi"/>
+				<Item Name="TriggerMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/TriggerMode_mode typedef.ctl"/>
+				<Item Name="U32 Array To AndorCapabilities.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/U32 Array To AndorCapabilities.vi"/>
+				<Item Name="U32 To Error Code Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/U32 To Error Code Enum.vi"/>
 				<Item Name="Unflatten_ClassGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Unflatten_ClassGen.vi"/>
-				<Item Name="WritebyWeakRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefBool.vi"/>
+				<Item Name="Wait_At_Wire_Bool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Bool.vi"/>
+				<Item Name="Wait_At_Wire_Err.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_Err.vi"/>
+				<Item Name="Wait_At_Wire_U32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Wait_At_Wire/Wait_At_Wire_U32.vi"/>
+				<Item Name="WritebyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRef.vi"/>
+				<Item Name="WritebyRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefBool.vi"/>
+				<Item Name="WritebyRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyRefNum.vi"/>
+				<Item Name="WritebyWeakRefBool.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefBool.vi"/>
+				<Item Name="WritebyWeakRefBoolS.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefBoolS.vi"/>
+				<Item Name="WritebyWeakRefBoolTyped.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefBoolTyped.vi"/>
+				<Item Name="WritebyWeakRefDbl.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefDbl.vi"/>
+				<Item Name="WritebyWeakRefI32.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefI32.vi"/>
+				<Item Name="WritebyWeakRefI32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefI32Arr.vi"/>
 				<Item Name="WritebyWeakRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WritebyWeakRefNum.vi"/>
 				<Item Name="WriteI32ClusterArray.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteI32ClusterArray.vi"/>
 				<Item Name="WriteScanPatternGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteScanPatternGen.vi"/>
+				<Item Name="WriteValByNmVariant.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/WriteValByNmVariant.vi"/>
 				<Item Name="YokoGS200 CheckStatus.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 CheckStatus.vi"/>
 				<Item Name="YokoGS200 Get FuncAndRg.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get FuncAndRg.vi"/>
 				<Item Name="YokoGS200 Get Level.vi" Type="VI" URL="/&lt;userlib&gt;/Yoko GS200/YokoGS200 Get Level.vi"/>
@@ -251,11 +520,13 @@
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Increment Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Increment Array Element.vim"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -263,6 +534,7 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -295,7 +567,9 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -303,6 +577,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
@@ -319,19 +596,37 @@
 			<Item Name="AboutLS1.vi" Type="VI" URL="../AboutLS1.vi"/>
 			<Item Name="AddCurveStates.ctl" Type="VI" URL="../Interface Class/AddCurveStates.ctl"/>
 			<Item Name="AddCurveStatesArrDev.ctl" Type="VI" URL="../Interface Class/AddCurveStatesArrDev.ctl"/>
+			<Item Name="AndorAcq_States.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AndorSpectro/AndorAcq_States.ctl"/>
+			<Item Name="AndorSpectro.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AndorSpectro/AndorSpectro.lvclass"/>
+			<Item Name="AppliedMotionDrive.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AppliedMotionDrive/AppliedMotionDrive.lvclass"/>
 			<Item Name="ArrangeRemPan.vi" Type="VI" URL="../ArrangeRemPan.vi"/>
 			<Item Name="ArrDevData.ctl" Type="VI" URL="../Experiment Class/ArrDevData.ctl"/>
+			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="atspectrograph.dll" Type="Document" URL="atspectrograph.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="AttoAMC.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AttoAMC/AttoAMC.lvclass"/>
 			<Item Name="BDClassCluster.ctl" Type="VI" URL="../DevicesClass/BaseDevice/BDClassCluster.ctl"/>
 			<Item Name="BrowseDataStates.ctl" Type="VI" URL="../BrowseDataStates.ctl"/>
 			<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
 			<Item Name="ChgGraphConfState.ctl" Type="VI" URL="../Interface Class/ChgGraphConfState.ctl"/>
 			<Item Name="ClassCluster.ctl" Type="VI" URL="../Experiment Class/ClassCluster.ctl"/>
+			<Item Name="ClassQueueMess.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ClassQueueMess.ctl"/>
 			<Item Name="ClassSelectMess.vi" Type="VI" URL="../ClassSelectMess.vi"/>
+			<Item Name="CloseCalcPanel.vi" Type="VI" URL="../CloseCalcPanel.vi"/>
 			<Item Name="CreateScanPattern_LS1.vi" Type="VI" URL="../CreateScanPattern_LS1.vi"/>
+			<Item Name="CrvEdStates.ctl" Type="VI" URL="../CrvEdStates.ctl"/>
+			<Item Name="DataNameFormats.vi" Type="VI" URL="../DataNameFormats.vi"/>
+			<Item Name="DataRead2D.vi" Type="VI" URL="../DataRead2D.vi"/>
 			<Item Name="DataReadTxt.vi" Type="VI" URL="../DataReadTxt.vi"/>
 			<Item Name="DataTree_Add_Crv_Names.vi" Type="VI" URL="../DataTree_Add_Crv_Names.vi"/>
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>
+			<Item Name="DataTreeOrderScan.vi" Type="VI" URL="../DataTreeOrderScan.vi"/>
+			<Item Name="DataTreeOrderSess.vi" Type="VI" URL="../DataTreeOrderSess.vi"/>
 			<Item Name="DataWriteTxt.vi" Type="VI" URL="../DataWriteTxt.vi"/>
+			<Item Name="ESP301.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ESP301/ESP301.lvclass"/>
 			<Item Name="Experiment.lvclass" Type="LVClass" URL="../Experiment Class/Experiment.lvclass"/>
 			<Item Name="FillClassFamTree.vi" Type="VI" URL="../FillClassFamTree.vi"/>
 			<Item Name="FillScanFuncTree.vi" Type="VI" URL="../FillScanFuncTree.vi"/>
@@ -342,15 +637,19 @@
 			<Item Name="GetDataFromTable.vi" Type="VI" URL="../GetDataFromTable.vi"/>
 			<Item Name="GetDevTree_LS1.vi" Type="VI" URL="../GetDevTree_LS1.vi"/>
 			<Item Name="GetFiltDataFilesNm.vi" Type="VI" URL="../GetFiltDataFilesNm.vi"/>
+			<Item Name="GetFilterList.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/AppliedMotionDrive/GetFilterList.vi"/>
 			<Item Name="GetPlotColors.vi" Type="VI" URL="../GetPlotColors.vi"/>
 			<Item Name="GetPltColTable.vi" Type="VI" URL="../GetPltColTable.vi"/>
 			<Item Name="GetScanFormats.vi" Type="VI" URL="../GetScanFormats.vi"/>
 			<Item Name="GetSubPanState.vi" Type="VI" URL="../GetSubPanState.vi"/>
+			<Item Name="GetVarParRowCol.vi" Type="VI" URL="../GetVarParRowCol.vi"/>
 			<Item Name="GraphConfCount.vi" Type="VI" URL="../GraphConfCount.vi"/>
 			<Item Name="IndexName.vi" Type="VI" URL="../IndexName.vi"/>
 			<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface Class/Interface.lvclass"/>
 			<Item Name="ItfDataCluster.ctl" Type="VI" URL="../Interface Class/ItfDataCluster.ctl"/>
 			<Item Name="LabScanUser.rtm" Type="Document" URL="../LabScanUser.rtm"/>
+			<Item Name="LoadCalcParPanel.vi" Type="VI" URL="../LoadCalcParPanel.vi"/>
+			<Item Name="LoadCrvEdPanel.vi" Type="VI" URL="../LoadCrvEdPanel.vi"/>
 			<Item Name="LoadInstr.ctl" Type="VI" URL="../LoadInstr.ctl"/>
 			<Item Name="LoadInstrConfig_LS1.vi" Type="VI" URL="../LoadInstrConfig_LS1.vi"/>
 			<Item Name="LoadNew2DGraph_LS1.vi" Type="VI" URL="../LoadNew2DGraph_LS1.vi"/>
@@ -358,6 +657,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Monospec50.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/Monospec50/Monospec50.lvclass"/>
 			<Item Name="MoveScanFunc.vi" Type="VI" URL="../MoveScanFunc.vi"/>
+			<Item Name="MultiHarp150.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MultiHarp150.lvclass"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -366,6 +666,7 @@
 			<Item Name="RangeDataFilesNm.vi" Type="VI" URL="../RangeDataFilesNm.vi"/>
 			<Item Name="ReadFiltHdrFiles_LS1.vi" Type="VI" URL="../ReadFiltHdrFiles_LS1.vi"/>
 			<Item Name="ReadIniFile_LS1.vi" Type="VI" URL="../ReadIniFile_LS1.vi"/>
+			<Item Name="ScanActionStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/AttoAMC/ScanActionStates.ctl"/>
 			<Item Name="ScanlistFormats.vi" Type="VI" URL="../ScanlistFormats.vi"/>
 			<Item Name="ScanPos.ctl" Type="VI" URL="../DevicesClass/BaseDevice/ScanPos.ctl"/>
 			<Item Name="SearchClsterArrInd.vi" Type="VI" URL="../SearchClsterArrInd.vi"/>
@@ -383,8 +684,16 @@
 			<Item Name="SR400.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR400/SR400.lvclass"/>
 			<Item Name="SR830.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/SR830/SR830.lvclass"/>
 			<Item Name="StdFileName_LS1.vi" Type="VI" URL="../StdFileName_LS1.vi"/>
+			<Item Name="T2AcqStates.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/T2AcqStates.ctl"/>
+			<Item Name="TaikoLaser.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/TaikoLaser/TaikoLaser.lvclass"/>
+			<Item Name="ThorPM100A.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/ThorPM100A/ThorPM100A.lvclass"/>
+			<Item Name="TLPM RecordData.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/ThorPM100A/TLPM RecordData.vi"/>
+			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Tools.lvclass" Type="LVClass" URL="../DevicesClass/Tools/Tools.lvclass"/>
 			<Item Name="Unload2DGraphVI_LS1.vi" Type="VI" URL="../Unload2DGraphVI_LS1.vi"/>
+			<Item Name="UnloadCrvEdPanel.vi" Type="VI" URL="../UnloadCrvEdPanel.vi"/>
 			<Item Name="UnloadGraphVI_LS1.vi" Type="VI" URL="../UnloadGraphVI_LS1.vi"/>
 			<Item Name="VarParFormats.vi" Type="VI" URL="../VarParFormats.vi"/>
 			<Item Name="WriteHeaderFile.vi" Type="VI" URL="../WriteHeaderFile.vi"/>

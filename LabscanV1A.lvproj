@@ -223,6 +223,7 @@
 		<Item Name="RemoveScanFunc.vi" Type="VI" URL="../RemoveScanFunc.vi"/>
 		<Item Name="SelScanFunc.vi" Type="VI" URL="../SelScanFunc.vi"/>
 		<Item Name="SelMeasFunc.vi" Type="VI" URL="../SelMeasFunc.vi"/>
+		<Item Name="testappelsync1.vi" Type="VI" URL="../../test/testappelsync1.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">

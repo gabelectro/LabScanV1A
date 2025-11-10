@@ -49,6 +49,7 @@
 		<Item Name="AndorSpectro.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AndorSpectro/AndorSpectro.lvclass"/>
 		<Item Name="E8267D.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/E8267D/E8267D.lvclass"/>
 		<Item Name="DAQ6363.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/DAQ6363/DAQ6363.lvclass"/>
+		<Item Name="AFG3102C.lvclass" Type="LVClass" URL="../DevicesClass/InstrumentsClass/AFG3102C/AFG3102C.lvclass"/>
 		<Item Name="LabscanV1.vi" Type="VI" URL="../LabscanV1.vi"/>
 		<Item Name="ArrDataWriteTxt.vi" Type="VI" URL="../ArrDataWriteTxt.vi"/>
 		<Item Name="Build_DTU_Info_LS1.vi" Type="VI" URL="../Build_DTU_Info_LS1.vi"/>
@@ -236,6 +237,8 @@
 				<Item Name="BNC845 OutputEn.vi" Type="VI" URL="/&lt;instrlib&gt;/Berkeley Nucleonics 845/BNC845_Ls/BNC845 OutputEn.vi"/>
 				<Item Name="BNC845 SetFrequency.vi" Type="VI" URL="/&lt;instrlib&gt;/Berkeley Nucleonics 845/BNC845_Ls/BNC845 SetFrequency.vi"/>
 				<Item Name="BNC845VisaRW.vi" Type="VI" URL="/&lt;instrlib&gt;/Berkeley Nucleonics 845/BNC845_Ls/BNC845VisaRW.vi"/>
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Utility/Error Query.vi"/>
+				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 				<Item Name="TLCCS Get Device Status.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Get Device Status.vi"/>
 				<Item Name="TLCCS Get Scan Data.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Get Scan Data.vi"/>
 				<Item Name="TLCCS Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLCCS/TLCCS.llb/TLCCS Initialize.vi"/>
@@ -689,6 +692,7 @@
 				<Item Name="TagToString.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/TagToString.vi"/>
 				<Item Name="Taiko_LHDataToStrArray.vi" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/SubVIs/Taiko_LHDataToStrArray.vi"/>
 				<Item Name="TCPHandler.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/TCPHandler.vi"/>
+				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;userlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 				<Item Name="TempsÉcouléGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/TempsÉcouléGen.vi"/>
 				<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="/&lt;userlib&gt;/ThorKDC101/Kinesis_with_LabVIEW_Examples_LV12 - v3/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
 				<Item Name="Thorlabs.MotionControl.GenericMotorCLI.dll" Type="Document" URL="/&lt;userlib&gt;/ThorKDC101/Kinesis_with_LabVIEW_Examples_LV12 - v3/Thorlabs.MotionControl.GenericMotorCLI.dll"/>

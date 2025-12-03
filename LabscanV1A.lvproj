@@ -225,7 +225,6 @@
 		<Item Name="SelScanFunc.vi" Type="VI" URL="../SelScanFunc.vi"/>
 		<Item Name="SelMeasFunc.vi" Type="VI" URL="../SelMeasFunc.vi"/>
 		<Item Name="testappelsync1.vi" Type="VI" URL="../../test/testappelsync1.vi"/>
-		<Item Name="search replace.vi" Type="VI" URL="../../test/search replace.vi"/>
 		<Item Name="ReadValByRefTask.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefTask.vi"/>
 		<Item Name="WritebyWeakRefDblArr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefDblArr.vi"/>
 		<Item Name="WritebyWeakRefU32Arr.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/Write by WeakRef/WritebyWeakRefU32Arr.vi"/>
@@ -238,6 +237,7 @@
 		<Item Name="Tektronix AFG 3000 Series Generate Arbitrary Waveform Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/Tektronix AFG 3000 Series/Examples/Tektronix AFG 3000 Series Generate Arbitrary Waveform Pulse.vi"/>
 		<Item Name="SetCORestLevel.vi" Type="VI" URL="../../../Program Files/National Instruments/LabVIEW 2019/user.lib/Daqmx/SetCORestLevel.vi"/>
 		<Item Name="PulseGenAcq.vi" Type="VI" URL="../../../Program Files/National Instruments/LabVIEW 2019/user.lib/Daqmx/PulseGenAcq.vi"/>
+		<Item Name="ReplaceScanFunc.vi" Type="VI" URL="../ReplaceScanFunc.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -598,6 +598,7 @@
 				<Item Name="PDLM_Tag.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_Tag.ctl"/>
 				<Item Name="PDLM_TaggedValue.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_TaggedValue.ctl"/>
 				<Item Name="PDLM_TaggedValueList.ctl" Type="VI" URL="/&lt;userlib&gt;/TaikoLaser/PDLM_TaggedValueList.ctl"/>
+				<Item Name="PollDataBindBoolbyNm.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/PollDataBindBoolbyNm.vi"/>
 				<Item Name="ProcessTTRecHH2T2.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/PTU/common.llb/ProcessTTRecHH2T2.vi"/>
 				<Item Name="ProcessTTRecMHT3.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/SubVIs/ProcessTTRecMHT3.vi"/>
 				<Item Name="ReadbyRef.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadbyRef.vi"/>
@@ -1105,7 +1106,7 @@
 			<Item Name="DataTree_LS1.vi" Type="VI" URL="../DataTree_LS1.vi"/>
 			<Item Name="DataWriteTxt.vi" Type="VI" URL="../DataWriteTxt.vi"/>
 			<Item Name="FillClassFamTree.vi" Type="VI" URL="../FillClassFamTree.vi"/>
-			<Item Name="FillScanFuncTree.vi" Type="VI" URL="../FillScanFuncTree.vi"/>
+			<Item Name="FillScanFuncTreeV2.vi" Type="VI" URL="../FillScanFuncTreeV2.vi"/>
 			<Item Name="FormatCrvNames.vi" Type="VI" URL="../Interface Class/FormatCrvNames.vi"/>
 			<Item Name="GetClassAndFunc.vi" Type="VI" URL="../GetClassAndFunc.vi"/>
 			<Item Name="GetClassPath.vi" Type="VI" URL="../GetClassPath.vi"/>

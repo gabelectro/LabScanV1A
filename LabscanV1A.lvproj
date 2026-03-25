@@ -170,6 +170,7 @@
 		<Item Name="AMC.rtm" Type="Document" URL="/&lt;userlib&gt;/AMC100/AMC.rtm"/>
 		<Item Name="3_AdvancedDemo_MHT3.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/3_AdvancedDemo_MHT3.vi"/>
 		<Item Name="MH_BuildTimeTrace.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/T2Lib/MH_BuildTimeTrace.vi"/>
+		<Item Name="MH_T2 Read Acq Q_RawTimes.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MH_T2 Read Acq Q_RawTimes.vi"/>
 		<Item Name="MH_T2 Read Acq Q_TT.vi" Type="VI" URL="../DevicesClass/InstrumentsClass/MultiHarp150/MH_T2 Read Acq Q_TT.vi"/>
 		<Item Name="test T2 queue.vi" Type="VI" URL="../../test/test T2 queue.vi"/>
 		<Item Name="AllocU64BufferGen.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/AllocU64BufferGen.vi"/>

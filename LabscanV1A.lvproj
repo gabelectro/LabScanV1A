@@ -250,6 +250,8 @@
 		<Item Name="CoboltLaser_LaserPauseGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_LaserPauseGet.vi"/>
 		<Item Name="CoboltLaser_LaserPauseSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_LaserPauseSet.vi"/>
 		<Item Name="CoboltLaser_SetpointSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SetpointSet.vi"/>
+		<Item Name="CoboltLaser_ModeSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_ModeSet.vi"/>
+		<Item Name="CoboltLaser_TempGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_TempGet.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -326,12 +328,14 @@
 				<Item Name="CheckStatusState.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/CheckStatusState.ctl"/>
 				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
 				<Item Name="CoboltLaser_AmodEnGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_AmodEnGet.vi"/>
+				<Item Name="CoboltLaser_AmodEnSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_AmodEnSet.vi"/>
 				<Item Name="CoboltLaser_BasicWriteReadCheck.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_BasicWriteReadCheck.vi"/>
 				<Item Name="CoboltLaser_ComPortClose.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortClose.vi"/>
 				<Item Name="CoboltLaser_ComPortOpen.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortOpen.vi"/>
 				<Item Name="CoboltLaser_ComPortRead.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortRead.vi"/>
 				<Item Name="CoboltLaser_ComPortWrite.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortWrite.vi"/>
 				<Item Name="CoboltLaser_DmodEnGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_DmodEnGet.vi"/>
+				<Item Name="CoboltLaser_DmodEnSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_DmodEnSet.vi"/>
 				<Item Name="CoboltLaser_DriveCurrentGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_DriveCurrentGet.vi"/>
 				<Item Name="CoboltLaser_DriveCurrentSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_DriveCurrentSet.vi"/>
 				<Item Name="CoboltLaser_EnterConstantCurrentMode.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_EnterConstantCurrentMode.vi"/>

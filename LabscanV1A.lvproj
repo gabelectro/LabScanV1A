@@ -247,6 +247,9 @@
 		<Item Name="DAQ6363_WaitPulseDone.vi" Type="VI" URL="/&lt;userlib&gt;/DAQ6363/DAQ6363_WaitPulseDone.vi"/>
 		<Item Name="ShowClassPanMessage.vi" Type="VI" URL="../ShowClassPanMessage.vi"/>
 		<Item Name="CoboltModes.ctl" Type="VI" URL="../DevicesClass/InstrumentsClass/CoboltMLD/CoboltModes.ctl"/>
+		<Item Name="CoboltLaser_LaserPauseGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_LaserPauseGet.vi"/>
+		<Item Name="CoboltLaser_LaserPauseSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_LaserPauseSet.vi"/>
+		<Item Name="CoboltLaser_SetpointSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SetpointSet.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -322,11 +325,13 @@
 				<Item Name="CalcRate.vi" Type="VI" URL="/&lt;userlib&gt;/MultiHarp150/demos/_lib/CalcRate.vi"/>
 				<Item Name="CheckStatusState.ctl" Type="VI" URL="/&lt;userlib&gt;/EG_G 5210 LIA/CheckStatusState.ctl"/>
 				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/close.vi"/>
+				<Item Name="CoboltLaser_AmodEnGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_AmodEnGet.vi"/>
 				<Item Name="CoboltLaser_BasicWriteReadCheck.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_BasicWriteReadCheck.vi"/>
 				<Item Name="CoboltLaser_ComPortClose.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortClose.vi"/>
 				<Item Name="CoboltLaser_ComPortOpen.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortOpen.vi"/>
 				<Item Name="CoboltLaser_ComPortRead.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortRead.vi"/>
 				<Item Name="CoboltLaser_ComPortWrite.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ComPortWrite.vi"/>
+				<Item Name="CoboltLaser_DmodEnGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_DmodEnGet.vi"/>
 				<Item Name="CoboltLaser_DriveCurrentGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_DriveCurrentGet.vi"/>
 				<Item Name="CoboltLaser_DriveCurrentSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_DriveCurrentSet.vi"/>
 				<Item Name="CoboltLaser_EnterConstantCurrentMode.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_EnterConstantCurrentMode.vi"/>
@@ -341,10 +346,10 @@
 				<Item Name="CoboltLaser_LaserOnOffStateGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_LaserOnOffStateGet.vi"/>
 				<Item Name="CoboltLaser_ModeGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_ModeGet.vi"/>
 				<Item Name="CoboltLaser_OperatingHoursGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_OperatingHoursGet.vi"/>
-				<Item Name="CoboltLaser_OutputPowerGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_OutputPowerGet.vi"/>
 				<Item Name="CoboltLaser_OutputPowerRead.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_OutputPowerRead.vi"/>
 				<Item Name="CoboltLaser_OutputPowerSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_OutputPowerSet.vi"/>
 				<Item Name="CoboltLaser_ResponseCheck.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SubVIs/CoboltLaser_ResponseCheck.vi"/>
+				<Item Name="CoboltLaser_SetpointGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SetpointGet.vi"/>
 				<Item Name="Commande ST5V2.vi" Type="VI" URL="/&lt;userlib&gt;/ST5/Commande ST5V2.vi"/>
 				<Item Name="connect.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/connect.vi"/>
 				<Item Name="controlAmplitude.vi" Type="VI" URL="/&lt;userlib&gt;/AMC100/controlAmplitude.vi"/>

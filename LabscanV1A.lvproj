@@ -252,6 +252,7 @@
 		<Item Name="CoboltLaser_SetpointSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_SetpointSet.vi"/>
 		<Item Name="CoboltLaser_ModeSet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_ModeSet.vi"/>
 		<Item Name="CoboltLaser_TempGet.vi" Type="VI" URL="/&lt;userlib&gt;/CoboltLaser/CoboltLaser_TempGet.vi"/>
+		<Item Name="ReadValByRefEnumU16.vi" Type="VI" URL="/&lt;userlib&gt;/GenProg/ReadValByRefEnumU16.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
